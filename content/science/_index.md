@@ -1,6 +1,6 @@
 +++
 title = "Science"
-description = "31 baseCamp papers across 7 research domains. Each is executable — run the code, reproduce the results, on your own hardware."
+description = "32 baseCamp papers across 7 research domains. Each is executable — run the code, reproduce the results, on your own hardware."
 sort_by = "title"
 template = "science_section.html"
 +++
@@ -67,11 +67,12 @@ Each paper stands alone as a potential publication. Together they demonstrate th
 2. **[Sovereign Sample Provenance](@/science/21_sovereign_sample_provenance.md)** — Field-to-publication chain-of-custody with BearDog signing
 
 ## Signal Processing & Immune Systems
-*3 papers — {{ entity(name="skunkbat") }}, {{ entity(name="cellmembrane") }}, {{ entity(name="beardog") }}*
+*4 papers — {{ entity(name="skunkbat") }}, {{ entity(name="cellmembrane") }}, {{ entity(name="swarmvine") }}, {{ entity(name="beardog") }}*
 
 1. **[Primal Composition Methodology](@/science/28_primal_composition_methodology.md)** — Compositional primitives across all springs
 2. **[Adversarial Receptor Evolution](@/science/30_adversarial_receptor_evolution.md)** — Stealth fleet fingerprinting as evolved immune response; HTTP PAMPs, amicusContra census ✓ VALIDATED
 3. **[The Lysogeny Protocol](@/science/31_lysogeny_protocol.md)** — License-as-phage, binary-as-DNA, jelly-to-Rust constrained evolution; scyBorg as structural immunity ✓ VALIDATED
+4. **[Gossip-Tagged Opsonization](@/science/32_gossip_tagged_opsonization.md)** — Behavioral fingerprinting, gossip-propagated identity, adaptive poison delivery; complement cascade architecture ✓ VALIDATED
 
 ---
 
