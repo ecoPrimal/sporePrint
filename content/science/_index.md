@@ -1,6 +1,6 @@
 +++
 title = "Science"
-description = "28 baseCamp papers across 6 research domains. Each is executable — run the code, reproduce the results, on your own hardware."
+description = "30 baseCamp papers across 7 research domains. Each is executable — run the code, reproduce the results, on your own hardware."
 sort_by = "title"
 template = "science_section.html"
 +++
@@ -65,6 +65,12 @@ Each paper stands alone as a potential publication. Together they demonstrate th
 
 1. **[Novel Ferment Transcript Economics](@/science/20_novel_ferment_transcript_economics.md)** — Radiating attribution through provenance chains
 2. **[Sovereign Sample Provenance](@/science/21_sovereign_sample_provenance.md)** — Field-to-publication chain-of-custody with BearDog signing
+
+## Signal Processing & Immune Systems
+*2 papers — {{ entity(name="skunkbat") }}, {{ entity(name="cellmembrane") }}*
+
+1. **[Primal Composition Methodology](@/science/28_primal_composition_methodology.md)** — Compositional primitives across all springs
+2. **[Adversarial Receptor Evolution](@/science/30_adversarial_receptor_evolution.md)** — Stealth fleet fingerprinting as evolved immune response; HTTP PAMPs, amicusContra census ✓ VALIDATED
 
 ---
 
