@@ -198,26 +198,85 @@ lockdown is the HTTP-layer instantiation of that principle.
 
 ---
 
+## Post-Lockdown Validation (Oct 6, 2:50 PM ET)
+
+The lockdown was deployed at 1:35 PM ET. By 2:50 PM ET, we measured its effect:
+
+### What the Fleet Got
+
+| Before lockdown | After lockdown |
+|----------------|----------------|
+| 2,073 real pages served | **0 real pages served** |
+| API accessible (`/api/*`) | 403 JSON on all API |
+| Deep content paths to real Forgejo | Deep content paths → 404 (storefront) or scatter |
+| 10,268 fleet requests → mixed results | 10,284 fleet requests → **7,691 = 404, rest = scatter** |
+
+### What Meta Got
+
+Meta continued scraping with 644 requests post-lockdown. **All blocked**:
+558 returned 403, 86 connections dropped. They shifted targeting to GPU
+compute code (toadStool: 186 requests) — having lost access to wateringHole
+and the investigation documents, they pivoted to scientific computing
+infrastructure. Still no `robots.txt` check.
+
+### The Bridge That Formed
+
+The most significant signal from the post-lockdown observation: **the first
+cross-domain bridge between sporePrint and detroit.**
+
+An iOS reader (iPhone, 5-hour session from 09:44 to 14:50 ET) crossed from
+sporePrint to detroit at 12:28 PM, read the billboard, then returned to
+sporePrint and systematically read 8 science papers. They checked `/contact/`
+(considering engagement) and read the capability parity brief (evaluating
+adoption). This is the `methodology→evidence→methodology` pattern — someone
+evaluating the *system*, not just the evidence.
+
+A second bridge formed from a Linux reader: detroit signal page → sporePrint →
+2.5 hours later → detroit `/network/actors/brian-banks/` → forge source code.
+The `evidence→methodology→evidence→forge` pattern — an investigator.
+
+These bridges were predicted by the investigation's traveling salesman
+framework as "the most significant single visitor event we can detect."
+
+### The Visitor Taxonomy
+
+The bloom review classified all 11,860 requests into an ecological taxonomy:
+
+| Class | Examples | Behavior |
+|-------|----------|----------|
+| **Commensal** | Googlebot, Bingbot, OAI-SearchBot, ClaudeBot, AhrefsBot | Check robots.txt, respect boundaries, provide indexing value |
+| **Parasitic** | Meta-ExternalAgent, PetalBot, empty-UA scanners | Ignore robots.txt, ignore explicit denial, extract without providing value |
+| **AI Retrieval** | Reflectionbot, Amazonbot, GPTBot | Serve human queries about the system — someone is asking AI about this |
+| **Fleet** | Residential proxy (10,284 req, 0% static assets) | Counter-intelligence reconnaissance, document exfiltration |
+| **Human** | iOS scientist, Linux investigator, Windows reader | Real browsers with static assets, sustained analytical reads |
+
+### The Metadata Lesson
+
+The forensic audit revealed that **URL paths themselves leak metadata**.
+The fleet requested 387 unique filenames from the whitePaper repository.
+While every request got scatter poison (842/845) or an empty UI shell (3/845),
+the path names revealed the document structure: resume filenames, property
+profiles, contact lists, interview preparation documents with specific
+institutional affiliations.
+
+Metadata is data. The response was poison, but the request was intelligence.
+whitePaper was made private at 3:07 PM ET — anonymous access now returns
+404 for every path. The repo is invisible on the explore page, the org page,
+and the API.
+
 ## What Remains Open
 
-The lockdown closes the forge's extractable surface. But two architectural
-gaps remain in the broader immune system:
+### 1. The Gossip Wiring (CLOSED — Wave 165e)
 
-### 1. The Gossip Wiring
+~~The `gossip.inject` handler was listed but never implemented.~~
 
-The adaptive immune system computes behavioral fingerprints (`behavioral_hash`)
-and creates fleet antibodies. It attempts to propagate these fingerprints
-across the mesh via gossip-tagged opsonization — the same pattern described
-in [Paper 32](@/science/32-gossip-tagged-opsonization.md).
+**Fixed**: `dispatch_gossip.rs` (218 lines) proxies gossip.inject to
+swarmVine UDS. Fleet detection now emits `defense.antibody:{id}` and
+`defense.escalation:{id}` on new detections and posture changes. The
+`defense` topic is advertised in swarmVine capabilities. The radios
+are plugged in.
 
-But the propagation silently fails. The `gossip.inject` handler in skunkBat
-was listed in the dispatch method table but never implemented. Antibodies
-stay local to the detecting gate. If the fleet pivots to a different gate,
-detection starts from zero.
-
-The types exist. The validation exists. The transport exists. The handler
-is ~50 lines of code. The army has weapons and radios but nobody plugged
-them in.
+Remaining: opsonize consumer on receiving gates (eastGate handoff, P2).
 
 ### 2. The Thymic Training Loop
 
