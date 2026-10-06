@@ -140,3 +140,26 @@ This architecture is not theoretical. As of this writing:
 - The **immune system** processes thousands of residential proxy requests daily, serving structurally plausible but semantically transformed responses
 
 The membrane is alive. It differentiates. It remembers. And it presents the same truth through every face.
+
+---
+
+## The Public Record
+
+The membrane's differentiation is no longer just a technical description.
+As of October 6, 2026, the behavioral evidence collected by the immune layer
+is published as a **[public record on the detroit investigation site](https://detroit.primals.eco/signal/)**.
+
+Named entities — identified solely by the User-Agent strings they voluntarily
+transmitted — are documented with request counts, response codes, paths
+accessed, and duration of activity. The record shows which entities checked
+`robots.txt` and respected the stated permissions (Google, OpenAI, Bing)
+and which ignored every boundary, every `403 Forbidden`, every warning
+(Meta/Facebook: 533 requests, 446 blocked, continued for 2 hours 40 minutes).
+
+This is the membrane made visible. The same system described above —
+structural substrate, presentation layer, AI-readable layer, immune layer —
+now publishes what the immune layer sees. The four views of one system
+include, as their newest face, **the view from inside the membrane looking
+outward at who is pressing against it**.
+
+The scraping of the system is part of the system. The evidence is the evidence.
