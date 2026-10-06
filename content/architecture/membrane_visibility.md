@@ -70,7 +70,7 @@ An AI retrieval agent (ChatGPT-User, Reflectionbot, or your own assistant) encou
 - **Spring schemas** — the formal structure of each science domain
 - **Source code** — the actual Rust implementations behind the architecture pages
 
-These are the same system described above, encoded for machine parsing. When an AI reads `capability_registry.toml` and you read [Ecosystem Architecture](@/architecture/ecosystem-architecture/), you are both consuming the same knowledge in your native format.
+These are the same system described above, encoded for machine parsing. When an AI reads `capability_registry.toml` and you read [Ecosystem Architecture](@/architecture/ECOSYSTEM_ARCHITECTURE.md), you are both consuming the same knowledge in your native format.
 
 This is the **K-N domain** — the Knowledge-Numeric space where human domain expertise and machine computational breadth overlap. The structural data that an AI reads is the same structural data that generated the pages you read. You and the AI are, functionally, in the same knowledge domain.
 
@@ -78,7 +78,7 @@ This is the **K-N domain** — the Knowledge-Numeric space where human domain ex
 
 Search engine crawlers — Googlebot, Bingbot, DuckDuckBot — see a third layer. They see the HTML, the metadata, the semantic structure, the sitemap, the robots.txt directives. They index the presentation layer and make it discoverable to humans who search for topics this system addresses.
 
-This layer is a **discovery membrane**. It does not exist for its own sake. It exists so that a scientist in Japan searching for "lattice QCD consumer GPU" finds the [Lattice QCD](@/products/lattice-qcd/) page, or a student searching for "zero-knowledge medical provenance" finds the [ZK Provenance paper](@/science/22-zero-knowledge-medical-provenance/). The search index is a projection of the presentation layer into the global namespace.
+This layer is a **discovery membrane**. It does not exist for its own sake. It exists so that a scientist in Japan searching for "lattice QCD consumer GPU" finds the [Lattice QCD](@/products/lattice_qcd.md) page, or a student searching for "zero-knowledge medical provenance" finds the [ZK Provenance paper](@/science/22_zero_knowledge_medical_provenance.md). The search index is a projection of the presentation layer into the global namespace.
 
 ### What Scrapers See
 
@@ -94,7 +94,7 @@ This layer is not separate from the others. It is the same membrane, facing outw
 
 The critical insight is that these are not four systems. They are four views of one system.
 
-The `ecosystem_manifest.toml` that an AI reads is the same file that generates the entity shortcodes in the prose you read. The capability counts on the [Architecture](@/architecture/ecosystem-architecture/) page come from the same registry an AI parses. The immune system that deflects scrapers uses the same access logs that reveal which pages real researchers visit.
+The `ecosystem_manifest.toml` that an AI reads is the same file that generates the entity shortcodes in the prose you read. The capability counts on the [Architecture](@/architecture/ECOSYSTEM_ARCHITECTURE.md) page come from the same registry an AI parses. The immune system that deflects scrapers uses the same access logs that reveal which pages real researchers visit.
 
 ```
              ┌─────────────────────────────────────────┐
@@ -133,9 +133,9 @@ If you are reading this with an AI assistant, your assistant can read the same s
 
 This architecture is not theoretical. As of this writing:
 
-- **ChatGPT-User** has independently retrieved and cited the [ZK Medical Provenance](@/science/22-zero-knowledge-medical-provenance/) page in response to user queries
+- **ChatGPT-User** has independently retrieved and cited the [ZK Medical Provenance](@/science/22_zero_knowledge_medical_provenance.md) page in response to user queries
 - **Reflectionbot** has read the LaTeX source of the lattice QCD paper, searched the forge by topic tags, and explored the schema directory
-- **Human researchers** have followed the provenance chain from [Lithospore Artifact](@/guidestone/lithospore-artifact/) through the [Lab](@/lab/) to the [Glossary](@/glossary/) — the same chain an AI would follow through the companion links
+- **Human researchers** have followed the provenance chain from [Lithospore Artifact](@/guidestone/lithospore_artifact.md) through the [Lab](@/lab/_index.md) to the [Glossary](@/glossary/_index.md) — the same chain an AI would follow through the companion links
 - **Search engines** deliver organic traffic from Google (Japan), DuckDuckGo, and Bing across multiple languages
 - The **immune system** processes thousands of residential proxy requests daily, serving structurally plausible but semantically transformed responses
 

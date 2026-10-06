@@ -146,7 +146,7 @@ The immune system operates across the entire primals.eco ecosystem — including
 
 The same infrastructure that protects the science and architecture pages protects the public evidence. The same immune system that serves fabricated commit pages to scrapers targeting the source code serves fabricated evidence pages to scrapers targeting the public records. The same BloomSensor that detects a researcher reading lab-springs detects a reader following the network analysis.
 
-This is one membrane with multiple faces. The [Membrane Visibility](@/architecture/membrane-visibility/) architecture describes how the same structural substrate projects different views to different readers. The immune layer is one of those projections — and it applies uniformly.
+This is one membrane with multiple faces. The [Membrane Visibility](@/architecture/membrane_visibility.md) architecture describes how the same structural substrate projects different views to different readers. The immune layer is one of those projections — and it applies uniformly.
 
 ---
 
