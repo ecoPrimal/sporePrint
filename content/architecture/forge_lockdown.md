@@ -32,6 +32,12 @@ relation = "extends"
 label = "The immune system that drove this evolution"
 
 [[extra.companions]]
+url = "/architecture/forensic-observability/"
+title = "Forensic Observability — Knowing What They Got"
+relation = "pairs_with"
+label = "The audit that proved nothing was lost"
+
+[[extra.companions]]
 url = "/science/32-gossip-tagged-opsonization/"
 title = "Gossip-Tagged Opsonization"
 relation = "reference"

@@ -38,6 +38,12 @@ relation = "pairs_with"
 label = "Privacy-preserving observation — no IPs stored"
 
 [[extra.companions]]
+url = "/architecture/forensic-observability/"
+title = "Forensic Observability — Knowing What They Got"
+relation = "pairs_with"
+label = "Defense creates forensic audit trails as exhaust"
+
+[[extra.companions]]
 url = "/methodology/SCYBORG_LICENSING/"
 title = "scyBorg Triple License"
 relation = "reference"
