@@ -163,3 +163,26 @@ include, as their newest face, **the view from inside the membrane looking
 outward at who is pressing against it**.
 
 The scraping of the system is part of the system. The evidence is the evidence.
+
+### The Lockdown — Selective Permeability (Wave 165e)
+
+As of October 6, 2026 at 1:35 PM ET, the forge membrane was inverted. The
+default for unauthenticated traffic is now the scatter server — fabricated
+content. Only an explicit storefront allowlist (landing, explore, repo names,
+READMEs) passes through to real Forgejo.
+
+This changes the visibility model:
+
+| Reader type | Before lockdown | After lockdown |
+|-------------|----------------|----------------|
+| **Humans (browser)** | Full browsing, deep pages visible | Storefront only — log in for depth |
+| **AI agents** | TOML registries, source code readable | Public mirrors, or authenticate |
+| **Search engines** | Indexed via discovery membrane | Unchanged — storefront still indexed |
+| **Scrapers** | Deep content → scatter (~42% poison) | **ALL content → scatter (100%)** |
+
+The membrane didn't add a wall. It narrowed the ion channel. The four
+reader faces still exist — but the immune face now covers everything the
+other three don't explicitly need.
+
+The full architecture: [Forge Lockdown](@/architecture/forge-lockdown.md).
+The evidence: [Detroit Signal](https://detroit.primals.eco/signal/).

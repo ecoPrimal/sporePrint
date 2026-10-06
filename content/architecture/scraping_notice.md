@@ -79,6 +79,13 @@ You don't need to scrape. You need to read. If you're building a dataset, cite t
 
 If you just want to understand the system, point your AI assistant at the source repos and ask it questions. The structural data was designed to be machine-readable. That's what [K-NOME programming](@/methodology/K_NOME_PROGRAMMING.md) is — human and AI reading the same substrates. You are already in the right place. You just chose the wrong method.
 
+**Update — October 6, 2026:** The forge is now locked to an
+[existence-only storefront](@/architecture/forge-lockdown.md). Source trees,
+commits, diffs, API endpoints, and all extractable content are routed to the
+scatter server by default. Only authenticated users, WireGuard mesh gates,
+and explicitly granted agents see real content. The options below still apply —
+but Option A now requires logging in or using the public GitHub mirror.
+
 ---
 
 ## What Happens If You Continue
