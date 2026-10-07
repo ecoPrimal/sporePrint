@@ -67,12 +67,16 @@ Each paper stands alone as a potential publication. Together they demonstrate th
 2. **[Sovereign Sample Provenance](@/science/21_sovereign_sample_provenance.md)** — Field-to-publication chain-of-custody with BearDog signing
 
 ## Signal Processing & Immune Systems
-*4 papers — {{ entity(name="skunkbat") }}, {{ entity(name="cellmembrane") }}, {{ entity(name="swarmvine") }}, {{ entity(name="beardog") }}*
+*8 papers — {{ entity(name="skunkbat") }}, {{ entity(name="cellmembrane") }}, {{ entity(name="swarmvine") }}, {{ entity(name="beardog") }}, {{ entity(name="loamspine") }}*
 
 1. **[Primal Composition Methodology](@/science/28_primal_composition_methodology.md)** — Compositional primitives across all springs
 2. **[Adversarial Receptor Evolution](@/science/30_adversarial_receptor_evolution.md)** — Stealth fleet fingerprinting as evolved immune response; HTTP PAMPs, amicusContra census ✓ VALIDATED
 3. **[The Lysogeny Protocol](@/science/31_lysogeny_protocol.md)** — License-as-phage, binary-as-DNA, jelly-to-Rust constrained evolution; scyBorg as structural immunity ✓ VALIDATED
 4. **[Gossip-Tagged Opsonization](@/science/32_gossip_tagged_opsonization.md)** — Behavioral fingerprinting, gossip-propagated identity, adaptive poison delivery; complement cascade architecture ✓ VALIDATED
+5. **[Cross-Mirror Immunology](@/science/33_cross_mirror_immunology.md)** — Violation mirror surfaces, cross-protection coordination
+6. **[Honeycomb Prism Floating Pointer](@/science/38_honeycomb_prism_floating_pointer.md)** — 13-domain prism maze, floating genetic pointer, K₁₃ complete graph topology ✓ VALIDATED
+7. **[Process Stratigraphy](@/science/35_process_stratigraphy_fossil_layer_archaeology.md)** — Infrastructure archaeology — 145-day geological record, fossil services, self-inflicted load ✓ VALIDATED
+8. **[Collision-Layer Visitor Classification](@/science/39_collision_layer_visitor_classification.md)** — Behavioral Merkle trie, hash collisions as emergent classes, 70% false positive elimination ✓ VALIDATED
 
 ---
 

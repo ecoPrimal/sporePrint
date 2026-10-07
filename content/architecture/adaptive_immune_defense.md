@@ -205,19 +205,37 @@ See [baseCamp 34 — BingoCube Prismatic Injection](@/science/34_bingocube_prism
 
 ---
 
+## Collision-Layer Classification — Wave 165i
+
+bloom_live v3 replaces the binary fleet/human classifier with **collision-layer visitor classification** — applying loamSpine's hash collision architecture to behavioral vectors.
+
+Instead of defining N categories, hash the behavioral vector (status distribution, coordination score, asset loading, referer chains, Sec-Fetch presence) through progressively weaker projections. The **collisions are the classes**:
+
+| Level 2 Class | Detection Mechanism | Signal |
+|--------------|---------------------|--------|
+| **Genuine** | Loads CSS/JS + referer + multi-page + 200s | Real browser session |
+| **Agentic** | Single deep hit, 200 status, ≤3 requests | Human+agent pair reading content |
+| **Coordinated** | Same path as other IPs within 10s, mostly 404 | Residential proxy fleet |
+| **Fleet** | Has Sec-Fetch but fleet-like behavior | Bot in browser context |
+
+**Result**: 70% of v2 "human" classifications were noise. Collision layer catches them. The coordination detector identifies residential proxy fleets by temporal co-occurrence — multiple IPs hitting the same path within a 10-second window.
+
+See [baseCamp 39 — Collision-Layer Visitor Classification](@/science/39_collision_layer_visitor_classification.md) for the full paper.
+
+---
+
 ## Evidence
 
 As of October 7, 2026:
 
-- **10 simultaneous residential proxy fleets** operating against git.primals.eco, each with 1,100–1,225 unique IPs
-- **1,945 total IPs tracked** in the current session
-- **50–139 antibody matches per 30-second window**
-- **42% effective scatter ratio** at 25% confidence — poison content delivered on ~20% of fleet requests
-- **Two behavioral hashes** (`49e77ea75aa7666e`, `087ef04a48f7b1ca`) tracking fleet patterns across IP rotation
-- **Zero posture escalations** — fleet behavior has not been aggressive enough to trigger higher defense tiers
-- **Genome integrity verified** — lysogeny sentinel confirms Caddyfile hash unchanged
-- **44 sporePrint pages** actively indexed by search engines simultaneously with immune defense
-- **BloomSensor active** — afferent signal accumulating, cross-domain sessions measured, reader types classified
-- **165 unit tests** covering classification, windowed accumulation, scatter content generation, behavioral hashing, and BingoCube prismatic injection
+- **60+ fleet IPs** rotating through git.primals.eco at 12.8 req/s — all scatter, all fabricated
+- **4 collision classes populated** in 11 minutes of bloom v3 operation: g3/a3/c2/f5
+- **70% false positive rate eliminated** — 7 of 10 "humans" reclassified as fleet/coordinated
+- **Coordination detection live** — residential proxy fleet caught (same path ±4s from different continents)
+- **Agentic readers identified** — human+agent pairs reading thesis and sporePrint content
+- **13 honeycomb domains** — K₁₃ complete graph topology, fleet hasn't discovered it
+- **Floating pointer active** — bearDog genetic token provides authorized access from any honeycomb surface
 - **10^30 injection variant space** — BingoCube BLAKE3 commitment engine, progressive reveal via SubCube
 - **Honeycomb body links live** — 6+ subdomain surfaces embedded per scatter response as natural Forgejo federation elements
+- **Process stratigraphy mapped** — 145-day geological record, fossil services identified and removed
+- **Infrastructure clean** — load 32 → 0.34, connections 238 → 7, all fossil services stopped
