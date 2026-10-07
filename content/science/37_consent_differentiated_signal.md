@@ -36,7 +36,7 @@ label = "The immune system that creates the separation"
 
 ## Abstract
 
-The conventional framing of web defense is adversarial: block the bad traffic, let the good traffic through. The immune system described in [baseCamp 30](@/science/30_adversarial_receptor_evolution.md) and [baseCamp 31](@/science/35_genetic_lock_entropy_authentication.md) was built to protect content from industrial scraping. It does that.
+The conventional framing of web defense is adversarial: block the bad traffic, let the good traffic through. The immune system described in [baseCamp 30](@/science/30_adversarial_receptor_evolution.md) and [baseCamp 31](@/science/31_lysogeny_protocol.md) was built to protect content from industrial scraping. It does that.
 
 But the bloom monitor observations ([baseCamp 32](@/science/36_bloom_monitor_human_signal_detection.md)) revealed something unexpected: **fleet removal is not just subtraction of noise — it is amplification of signal**. When 99.6% of traffic is fleet and is separated, the remaining 0.4% becomes legible at a resolution impossible in the presence of noise.
 
