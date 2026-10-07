@@ -36,7 +36,7 @@ label = "The immune architecture the honeycomb extends"
 
 ## Abstract
 
-After the genetic lock ([baseCamp 31](@/science/31_genetic_lock_entropy_authentication.md)) closed the Sec-Fetch passthrough, the fleet responded by pushing harder — 770 requests per minute, 100% burst ratio, 23,488 requests in a single day. All hitting a single domain (`git.primals.eco`), all receiving fabricated scatter content, all consuming compute and bandwidth for zero real data.
+After the genetic lock ([baseCamp 31](@/science/35_genetic_lock_entropy_authentication.md)) closed the Sec-Fetch passthrough, the fleet responded by pushing harder — 770 requests per minute, 100% burst ratio, 23,488 requests in a single day. All hitting a single domain (`git.primals.eco`), all receiving fabricated scatter content, all consuming compute and bandwidth for zero real data.
 
 Meanwhile, 12 honeycomb subdomains — each serving unique scatter content across 4 categories — sat undiscovered. The fleet's tunnel vision on `git.primals.eco` left the honeycomb invisible.
 

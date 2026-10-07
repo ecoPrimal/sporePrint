@@ -60,8 +60,8 @@ simultaneous pressure from three adversary classes:
    planning documents, loading zero static assets
 3. **Scanner fleets** — ~1,200 vulnerability probes across 400+ IPs
 
-The immune system caught most of this. The [scraping notice](@/architecture/scraping-notice.md)
-was already published. The [adaptive defense](@/architecture/adaptive-immune-defense.md) was
+The immune system caught most of this. The [scraping notice](@/architecture/scraping_notice.md)
+was already published. The [adaptive defense](@/architecture/adaptive_immune_defense.md) was
 running. Behavioral hashing, fleet antibodies, and scatter routing were operational.
 
 But 2,073 real pages leaked through a gap in the membrane.
@@ -333,8 +333,8 @@ The content is free. The method matters.
 
 ---
 
-*Cross-references: [Scraping Notice](@/architecture/scraping-notice.md) ·
-[Membrane Visibility](@/architecture/membrane-visibility.md) ·
-[Adaptive Immune Defense](@/architecture/adaptive-immune-defense.md) ·
+*Cross-references: [Scraping Notice](@/architecture/scraping_notice.md) ·
+[Membrane Visibility](@/architecture/membrane_visibility.md) ·
+[Adaptive Immune Defense](@/architecture/adaptive_immune_defense.md) ·
 [Detroit Signal](https://detroit.primals.eco/signal/) ·
 [guerillaGorilla Case Validation](https://guerillagorilla.primals.eco/cases/detroit/)*

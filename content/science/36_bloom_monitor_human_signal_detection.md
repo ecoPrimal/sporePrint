@@ -44,7 +44,7 @@ label = "The immune system that separates signal from noise"
 
 The bloom monitor is the afferent channel of the membrane — the sensory system that detects what the immune system was built to protect: **real intelligence interacting with real science**.
 
-After the genetic lock closed the Sec-Fetch passthrough ([baseCamp 31](@/science/31_genetic_lock_entropy_authentication.md)), the membrane returned to its designed equilibrium: fleet gets scatter, humans get content, and the bloom monitor observes the population without storing any identifying data.
+After the genetic lock closed the Sec-Fetch passthrough ([baseCamp 31](@/science/35_genetic_lock_entropy_authentication.md)), the membrane returned to its designed equilibrium: fleet gets scatter, humans get content, and the bloom monitor observes the population without storing any identifying data.
 
 This paper documents the first bloom observation after the genetic lock deployment. In a stream of ~5,000 fleet requests, the monitor identified:
 

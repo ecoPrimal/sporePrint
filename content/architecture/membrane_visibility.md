@@ -184,5 +184,5 @@ The membrane didn't add a wall. It narrowed the ion channel. The four
 reader faces still exist — but the immune face now covers everything the
 other three don't explicitly need.
 
-The full architecture: [Forge Lockdown](@/architecture/forge-lockdown.md).
+The full architecture: [Forge Lockdown](@/architecture/forge_lockdown.md).
 The evidence: [Detroit Signal](https://detroit.primals.eco/signal/).

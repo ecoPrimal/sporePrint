@@ -159,7 +159,7 @@ Fleet contributed 2 HTTPS connections and some CPU per scatter response. The res
 
 ### Cleanup creates signal
 
-Just as removing fleet from the access logs revealed human visitor patterns ([baseCamp 33](@/science/33_consent_differentiated_signal.md)), removing fossil services from the connection table reveals the actual load profile. When the noise is your own infrastructure, the signal is your own efficiency.
+Just as removing fleet from the access logs revealed human visitor patterns ([baseCamp 33](@/science/37_consent_differentiated_signal.md)), removing fossil services from the connection table reveals the actual load profile. When the noise is your own infrastructure, the signal is your own efficiency.
 
 ---
 
