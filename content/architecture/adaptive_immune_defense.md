@@ -222,6 +222,23 @@ Instead of defining N categories, hash the behavioral vector (status distributio
 
 See [baseCamp 39 — Collision-Layer Visitor Classification](@/science/39_collision_layer_visitor_classification.md) for the full paper.
 
+## Epitope Bridge: Reflexive Immune Response — Wave 165i
+
+bloom_live v4 adds **epitope hashing** — BLAKE2b of conserved behavioral invariants (Accept-Encoding, UA pool size, blame ratio) at 4-byte resolution. IPs with the same hash are the same organism.
+
+The **epitope bridge** closes the immune cycle: the classifier's organism-to-IP mapping feeds back into the routing layer. Scatter content is now seeded by the organism's own behavioral fingerprint. The BLAKE2b hash is embedded in every page the organism scrapes. Honeycomb cross-links propagate the same seed across 12+ subdomains. All roads lead back to Rome.
+
+| Component | Function |
+|-----------|----------|
+| `bloom_live.py` v4 | Computes epitope hash per IP, writes `epitope_caddy.json` |
+| `epitope_bridge.py` | Reads epitope map, rewrites Caddy matchers by organism |
+| Scatter server | Seeds content from epitope hash, embeds it in HTML |
+| Cron (5 min) | Re-applies epitope grouping as clusters evolve |
+
+This is the non-Newtonian membrane completing its cycle: τ = K·γ̇ⁿ where n > 1. Gentle force → real content. Hard force → scatter containing the organism's own genetic fingerprint.
+
+See [baseCamp 41 — Reflexive Immune Response](@/science/41_reflexive_immune_epitope_bridge.md) for the full paper.
+
 ---
 
 ## Evidence
@@ -239,3 +256,8 @@ As of October 7, 2026:
 - **Honeycomb body links live** — 6+ subdomain surfaces embedded per scatter response as natural Forgejo federation elements
 - **Process stratigraphy mapped** — 145-day geological record, fossil services identified and removed
 - **Infrastructure clean** — load 32 → 0.34, connections 238 → 7, all fossil services stopped
+- **Epitope classifier deployed** — 44 IPs → 14 unique organisms → 6 multi-IP clusters in 10 minutes
+- **Meta sub-teams auto-discovered** — 4+ behavioral groups from BLAKE2b hash of Accept-Encoding, UA pool, blame ratio
+- **Epitope bridge live** — scatter content seeded by organism's own fingerprint, embedded in HTML
+- **3 distinct HTTP stacks identified** — Meta (`gzip,deflate,zstd`), Anthropic (`gzip,br,zstd,deflate`), Unknown (`gzip,deflate,br,zstd`)
+- **Migration patterns captured** — 23 IPs migrated between clusters as blame ratios shifted, revealing task rotation
