@@ -72,6 +72,10 @@ Each variant references the fleet's **actual detected violations**:
 
 ### Live
 
-Active since Wave 165g. 462 fleet IPs tracked, 10 behavioral hashes wired, 7 converged between CaddyBridge and OpsonizeCache.
+Active since Wave 165g. 175 fleet IPs tracked, 43 behavioral subgroups wired, all converged between CaddyBridge and OpsonizeCache.
+
+### Cross-Mirror Extension
+
+The violation mirror serves a fleet subgroup its own violations. The **cross-mirror** serves each subgroup a *different* subgroup's violations — powered by scyBorg AGPL enforcement. See [Cross-Mirror Honeycomb](@/methodology/cross-mirror-honeycomb.md) for architecture and [baseCamp 33](@/science/33_cross_mirror_immunology.md) for the science.
 
 See: [signal.primals.eco](https://signal.primals.eco) for the full defense billboard.
