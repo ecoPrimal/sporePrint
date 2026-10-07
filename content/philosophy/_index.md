@@ -54,6 +54,10 @@ ecosystem and its questions evolve.
 11. **[The Love Letter](@/philosophy/the_love_letter.md)** — AI authorship, inherited knowledge, and scyBorg as acknowledgment
 12. **[The Knowledge-Numeric](@/philosophy/the_knowledge_numeric.md)** — Executable science as the only honest science — K-NOME as the pen
 
+### The Membrane
+
+13. **[The Non-Newtonian Membrane](@/philosophy/the_non_newtonian_membrane.md)** — The harder you push, the stronger the resistance — consent, reciprocity, and the physics of ethical architecture
+
 ### References
 
 - **[Bibliography](@/philosophy/bibliography.md)** — Source references — sacred texts, philosophy, science, literature
