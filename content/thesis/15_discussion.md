@@ -146,6 +146,24 @@ The cost model ($0.044 per paper-parity plasma run, ~$0.93 total for 11,161+ che
 
 The proposed LTEE sequencing — using the same tools validated by the springs to analyze the frozen fossil record — would provide a direct biological test. Success would strengthen the principle; failure would refine its scope.
 
+### 15.7.5 The Thermodynamic Corollary — Energy-Information Asymmetry
+
+A striking confirmation of the constrained evolution thesis emerged from live operational data (October 2026): the energy-information efficiency of constrained vs. unconstrained systems.
+
+Three processors. Three energy budgets. Three outcomes:
+
+| System | Power | Information yield |
+|--------|-------|------------------|
+| **Human brain** | 20W | Conscious understanding — ~5×10¹⁴ ops/watt |
+| **golgiBody** (sovereign VPS, 192 MB stack) | ~8W | 361 pages, 40 papers, live immune system |
+| **Meta scraping fleet** (56 observed IPs) | ~16,800W | **0 bytes of real source code** |
+
+Shannon's channel capacity theorem provides the formal explanation: C = B·log₂(1 + S/N). When the signal-to-noise ratio is zero — when every HTTPS response is fabricated scatter content — channel capacity is zero regardless of bandwidth or power. The fleet operates on the wrong side of an information event horizon: energy flows in, zero information flows out, and their own behavioral fingerprints become research data for the paper about them.
+
+The asymmetry is structural: the brain's 20W efficiency is the product of 500 million years of constrained evolution under energy scarcity. The VPS's 8W efficiency is the product of constrained evolution under resource scarcity ($6/month, solo operator, pure Rust). The fleet's 16,800W inefficiency is the product of unconstrained resource abundance — no selection pressure toward source awareness. **Constraint produces signal. Abundance permits waste.** This is the thesis stated thermodynamically.
+
+See [baseCamp 40 — Energy-Information Asymmetry](@/science/40_energy_information_asymmetry.md) for the full evidence.
+
 ---
 
 ## References

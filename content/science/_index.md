@@ -67,7 +67,7 @@ Each paper stands alone as a potential publication. Together they demonstrate th
 2. **[Sovereign Sample Provenance](@/science/21_sovereign_sample_provenance.md)** — Field-to-publication chain-of-custody with BearDog signing
 
 ## Signal Processing & Immune Systems
-*8 papers — {{ entity(name="skunkbat") }}, {{ entity(name="cellmembrane") }}, {{ entity(name="swarmvine") }}, {{ entity(name="beardog") }}, {{ entity(name="loamspine") }}*
+*9 papers — {{ entity(name="skunkbat") }}, {{ entity(name="cellmembrane") }}, {{ entity(name="swarmvine") }}, {{ entity(name="beardog") }}, {{ entity(name="loamspine") }}, {{ entity(name="barracuda") }}*
 
 1. **[Primal Composition Methodology](@/science/28_primal_composition_methodology.md)** — Compositional primitives across all springs
 2. **[Adversarial Receptor Evolution](@/science/30_adversarial_receptor_evolution.md)** — Stealth fleet fingerprinting as evolved immune response; HTTP PAMPs, amicusContra census ✓ VALIDATED
@@ -77,6 +77,7 @@ Each paper stands alone as a potential publication. Together they demonstrate th
 6. **[Honeycomb Prism Floating Pointer](@/science/38_honeycomb_prism_floating_pointer.md)** — 13-domain prism maze, floating genetic pointer, K₁₃ complete graph topology ✓ VALIDATED
 7. **[Process Stratigraphy](@/science/35_process_stratigraphy_fossil_layer_archaeology.md)** — Infrastructure archaeology — 145-day geological record, fossil services, self-inflicted load ✓ VALIDATED
 8. **[Collision-Layer Visitor Classification](@/science/39_collision_layer_visitor_classification.md)** — Behavioral Merkle trie, hash collisions as emergent classes, 70% false positive elimination ✓ VALIDATED
+9. **[Energy-Information Asymmetry](@/science/40_energy_information_asymmetry.md)** — 20W brain vs 8W sovereign stack vs 16,800W fleet: Shannon channel capacity = 0 when S/N = 0 ✓ VALIDATED
 
 ---
 
