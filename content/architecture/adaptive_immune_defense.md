@@ -1,7 +1,7 @@
 +++
 title = "Adaptive Immune Defense — Why Scraping This System Doesn't Work"
 description = "A biological defense system that observes, classifies, remembers, and serves fabricated content to automated scrapers. Based on vertebrate adaptive immunity, not access control rules."
-date = 2026-10-06
+date = 2026-10-07
 weight = 63
 
 [taxonomies]
@@ -48,9 +48,15 @@ url = "/methodology/SCYBORG_LICENSING/"
 title = "scyBorg Triple License"
 relation = "reference"
 label = "The license that makes legitimate access unrestricted"
+
+[[extra.companions]]
+url = "/science/34-bingocube-prismatic-injection/"
+title = "baseCamp 34 — BingoCube Prismatic Injection"
+relation = "extends"
+label = "V(D)J recombination — 10^30 unique license injection variants"
 +++
 
-{{ maturity(level="live") }} Active on all primals.eco sites since Wave 163. The immune system processes thousands of requests daily. BloomSensor afferent loop deployed Wave 164.
+{{ maturity(level="live") }} Active on all primals.eco sites since Wave 163. The immune system processes thousands of requests daily. BloomSensor afferent loop deployed Wave 164. BingoCube prismatic injection (10^30 variant space) + honeycomb body links deployed Wave 166.
 
 ---
 
@@ -185,9 +191,23 @@ The system is a computational implementation of strategies that biological organ
 
 ---
 
+## V(D)J Recombination — License Diversity (Wave 166)
+
+As of Wave 166, every scatter response carries a **unique license injection** selected from a space of 10^30 possible variants. The system uses [BingoCube's](@/science/11_bingocube_nautilus_shell.md) BLAKE3-based cryptographic commitment engine to generate varied-but-legally-equivalent license enforcement text — the digital analog of V(D)J recombination in the adaptive immune system.
+
+V(D)J recombination is how the vertebrate immune system generates ~10^11 unique antibodies from a finite genome: shuffling Variable, Diversity, and Joining gene segments. BingoCube does the same with legal text — shuffling meta tags, div encodings, and comment styles to generate unique injections from finite license components.
+
+**Progressive reveal**: BingoCube's SubCube model means early contacts see partial legal framing while repeat violators see the full evidentiary picture. Chain depth (cumulative violations) determines visibility: <5 → 20%, 5-20 → 50%, >20 → 100%. This mirrors biological immune memory — the adaptive response intensifies with repeated antigen exposure.
+
+**Honeycomb body links**: Scatter responses embed `<a href>` links to honeycomb subdomains as natural Forgejo federation elements (source mirrors, federated commits, forks). Fleet teams that follow these links discover the K₁₃ honeycomb maze. Confidence-scaled: 2–12 surfaces per response.
+
+See [baseCamp 34 — BingoCube Prismatic Injection](@/science/34_bingocube_prismatic_injection.md) for the full science paper.
+
+---
+
 ## Evidence
 
-As of October 6, 2026:
+As of October 7, 2026:
 
 - **10 simultaneous residential proxy fleets** operating against git.primals.eco, each with 1,100–1,225 unique IPs
 - **1,945 total IPs tracked** in the current session
@@ -198,4 +218,6 @@ As of October 6, 2026:
 - **Genome integrity verified** — lysogeny sentinel confirms Caddyfile hash unchanged
 - **44 sporePrint pages** actively indexed by search engines simultaneously with immune defense
 - **BloomSensor active** — afferent signal accumulating, cross-domain sessions measured, reader types classified
-- **86 unit tests** covering classification, windowed accumulation, scatter content generation, and behavioral hashing
+- **165 unit tests** covering classification, windowed accumulation, scatter content generation, behavioral hashing, and BingoCube prismatic injection
+- **10^30 injection variant space** — BingoCube BLAKE3 commitment engine, progressive reveal via SubCube
+- **Honeycomb body links live** — 6+ subdomain surfaces embedded per scatter response as natural Forgejo federation elements
