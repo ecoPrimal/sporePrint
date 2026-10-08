@@ -13,6 +13,8 @@ The methodology is biological: evolve under constraint, validate against publish
 - **[K-NOME Programming](@/methodology/K_NOME_PROGRAMMING.md)** — the operational model: human domain expertise + AI implementation, every generation validated
 - **[How to Start a Spring](@/methodology/HOW_TO_START_A_SPRING.md)** — the phased playbook: Python → Rust → GPU → composition
 - **[Knowledge Commons Targets](@/methodology/KNOWLEDGE_COMMONS_TARGETS.md)** — 9 domains where public data + cheap hardware unlocks sovereign alternatives
+- **[Antidote Titration — Folding the Defense Into Its Own Cure](@/methodology/antidote-titration.md)** — the scatter system self-regulates: logarithmic ramp-down of poison, automatic remediation for accidental ingesters
+- **[scyBorg Binary Genetic Bulwark](@/methodology/scyborg-binary-genetic-bulwark.md)** — markable code, antidote included: 6 fluorescent layers, tiered remediation
 - **[scyBorg Licensing](@/methodology/SCYBORG_LICENSING.md)** — AGPL + ORC + CC-BY-SA: three independent nonprofits, no single entity can revoke
 - **[P vs NP and the Enzyme Thesis](@/methodology/P_NP_ENZYME_THESIS.md)** — why generation/verification asymmetry matters for computation and biology
 - **[Constrained Optimization in AI-Assisted Development](@/methodology/constrained_optimization_ai.md)** — the initial formulation: constraints + direction + iterative AI = rapid convergence
