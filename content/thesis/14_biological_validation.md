@@ -192,6 +192,27 @@ Full analysis: [baseCamp 43 — Fleet Population Genetics](@/science/43_fleet_po
 
 ---
 
+## 14.9 The Declaration Protocol — Classification by Willingness to Identify
+
+A further analysis of the fleet population data (§14.8) using unsupervised clustering and F-ratio feature ranking revealed a single binary variable that separates digital organism kingdoms more powerfully than any other feature: **whether the entity declared its identity via HTTP headers**.
+
+The F-ratio — between-cluster variance divided by within-cluster variance — for "declaration present" (Accept-Language + Sec-Fetch-Mode headers) is **103,308**. The F-ratio for "declaration content" (Mac vs Windows platform) is **12.7**. The act of declaring is 8,900× more informative than the content of the declaration.
+
+This has a direct biological analogue in MHC (Major Histocompatibility Complex) presentation. Normal cells continuously display peptide fragments on MHC molecules — a declaration of "this is what I contain." NK cells and cytotoxic T lymphocytes detect cells that **downregulate MHC expression** — cells that stop declaring. The immune response targets absence of declaration, not the specific peptides displayed, exactly as the F-ratio predicts for the fleet population.
+
+A second biological analogue exists in bacterial quorum sensing: organisms that participate in autoinducer signaling are classified as community members; organisms that don't participate are classified as non-members regardless of their actual species identity.
+
+The Declaration Protocol formalizes this discovery as a standards-compliant HTTP handshake:
+- The server sends `Accept-CH: Sec-CH-UA-Platform` and `Vary: Accept-Language` — requesting declaration
+- The client either declares (any value accepted) or remains silent
+- The classification is based on the response (or absence), not its content
+
+This extends the validation triangle to a diamond: LTEE (controlled lab) + Anderson (natural field) + ecoPrimals code (computational) + Fleet population (digital ecology). All four vertices exhibit the same pattern: **identity is established by participation in a protocol, not by the content of the participation.**
+
+Full analysis: [baseCamp 44 — Declaration Protocol](@/science/44_declaration_protocol.md)
+
+---
+
 **See also:**
 
 - [Results: wetSpring](@/thesis/10_results_wetspring.md) — the 16S pipeline tools proposed for sequencing
