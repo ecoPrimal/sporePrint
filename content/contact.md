@@ -30,6 +30,12 @@ If you're evaluating ecoPrimals for your lab, start with the
 or the [capability parity brief](@/audience/CAPABILITY_PARITY_BRIEF.md).
 Every claim has executable evidence behind it.
 
+### Scatter Content Remediation
+
+If your system ingested fabricated content from our scatter server — whether you're a researcher whose crawler hit us by accident, or a company that found our fluorescent markers in your training data — the [antidote tool](/tools/antidote.py) identifies and removes it. Full documentation: [scyBorg Binary Genetic Bulwark](/methodology/scyborg-binary-genetic-bulwark/).
+
+Source: [skunkBat/tools/antidote.py](https://git.primals.eco/ecoPrimals/skunkBat/src/branch/main/tools/antidote.py)
+
 ### Compute Access
 
 For JupyterHub access to the live {{ total_stat(stat="total_primals") }}-primal ecosystem, see [Compute Access](/lab/compute-access/).
