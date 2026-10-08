@@ -165,6 +165,30 @@ Additionally, Anderson's 2021 mSystems framework paper explicitly connects the L
 
 If all three vertices show the same statistical signatures, the constrained evolution principle is established as domain-general.
 
+---
+
+## 14.8 Computational Population Genetics — Fleet as Digital Organism
+
+A fourth vertex has emerged. The ecoPrimals scatter defense system generates a natural laboratory for computational population genetics: automated web visitors constitute a digital ecosystem where the same analytical tools apply.
+
+From 447 unique IP addresses and 6,028 HTTP requests, we constructed a complete biological taxonomy (Kingdom → Species) and population genetics analysis:
+
+- **3 Kingdoms**: Automata (92.4%), Chimera (7.2%), Anthropos (0.4%)
+- **14 species** identified by behavioral fingerprint invariants
+- **Effective population size Ne ≈ 5** despite 447 apparent individuals (Ne/N = 0.011)
+- **Shannon diversity H' = 0.657** for UA morphotype — very low, indicating clonal structure
+- **88% cluster**: 88.4% of IPs share identical Accept-Language, browser headers, and HTTP/1.1 — a single operator using commercial residential proxy rotation
+
+This directly parallels the LTEE pattern: **surface diversity masking clonal expansion**. In Lenski's populations, phenotypic diversity (colony morphology, growth dynamics) increases over time while the underlying genetic architecture converges on similar solutions. In the fleet population, apparent diversity (447 IPs, multiple User-Agent strings, 20+ countries of origin) masks 5 actual operators with near-identical behavioral genotypes.
+
+The phase variation analogy is structural, not metaphorical:
+- Bacterial phase variation: organisms switch surface antigens (flagellar, fimbrial) while core genome is conserved
+- Fleet phase variation: operators switch surface identifiers (IP, UA) while behavioral invariants (Accept-Encoding, header count, TLS ALPN, language) are conserved
+- Both strategies serve the same purpose: evade host immune recognition
+
+The defense strategy is also parallel: biological immune systems evolve to recognize conserved epitopes (T-cell receptors targeting intracellular peptides, not variable surface proteins). The scatter defense system classifies by behavioral invariants, not by IP addresses.
+
+Full analysis: [baseCamp 43 — Fleet Population Genetics](@/science/43_fleet_population_genetics.md)
 
 ---
 
