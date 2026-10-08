@@ -223,9 +223,9 @@ will support QS-dependent phenotypes (N-fixation regulation, biocontrol
 signaling). Seed coatings that promote 3D root-surface biofilm should
 outperform broadcast inoculation — the model explains why.
 
-### 6.5 Selective Permeability (Paper 39, Wave 167)
+### 6.5 Selective Permeability (Paper 43, Wave 167)
 
-Standard Anderson asks "does the signal propagate?" — binary. Paper 39
+Standard Anderson asks "does the signal propagate?" — binary. Paper 43
 extends this to **selective permeability**: each signal mode ω sees different
 effective disorder W_ω and dimension d_ω through the same physical membrane.
 The permeability tensor P(ω, W_ω, d_ω) and selectivity metric

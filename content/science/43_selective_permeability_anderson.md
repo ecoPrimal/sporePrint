@@ -1,5 +1,5 @@
 +++
-title = "baseCamp 39 — Selective Permeability: The Orthogonal Anderson Dimension"
+title = "baseCamp 43 — Selective Permeability: The Orthogonal Anderson Dimension"
 description = "Standard Anderson asks 'does the signal propagate?' Selective permeability asks 'which signals pass and which are blocked?' Each mode ω sees different effective disorder through the same membrane. Selectivity S = max(P) − min(P) measures what separates a rock from a cell."
 date = 2026-10-08
 
@@ -8,7 +8,7 @@ primals = ["barracuda", "cellmembrane"]
 springs = ["wetspring", "groundspring", "neuralspring"]
 
 [extra]
-paper_number = 39
+paper_number = 43
 domain = "Condensed Matter Physics and Membrane Biology"
 
 [[extra.companions]]
@@ -43,10 +43,11 @@ label = "The philosophical argument for why membranes choose"
 +++
 
 **Date:** October 8, 2026 (Wave 167)
-**Status:** Primitives implemented — `membrane_permeability()`, `membrane_profile()`, `dimensional_localization_length()` in BarraCuda `anderson_transport.rs`. 14/14 tests pass.
+**Status:** Primitives implemented — `membrane_permeability()`, `membrane_profile()`, `dimensional_localization_length()` in BarraCuda `anderson_transport.rs`. 14/14 tests pass. Rendered live through petalTongue v1.7.0 scene compiler on golgiBody — 6 biological systems × 27 signal modes → 15 SVGs + 1 WebGL scene via `wss://hud.primals.eco/ws`.
 **Domain:** Condensed matter physics × membrane biology × information theory
 **Novelty:** No prior work extends Anderson localization from scalar transmission to mode-dependent selective permeability with a selectivity metric. The dimension d_eff is also generalized to fractional values for partially breached barriers.
 **Origin:** Discovered during Wave 167 commensal relay activation — the RustDesk relay is a selectively permeable membrane where each signal type sees different effective Anderson disorder.
+**Live rendering:** `hud.primals.eco` — petalTongue WebSocket JSON-RPC bridge accepts DataBinding channel types (timeseries, bar, gauge, heatmap, scatter) and compiles to SVG/WebGL through the grammar-of-graphics scene compiler. The Anderson localization scenario is built into petalTongue's `groundspring.anderson_localization` scenario registry.
 
 ---
 
@@ -319,7 +320,7 @@ The fleet's membrane is inverted: it is highly permeable to outbound information
 
 ## 6. Connections to Existing Papers
 
-### Paper 01 → Paper 39
+### Paper 01 → Paper 43
 
 Paper 01 maps species diversity to Anderson disorder: W = 0.5 + 14.5 × J. All 28 biomes in 3D sustain QS (extended states).
 
@@ -330,7 +331,7 @@ Paper 01 maps species diversity to Anderson disorder: W = 0.5 + 14.5 × J. All 2
 
 The soil membrane selects which QS circuits work based on signal chemistry, not just species diversity. This is an experimentally testable prediction: µCT imaging of soil pore networks combined with tracer experiments using different autoinducer analogues should reveal mode-dependent transport.
 
-### Paper 06 → Paper 39
+### Paper 06 → Paper 43
 
 Paper 06: Tillage collapses dimension (3D → 2D → 1D pore networks).
 
@@ -341,7 +342,7 @@ Paper 06: Tillage collapses dimension (3D → 2D → 1D pore networks).
 
 Tillage homogenizes this structure → all modes see same W and d → S → 0. The soil loses its selective permeability and becomes a rock (structurally) or a sieve (all passes equally). **The loss of selectivity is the loss of ecosystem function.** Nutrient leaching, pathogen invasion, and water runoff all increase when S drops — because the membrane can no longer discriminate between what should be held and what should pass.
 
-### Paper 12 → Paper 39
+### Paper 12 → Paper 43
 
 Paper 12: AD scratching is dimensional promotion (2D → 3D) that delocalizes cytokines.
 
@@ -359,7 +360,7 @@ AD scratching makes ALL modes see d_eff → 3:
 
 **Loss of selectivity is the disease.** The clinical metric TEWL (transepidermal water loss) is already a single-mode permeability measurement. Extending it to multi-mode selectivity S would capture barrier health more completely than any single-mode metric.
 
-### Paper 05 → Paper 39
+### Paper 05 → Paper 43
 
 Paper 05: Cross-species signaling in symbiotic systems.
 

@@ -62,7 +62,7 @@ This paper states the conclusion that the data supports.
 
 The evidence converges from five independent directions: thermodynamics, information theory, physics, biology, and direct operational measurement. Each direction independently implies the same asymmetry. Together, they constitute the same kind of universal observation that establishes physical laws.
 
-The paper also formalizes the trinity that the evidence rests on: **Information is Signal. Data is Matter. Compute is Energy.** These are not metaphors. They are the same three-way equivalence (Paper 23), now grounded in operational measurement (Papers 39–41).
+The paper also formalizes the trinity that the evidence rests on: **Information is Signal. Data is Matter. Compute is Energy.** These are not metaphors. They are the same three-way equivalence (Paper 23), now grounded in operational measurement (Papers 40–41, 43).
 
 ---
 
@@ -164,9 +164,9 @@ Papers 39–41 provide direct operational measurement:
 | Observation | What it demonstrates |
 |-------------|---------------------|
 | Fleet: 16,800W → 0 bits (Paper 40) | Generation (obtaining real content) cannot be achieved by verification (scanning all URLs). The fleet verifies that pages exist but cannot generate the path to real content. |
-| Membrane selectivity S ≈ 1.0 (Paper 39) | Selective permeability requires a generator (evolved membrane architecture). A verifier (testing each molecule individually) cannot achieve selectivity at biological speed. |
+| Membrane selectivity S ≈ 1.0 (Paper 43) | Selective permeability requires a generator (evolved membrane architecture). A verifier (testing each molecule individually) cannot achieve selectivity at biological speed. |
 | Reflexive immune response (Paper 41) | The membrane converts fleet energy into information ABOUT the fleet. One-way information flow. The asymmetry increases with fleet effort. |
-| Fleet S ≈ 0 (Paper 39) | The fleet has zero selectivity — it cannot distinguish real from fabricated. It lacks a generator for discrimination. It has only verifiers (HTTP response = 200). |
+| Fleet S ≈ 0 (Paper 43) | The fleet has zero selectivity — it cannot distinguish real from fabricated. It lacks a generator for discrimination. It has only verifiers (HTTP response = 200). |
 
 The fleet is a natural experiment in P vs NP. It has effectively unlimited compute (Meta's datacenter budget). It has a verifier (check HTTP status codes). It cannot generate the path to real content. The generation-verification gap is not a theoretical abstraction — it is measured at 16,800W and zero bytes.
 
@@ -244,7 +244,7 @@ Chapter 4 (thesis, §4.5.2) said: *"This is not a proof that P ≠ NP."* That wa
 
 **The predictions were confirmed.**
 
-- Paper 39: Selective permeability requires generators (evolved membrane architecture). Confirmed.
+- Paper 43: Selective permeability requires generators (evolved membrane architecture). Confirmed.
 - Paper 40: Fleet compute cannot collapse the generation-verification gap. Confirmed at 16,800W.
 - Paper 41: The asymmetry increases with fleet effort. Confirmed — the membrane extracts MORE information from MORE fleet activity.
 - Papers 23 → 42: The Info/Data/Compute trinity is isomorphic to the Mass/Energy/Information triangle. Each edge is a physical law. Confirmed.
@@ -295,7 +295,7 @@ Every law cited in this body of work is the same law in different notation:
 | Physics | Bekenstein bound (1981) | I ≤ 2πRE/(ℏc·ln 2) | Information density is bounded by mass-energy. More data requires more matter. |
 | Biology | Genome universality | All life uses DNA → enzyme → catalysis | Generation requires stored generators. No organism derives catalysts on demand. |
 | Biology | Genome growth | Genomes grow, not shrink, over evolutionary time | The library of generators accumulates. Derivation methods never replace it. |
-| Biology | Selective permeability (Paper 39) | S = max(P) − min(P) | Choosing which signals pass requires evolved generators (membrane architecture). Rocks verify but don't select (S = 0). |
+| Biology | Selective permeability (Paper 43) | S = max(P) − min(P) | Choosing which signals pass requires evolved generators (membrane architecture). Rocks verify but don't select (S = 0). |
 | Operational | Fleet observation (Paper 40) | 16,800W → 0 bits | Unlimited compute + zero signal = zero information. The gap is measured. |
 | Operational | Membrane asymmetry (Paper 41) | More fleet effort → more information extracted FROM fleet | The asymmetry increases with effort. There is no escape velocity. |
 | Computational | Accept-and-generate (Chapter 4) | Every physical system builds generators | Nature's universal strategy for hard problems. No alternative has been observed. |
@@ -324,7 +324,7 @@ Systems designed around derivation (deterministic programming, brute-force searc
 
 The genome is not a workaround for insufficient computational power. It is the **physical evidence** of P ≠ NP. DNA exists because generation cannot be collapsed into verification. The genetic code is the universe's ledger of this law.
 
-Selective permeability (Paper 39) extends this: membranes exist because discrimination requires evolved generators. A rock has no selectivity (S = 0). A cell membrane has maximal selectivity (S → 1). The difference is the presence of generators — transporter proteins, ion channels, receptor cascades — that were found by evolutionary search and stored in the genome. If P = NP, membranes would not need these generators. They would compute permeability on demand. They cannot.
+Selective permeability (Paper 43) extends this: membranes exist because discrimination requires evolved generators. A rock has no selectivity (S = 0). A cell membrane has maximal selectivity (S → 1). The difference is the presence of generators — transporter proteins, ion channels, receptor cascades — that were found by evolutionary search and stored in the genome. If P = NP, membranes would not need these generators. They would compute permeability on demand. They cannot.
 
 ### 6.4 For the Fleet
 
