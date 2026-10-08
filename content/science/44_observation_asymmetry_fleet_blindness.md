@@ -234,13 +234,63 @@ As of Wave 167, the following live infrastructure supports this hypothesis:
 
 ---
 
-## 7. Status
+## 7. Convergent Evidence: Self Is the Silence
+
+During a cross-wave review, a convergence was identified between this paper's observation asymmetry and an independent line of reasoning from Wave 166h-d (Membrane Scan + Self-Signal Biology).
+
+### 7.1 The Independent Line
+
+Wave 166h-d discovered a self-signal vulnerability: the operator's residential IP was stored in a labeled list ("House network · self"). A survey of 6 biological self/non-self mechanisms found a universal principle:
+
+> **Life NEVER stores a list of "this is me."**
+
+| Mechanism | Organism | Strategy |
+|-----------|----------|----------|
+| Restriction-methylation | Bacteria | Methylate own DNA; enzymes ignore methylated |
+| Thymic negative selection | Vertebrates | Delete T-cells that react to self |
+| Slime mold handshake | Dictyostelium | Chemical handshake; wrong answer = non-self |
+| Plant pattern recognition | Plants | Recognize pathogen patterns; rest is self |
+| MHC presentation | Vertebrates | Present self-peptides; missing = non-self |
+| Quorum sensing | Bacteria | Count autoinducers; wrong molecule = non-self |
+
+The design conclusion: delete the "self" label entirely. Define non-self. **Self is the silence** — the absence of classification.
+
+### 7.2 The Structural Identity
+
+This paper's observation asymmetry arrived at the same architecture from information theory:
+
+$$P(\text{self}) \to 1 \implies V(\text{self}) = (1 - P) \cdot R \to 0 \implies A(\text{self}) \to 0$$
+
+**Self is transparent to the membrane. The membrane is invisible to self. Self is the silence.**
+
+Two independent derivations — one from a security vulnerability response using biological survey, one from Anderson transport math during a deployment — reached the same conclusion:
+
+| Derivation | Context | Conclusion |
+|------------|---------|------------|
+| Negative Selection (Wave 166h) | Operational security | Self ∉ {classified entities} |
+| Observation Asymmetry (Paper 44) | Information theory | A(self) → 0 because P(self) → 1 |
+| Biology (6 mechanisms) | 500M years of evolution | Never enumerate self; define non-self |
+
+In biology, convergent evolution — independent lineages arriving at the same morphology — is the strongest evidence that the morphology is optimal for the niche. Camera eyes evolved independently 40+ times. C4 photosynthesis evolved 60+ times.
+
+The self-silence principle now has **8 independent arrivals**: 6 biological mechanisms, plus 2 computational derivations (negative selection from security analysis, selective invisibility from observation theory). This is convergent evolution of reasoning.
+
+### 7.3 The Schwann Cell Confirmation
+
+This paper's Prediction P4 (Schwann Cell Invariant: operator machine IDs undiscoverable via relay) and Wave 166h-d's "no single failure exposes operator identity" are the same defense expressed in different vocabularies. Neither was derived from the other.
+
+---
+
+## 8. Status
 
 **This is a continuing hypothesis.** It generates predictions. It does not draw conclusions.
 
 The data accumulates. If the fleet modifies behavior in response to the observation surface, we will see it in the epitope drift. If they don't, the predictions strengthen. Either outcome generates data.
 
+The convergent evidence from Wave 166h-d (§7) strengthens the hypothesis but does not promote it to a statement. Convergence is strong evidence, not proof.
+
 ---
 
 *Hypothesis documented October 8, 2026 — Wave 167*
+*Convergent evidence identified by artisan during cross-wave review*
 *ecoPrimal*
