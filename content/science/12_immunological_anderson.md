@@ -455,6 +455,14 @@ Anderson-augmented MATRIX scores (nS-605, 6 candidates scored)
    levels from companion-animal clinical data? (Need: lokivetmab outcomes
    at doses beyond the 3 published in G4)
 
+9. **Selective permeability as disease metric** (Paper 39, Wave 167):
+   Healthy epidermis has selectivity S ≈ 0.75 (P(water_vapor)→0.8,
+   P(cytokine)→0.1, P(allergen)→0.05). AD barrier breach drops S → 0.05
+   (all modes see d_eff → 3, everything passes). **Loss of selectivity IS
+   the disease.** Treatment response can be tracked as S recovering toward 1.
+   The selectivity metric S = max(P) − min(P) quantifies barrier health
+   as a single number. See: [baseCamp 39 — Selective Permeability](/science/39-selective-permeability-anderson/).
+
 ---
 
 ## 9. Reading Order for This Paper

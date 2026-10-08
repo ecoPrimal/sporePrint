@@ -223,6 +223,21 @@ will support QS-dependent phenotypes (N-fixation regulation, biocontrol
 signaling). Seed coatings that promote 3D root-surface biofilm should
 outperform broadcast inoculation — the model explains why.
 
+### 6.5 Selective Permeability (Paper 39, Wave 167)
+
+Standard Anderson asks "does the signal propagate?" — binary. Paper 39
+extends this to **selective permeability**: each signal mode ω sees different
+effective disorder W_ω and dimension d_ω through the same physical membrane.
+The permeability tensor P(ω, W_ω, d_ω) and selectivity metric
+S = max(P) − min(P) measure the quality of biological filtering.
+
+In the QS context: soil pore networks are selectively permeable membranes.
+At the same species diversity J, different autoinducers (AHL, AI-2, CAI-1)
+see different effective disorder based on their chemistry. The soil membrane
+selects which QS circuits work based on signal chemistry, not just diversity.
+
+See: [baseCamp 39 — Selective Permeability](/science/39-selective-permeability-anderson/).
+
 ## 7. neuralSpring Connections
 
 {{ entity(name="neuralspring") }} validates the same spectral primitives (`eigh_f64`, `BatchIprGpu`,
