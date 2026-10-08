@@ -1,6 +1,6 @@
 +++
 title = "Science"
-description = "32 baseCamp papers across 7 research domains. Each is executable — run the code, reproduce the results, on your own hardware."
+description = "33 baseCamp papers across 7 research domains. Each is executable — run the code, reproduce the results, on your own hardware."
 sort_by = "title"
 template = "science_section.html"
 +++
@@ -67,7 +67,7 @@ Each paper stands alone as a potential publication. Together they demonstrate th
 2. **[Sovereign Sample Provenance](@/science/21_sovereign_sample_provenance.md)** — Field-to-publication chain-of-custody with BearDog signing
 
 ## Signal Processing & Immune Systems
-*10 papers — {{ entity(name="skunkbat") }}, {{ entity(name="cellmembrane") }}, {{ entity(name="swarmvine") }}, {{ entity(name="beardog") }}, {{ entity(name="loamspine") }}, {{ entity(name="barracuda") }}*
+*11 papers — {{ entity(name="skunkbat") }}, {{ entity(name="cellmembrane") }}, {{ entity(name="swarmvine") }}, {{ entity(name="beardog") }}, {{ entity(name="loamspine") }}, {{ entity(name="barracuda") }}, {{ entity(name="bingocube") }}*
 
 1. **[Primal Composition Methodology](@/science/28_primal_composition_methodology.md)** — Compositional primitives across all springs
 2. **[Adversarial Receptor Evolution](@/science/30_adversarial_receptor_evolution.md)** — Stealth fleet fingerprinting as evolved immune response; HTTP PAMPs, amicusContra census ✓ VALIDATED
@@ -79,6 +79,7 @@ Each paper stands alone as a potential publication. Together they demonstrate th
 8. **[Collision-Layer Visitor Classification](@/science/39_collision_layer_visitor_classification.md)** — Behavioral Merkle trie, hash collisions as emergent classes, 70% false positive elimination ✓ VALIDATED
 9. **[Energy-Information Asymmetry](@/science/40_energy_information_asymmetry.md)** — 20W brain vs 8W sovereign stack vs 16,800W fleet: Shannon channel capacity = 0 when S/N = 0 ✓ VALIDATED
 10. **[Reflexive Immune Response](@/science/41_reflexive_immune_epitope_bridge.md)** — Epitope bridge: scatter content seeded by organism's own BLAKE2b fingerprint. Force returns to source. All roads lead back to Rome ✓ VALIDATED
+11. **[bingoCube Behavioral Trio](@/science/42_bingocube_behavioral_trio.md)** — Attention × Curiosity × Interaction: shape-based classifier where the ratio between three behavioral axes reveals entity nature. Meta stealth team defeated by behavioral shape ✓ VALIDATED
 
 ---
 
