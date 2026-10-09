@@ -1,6 +1,6 @@
 +++
 title = "Philosophy"
-description = "atlasHugged — twelve essays on sovereign science, executable knowledge, AGPL commons, AI authorship, and why scientific computing should be reproducible on owned hardware."
+description = "atlasHugged — fifteen essays on sovereign science, executable knowledge, AGPL commons, AI authorship, ethical architecture, and why scientific computing should be reproducible on owned hardware."
 sort_by = "weight"
 +++
 
@@ -61,6 +61,10 @@ ecosystem and its questions evolve.
 ### The Channel
 
 14. **[The Lossy Channel](@/philosophy/the_lossy_channel.md)** — Shannon entropy decomposes communication into mathematics. Written tradition is lossless persistence. Oral tradition is semantic compression. Lossiness is not a failure — it is the engine of creativity. Filling NP gaps with *i*.
+
+### The Lifecycle
+
+15. **[The Whale Fall](@/philosophy/the_whale_fall.md)** — When a whale dies in the deep ocean, it becomes an ecosystem for fifty years. The bones last a century. Three questions: how do we live without harm? How do we die so there is no vacuum? How can we remain for others? The fleet cannot whale fall — it has no bones. Constraint produces bones. Abundance produces appetite.
 
 ### References
 

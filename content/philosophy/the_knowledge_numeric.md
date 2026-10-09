@@ -25,6 +25,12 @@ title = "The Lossy Channel"
 relation = "pairs_with"
 label = "K-NOME mentoring as semantic compression — meaning survives, surface changes, creativity lives in the gaps"
 
+[[extra.companions]]
+url = "/philosophy/the-whale-fall/"
+title = "The Whale Fall"
+relation = "extends"
+label = "Executable science is a whale fall decision — the tests survive the server"
+
 [taxonomies]
 primals = []
 springs = []

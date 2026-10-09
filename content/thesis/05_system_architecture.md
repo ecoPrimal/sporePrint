@@ -18,6 +18,12 @@ title = "NUCLEUS Architecture"
 relation = "evidence_for"
 label = "Atomics ladder, deploy graphs, lifecycle — the composition model"
 
+[[extra.companions]]
+url = "/philosophy/the-whale-fall/"
+title = "The Whale Fall"
+relation = "narrative_version"
+label = "Architecture as bones — every component independently valuable after the system dies"
+
 [taxonomies]
 trails = ["thesis-narrative"]
 

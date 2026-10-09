@@ -43,6 +43,12 @@ title = "Adaptive Immune Defense"
 relation = "implements"
 label = "The operational membrane"
 
+[[extra.companions]]
+url = "/philosophy/the-whale-fall/"
+title = "The Whale Fall"
+relation = "extends"
+label = "What happens when the membrane stops — generative death as the fleet's fundamental failure"
+
 [taxonomies]
 primals = []
 springs = []

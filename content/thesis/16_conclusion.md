@@ -11,6 +11,12 @@ url = "/philosophy/the-knowledge-numeric/"
 title = "The Knowledge-Numeric"
 relation = "narrative_version"
 
+[[extra.companions]]
+url = "/philosophy/the-whale-fall/"
+title = "The Whale Fall"
+relation = "narrative_version"
+label = "What remains: bones, nutrients, ecology — generative death as a design requirement"
+
 [taxonomies]
 trails = ["thesis-narrative"]
 

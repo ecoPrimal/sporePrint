@@ -13,6 +13,12 @@ title = "Chapter 1: Introduction"
 relation = "formal_version"
 label = "The academic framing — Taq polymerase motivation, thesis statement, five contributions"
 
+[[extra.companions]]
+url = "/philosophy/the-whale-fall/"
+title = "The Whale Fall"
+relation = "extends"
+label = "Omelas cannot whale fall — hollow bones feed no tube worms"
+
 [taxonomies]
 primals = []
 springs = []

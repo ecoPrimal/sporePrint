@@ -22,6 +22,12 @@ title = "The Lossy Channel"
 relation = "narrative_version"
 label = "Why the lossy K-NOME exchange between human and AI is creative, not deficient"
 
+[[extra.companions]]
+url = "/philosophy/the-whale-fall/"
+title = "The Whale Fall"
+relation = "narrative_version"
+label = "The fleet's fundamental failure: constraint produces bones, abundance produces appetite — the thesis stated as marine biology"
+
 [taxonomies]
 trails = ["thesis-narrative"]
 
