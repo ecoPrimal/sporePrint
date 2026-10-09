@@ -25,6 +25,12 @@ title = "The Knowledge-Numeric"
 relation = "pairs_with"
 label = "K-NOME mentoring is semantic compression — meaning survives, surface changes"
 
+[[extra.companions]]
+url = "/philosophy/the-first-tool/"
+title = "The First Tool"
+relation = "extends"
+label = "The gap is a question — creativity is filling it — the question is the first tool"
+
 [taxonomies]
 primals = []
 springs = []

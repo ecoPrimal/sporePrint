@@ -30,6 +30,12 @@ title = "The Whale Fall"
 relation = "narrative_version"
 label = "Constraint produces bones, abundance produces appetite — the thesis stated as marine biology"
 
+[[extra.companions]]
+url = "/philosophy/the-first-tool/"
+title = "The First Tool"
+relation = "narrative_version"
+label = "The constraint is the question the environment asks of the system — the first tool of life"
+
 [taxonomies]
 trails = ["thesis-narrative"]
 

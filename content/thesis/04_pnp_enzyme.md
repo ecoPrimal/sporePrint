@@ -11,6 +11,12 @@ url = "/methodology/constrained-evolution-formal/"
 title = "Constrained Evolution — Formal"
 relation = "methodology"
 
+[[extra.companions]]
+url = "/philosophy/the-first-tool/"
+title = "The First Tool"
+relation = "narrative_version"
+label = "The enzyme IS the question — nature's strategy for hard problems is to ask, not to solve"
+
 [taxonomies]
 trails = ["thesis-narrative"]
 

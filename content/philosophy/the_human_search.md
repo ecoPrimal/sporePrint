@@ -25,6 +25,12 @@ title = "The Lossy Channel"
 relation = "pairs_with"
 label = "The information-theoretic foundation — lossy channels create the gaps where iteration becomes creative"
 
+[[extra.companions]]
+url = "/philosophy/the-first-tool/"
+title = "The First Tool"
+relation = "extends"
+label = "Every step in the search is a question — is this closer? Is this right? Did this work?"
+
 [taxonomies]
 primals = []
 springs = []
