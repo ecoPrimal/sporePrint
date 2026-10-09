@@ -14,12 +14,12 @@
 > published results on owned commodity hardware and carry their validation
 > and provenance with them. 16 composable programs (primals), 9 validation
 > domains (springs), vendor-agnostic GPU compute via WebGPU/WGSL.
-> Wave 167. Zero P0, P1, P2. 3.3 TB science data. sporeprint.primals.eco LIVE (379 pages). tuebor.primals.eco LIVE (35 pages). signal.primals.eco LIVE (observatory + dual braid). git.primals.eco (Forgejo). 5-target depot. 32⁴ SU(3) COMPLETE. Braid titration system deployed. Immune membrane: bloom v4 + epitope classifier + scatter defense. Pure Rust, AGPL-3.0-or-later.
+> Wave 169. Zero P0, P1, P2. 3.3 TB science data. sporeprint.primals.eco LIVE (382 pages). tuebor.primals.eco LIVE (35 pages). signal.primals.eco LIVE (observatory + dual braid). git.primals.eco (Forgejo). 5-target depot. 32⁴ SU(3) COMPLETE. Braid titration system deployed. Immune membrane: bloom v4 + epitope classifier + scatter defense. Pure Rust, AGPL-3.0-or-later.
 
 ## What This Site Is
 
 sporeprint.primals.eco is the public-facing science site for the ecoPrimals ecosystem.
-379 pages organized into 5 main sections (Lab, Science, Architecture, Products, Get Started)
+382 pages organized into 5 main sections (Lab, Science, Architecture, Products, Get Started)
 plus Foundation (79 proven design docs) and Backstory (thesis, philosophy, narrative).
 Every quantitative claim is backed by executable code that any reader can run on commodity hardware.
 
@@ -68,7 +68,7 @@ and 32⁴ production campaigns.
 
 ## Site Structure — Cortical Folds
 
-The site has 379 pages across 25 sections, organized into 5 navigable folds.
+The site has 382 pages across 25 sections, organized into 5 navigable folds.
 Each fold groups related sections. Ridge pages are the best entry points.
 Section indexes list all child pages within that section.
 
@@ -112,10 +112,13 @@ How to build — development methodology, verification, certification.
 ### Fold 4: Philosophy (12% of site)
 Why it matters — the philosophical argument, builder's story, dissertation.
 
-- **Philosophy** (16 essays): atlasHugged — 14 essays on sovereign science, copyleft economics, infrastructure ethics, information entropy.
+- **Philosophy** (17 essays): atlasHugged — 17 essays on sovereign science, copyleft economics, infrastructure ethics, information entropy.
   - Section index: https://sporeprint.primals.eco/philosophy/
   - Start here: https://sporeprint.primals.eco/philosophy/the-human-search/
   - New: https://sporeprint.primals.eco/philosophy/the-lossy-channel/ (Shannon entropy, semantic compression, creativity)
+  - New: https://sporeprint.primals.eco/philosophy/the-whale-fall/ (whaleFall — graceful death, constraint → bones)
+  - New: https://sporeprint.primals.eco/philosophy/the-entrusted-earth/ (gAIa — trust as architecture, AI stewardship)
+  - New: https://sporeprint.primals.eco/philosophy/the-first-tool/ (the first tool of life — a question)
 - **Story** (3 essays): Builder's narrative by attsi.
   - Section index: https://sporeprint.primals.eco/story/
 - **Thesis** (18 chapters): "Constrained Evolution" — working dissertation.
@@ -140,7 +143,7 @@ Proven design documents, audience guides, outreach briefs — still accessible, 
 Thesis, philosophy, narrative — accessible via nav footer.
 
 - **Thesis** (18 chapters): "Constrained Evolution" PhD dissertation
-- **Philosophy** (15 essays): atlasHugged — 12 essays on sovereign science
+- **Philosophy** (17 essays): atlasHugged — 17 essays on sovereign science
 - **Story** (3 essays): Builder's narrative by attsi
 
 ### Other
@@ -166,7 +169,7 @@ Thesis, philosophy, narrative — accessible via nav footer.
 - **Evidence Chain** (7 pages): Lab validation → reproduced science → thesis results.
 - **Reproducibility** (7 pages): From theory to verification on your own hardware.
 - **Thesis** (18 pages): Full dissertation in reading order.
-- **atlasHugged** (12 pages): The 12 philosophical essays in argument order.
+- **atlasHugged** (17 pages): The 17 philosophical essays in argument order.
 
 Trail pages: https://sporeprint.primals.eco/trails/
 
@@ -212,7 +215,7 @@ Trail pages: https://sporeprint.primals.eco/trails/
 - 27 signal graphs. rootPulse 6/6 graphs REGISTERED.
 - 175+ peer-reviewed papers reproduced
 - 8 scientific domains validated
-- **Wave 167** — eastGate + golgiBody ONLINE. Immune membrane: bloom v4, epitope classifier, scatter defense, antidote titration. 11 named entities classified. 7 artisan braid entries.
+- **Wave 169** — eastGate + golgiBody ONLINE. Immune membrane: bloom v4, epitope classifier, scatter defense, antidote titration. 11 named entities classified. 7 artisan braid entries.
 - **32⁴ SU(3) PRODUCTION COMPLETE** — 45/45 cross-vendor configs. Literature ~0.3%. Cross-GPU Δ=0.19%.
 - **arXiv 41/42**: Physics DONE. primals.eco LIVE — reviewer send UNBLOCKED.
 - **tuebor.primals.eco** — 35 analysis pages (metric tensor, information entropy, Anderson localization). Desk + membrane interfaces.
