@@ -30,7 +30,7 @@ label = "Constraint transfer as selective membrane permeability"
 [taxonomies]
 primals = ["petaltongue", "cellmembrane"]
 springs = ["wetspring", "groundspring"]
-protists = ["footprint", "rustscript"]
+trails = ["deep-dive"]
 +++
 
 **Date:** October 9, 2026 (Wave 167)
