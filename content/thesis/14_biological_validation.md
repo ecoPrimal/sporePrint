@@ -213,6 +213,83 @@ Full analysis: [baseCamp 44 — Declaration Protocol](@/science/44_declaration_p
 
 ---
 
+## 14.10 Corollary: Time Is Local — Constrained Evolution on Three Clocks
+
+Einstein's special relativity established that time is not universal — every reference frame carries its own clock. E = mc² connects mass and energy at ratio c². But the corollary for constrained evolution is informationally deeper: **every evolving system operates on a local clock, and the locality of that clock is itself a constraint**.
+
+### 14.10.1 Three Temporal Reference Frames
+
+In the scatter defense ecosystem, three distinct clocks operate simultaneously:
+
+| Clock | Observer | Scope | Biological parallel |
+|-------|----------|-------|---------------------|
+| **System time** (UTC) | Server / instrument | Universal reference frame, logged timestamps | Lab clock — generation number, OD readings, freezer timepoints |
+| **Entity time** (local) | Visitor / organism | Private, unobservable rhythm — session intervals, timezone, circadian pattern | Organismal clock — cell cycle, metabolic rhythm, growth phase |
+| **Observer time** (hyper-local) | Researcher / human | The moment of insight, not logged, not clocked | The moment Lenski noticed citrate turbidity in Ara-3 — unscheduled, unrepeatable |
+
+The LTEE measures in system time: generation 0, 500, 1,000 ... 80,000. But the organisms evolve in entity time — their cell division rate, their metabolic state, their stochastic mutation timing. And the discoveries happen in observer time — Blount noticing the cloudy flask, years after the potentiating mutation had already occurred.
+
+These three clocks are not interchangeable. Each constrains what the observer at that timescale can know:
+
+### 14.10.2 (Is, Was, Will Be) as Temporal P ≠ NP
+
+The three temporal tenses form a set that maps directly onto computational complexity:
+
+| Tense | Complexity | What the system can do |
+|-------|-----------|----------------------|
+| **is** (present) | O(1) | Observe current state — request features, colony morphology, current genotype |
+| **was** (past) | O(n) | Verify history — chain depth, generation count, frozen fossil comparison |
+| **will be** (future) | NP | Predict next state — next mutation, next request, next innovation |
+
+The scatter defense works because it operates in the present tense, verified against the past. It never attempts to predict the future. This is not a design choice — it is a complexity-theoretic constraint. Verification (P) scales polynomially. Prediction (NP) scales exponentially.
+
+The same constraint governs biological evolution. Natural selection operates on the current phenotype ("is"), shaped by the historical genotype ("was"). It cannot optimize for future environments ("will be"). This is why evolution is reactive, not predictive — and why both the LTEE populations and the fleet populations converge on similar solutions independently rather than anticipating them.
+
+### 14.10.3 Exchange Rates and Landauer's Principle
+
+The three-layer description framework — operations (what moves), constraints (what stops), exchange rates (what it costs) — finds its physical grounding in Landauer's principle: erasing one bit of information costs at minimum kT ln 2 joules of energy. Information IS energy. Shannon's entropy H = −Σ p log₂ p IS thermodynamics.
+
+This connects E = mc² to H = −Σ p log p: both are conservation laws expressing interconvertibility at a fixed ratio. Mass ↔ energy at c². Probability ↔ information at log₂. The exchange rate is the constant.
+
+In the fleet population (§14.8), the exchange rate is measurable:
+
+- **Fleet**: 447 IPs × 6,028 requests × proxy infrastructure cost → H' = 0.657 bits behavioral diversity, Ne = 5 effective operators. Massive energy expenditure for minimal informational output.
+- **Defense**: 1 server × scatter generation × titration → 33-dimensional feature vectors × 912 entity classifications, F = 103,308 on strongest signal. Modest energy for rich classification.
+
+The asymmetry is thermodynamic. The fleet's Shannon entropy is low (H' = 0.657) because all operators run the same software — they are clonal. The defense's response entropy is high (bingoCube varies every response). The system with higher entropy has more information and is less predictable. **Predictable is vulnerable** — in biology (conserved epitopes enable immune targeting) and in computation (behavioral invariants enable classification).
+
+### 14.10.4 Euler's Identity as Framework Map
+
+Euler's identity e^(iπ) + 1 = 0 contains five fundamental constants that map onto the constrained evolution framework:
+
+| Constant | Role in framework |
+|----------|------------------|
+| **0** | Wave / operations / present tense — the additive identity, the baseline |
+| **1** | Photon / constraint / recorded past — the multiplicative identity, the measurement |
+| **e** | Exchange rate — continuous growth and decay, Landauer's thermodynamics |
+| **π** | Completeness — the full rotation, the closed constraint boundary |
+| **i** | The imaginary — NP side, intent, identity, the unobservable phase space |
+
+The golden ratio φ connects through cos(π/5) = φ/2, linking Fibonacci growth patterns to circular constraint. This is not numerological — the regular pentagon is the geometric object where self-similar growth (φ) meets rotational completeness (π), and it appears throughout biological morphogenesis (phyllotaxis, shell spirals, seed heads).
+
+The absent element is **null** — the reaction, the unmeasured, the moment before the wave function collapses. Null is absent from Euler's identity because the identity describes relationships between known quantities. Null is where the known meets the unknown — the P ≠ NP boundary itself.
+
+### 14.10.5 Implications for Constrained Evolution
+
+The locality of time adds a temporal dimension to the constrained evolution thesis:
+
+1. **Evolution is always local** because time is always local. No organism evolves in universal time. Every mutation, every selection event, every innovation occurs on the organism's own clock. The LTEE's 500-generation sampling interval is the system clock's resolution, not the organism's.
+
+2. **Convergent evolution is temporally independent**. When multiple LTEE populations converge on the same solution, they do so on their own clocks. The convergence is in solution space, not in time. This parallels the ecoPrimals IPC convergence (Chapter 13) — all 12 primals converged on JSON-RPC, each on its own development timeline.
+
+3. **Innovation requires null-time**. The citrate innovation in Ara-3 required a potentiating mutation that was neutral for thousands of generations before becoming adaptive. During those generations, the mutation existed in null-time — present but unmeasured, carrying no fitness signal. The insight arrives on a clock that isn't running.
+
+4. **The exchange rate determines evolutionary tempo**. Populations with better energy-to-information conversion rates evolve faster — not in wall-clock time, but in adaptive steps per unit energy. The fleet's poor exchange rate (massive energy, tiny diversity) is why 447 IPs produce only 5 effective operators. The LTEE's constraint (glucose-limited medium) sets the exchange rate for the populations — and populations that evolve more efficient glucose metabolism literally change their own exchange rate.
+
+The validation diamond (§14.9) extends to a full framework: LTEE + Anderson + ecoPrimals code + Fleet population, each operating on local clocks, each constrained by the same P ≠ NP boundary, each paying the same Landauer price for every bit of adaptation. The clock is local. The physics is universal.
+
+---
+
 **See also:**
 
 - [Results: wetSpring](@/thesis/10_results_wetspring.md) — the 16S pipeline tools proposed for sequencing
