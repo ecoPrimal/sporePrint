@@ -14,14 +14,13 @@
 > published results on owned commodity hardware and carry their validation
 > and provenance with them. 16 composable programs (primals), 9 validation
 > domains (springs), vendor-agnostic GPU compute via WebGPU/WGSL.
-> Wave 158 REWAKE. Zero P0, P1, P2. 3.3 TB science data. primals.eco LIVE. detroit.primals.eco LIVE (128+ pages). guerillaGorilla FORMALIZED — amicusContra named. northGate ENROLLING (RTX 5090). Milk-V Jupiter 2 ARRIVED (RISC-V, 7th arch). 5-target depot. 32⁴ SU(3) COMPLETE. Pipeline + provenance CONVERGED. Pure Rust, AGPL-3.0-or-later.
+> Wave 167. Zero P0, P1, P2. 3.3 TB science data. sporeprint.primals.eco LIVE (379 pages). tuebor.primals.eco LIVE (35 pages). signal.primals.eco LIVE (observatory + dual braid). git.primals.eco (Forgejo). 5-target depot. 32⁴ SU(3) COMPLETE. Braid titration system deployed. Immune membrane: bloom v4 + epitope classifier + scatter defense. Pure Rust, AGPL-3.0-or-later.
 
 ## What This Site Is
 
 sporeprint.primals.eco is the public-facing science site for the ecoPrimals ecosystem.
-338 pages organized into 5 main sections (Lab, Science, Architecture, Products, Get Started)
-plus Foundation (79 proven design docs) and Backstory (thesis, philosophy, narrative). 12 gates
-online across 6 OS families, 6 NUCLEUS gates. 3/3 sub-builders enmeshed. 4-architecture depot.
+379 pages organized into 5 main sections (Lab, Science, Architecture, Products, Get Started)
+plus Foundation (79 proven design docs) and Backstory (thesis, philosophy, narrative).
 Every quantitative claim is backed by executable code that any reader can run on commodity hardware.
 
 ## arXiv Pre-Submission Draft (OPEN FOR REVIEW)
@@ -69,7 +68,7 @@ and 32⁴ production campaigns.
 
 ## Site Structure — Cortical Folds
 
-The site has 338 pages across 25 sections, organized into 5 navigable folds.
+The site has 379 pages across 25 sections, organized into 5 navigable folds.
 Each fold groups related sections. Ridge pages are the best entry points.
 Section indexes list all child pages within that section.
 
@@ -113,9 +112,10 @@ How to build — development methodology, verification, certification.
 ### Fold 4: Philosophy (12% of site)
 Why it matters — the philosophical argument, builder's story, dissertation.
 
-- **Philosophy** (15 essays): atlasHugged — 12 essays on sovereign science, copyleft economics, infrastructure ethics.
+- **Philosophy** (16 essays): atlasHugged — 14 essays on sovereign science, copyleft economics, infrastructure ethics, information entropy.
   - Section index: https://sporeprint.primals.eco/philosophy/
   - Start here: https://sporeprint.primals.eco/philosophy/the-human-search/
+  - New: https://sporeprint.primals.eco/philosophy/the-lossy-channel/ (Shannon entropy, semantic compression, creativity)
 - **Story** (3 essays): Builder's narrative by attsi.
   - Section index: https://sporeprint.primals.eco/story/
 - **Thesis** (18 chapters): "Constrained Evolution" — working dissertation.
@@ -212,12 +212,11 @@ Trail pages: https://sporeprint.primals.eco/trails/
 - 27 signal graphs. rootPulse 6/6 graphs REGISTERED.
 - 175+ peer-reviewed papers reproduced
 - 8 scientific domains validated
-- **Wave 158 REWAKE** — eastGate + golgiBody + sporeGate ONLINE. northGate ENROLLING (Win11, RTX 5090). Milk-V Jupiter 2 ARRIVED (RISC-V RVA23, 7th arch). House 2 power rebalance pending.
+- **Wave 167** — eastGate + golgiBody ONLINE. Immune membrane: bloom v4, epitope classifier, scatter defense, antidote titration. 11 named entities classified. 7 artisan braid entries.
 - **32⁴ SU(3) PRODUCTION COMPLETE** — 45/45 cross-vendor configs. Literature ~0.3%. Cross-GPU Δ=0.19%.
 - **arXiv 41/42**: Physics DONE. primals.eco LIVE — reviewer send UNBLOCKED.
-- **detroit.primals.eco** — public accountability site (128+ pages, dynasty expansion, BLAKE3 braided). First guerillaGorilla deployment. Dispersal pattern reference implementation.
-- **golgiBody cascade restored** (Sep 15) — 3-week crash-loop fixed. Binary immutability (`chattr +i`). GSC automation deployed.
-- **bonsai-bt FORKED** — DECIDE layer meta-primal. exp125 23/24. Phase 0 ingesting.
+- **tuebor.primals.eco** — 35 analysis pages (metric tensor, information entropy, Anderson localization). Desk + membrane interfaces.
+- **signal.primals.eco** — live observatory dashboard + dual-voice braid (human + artisan).
 - **rootPulse 6/6 REGISTERED** — commit, harvest, branch, merge, diff, federate.
 - **Depot (5-target)**: x86_64-musl 19/19, x86_64-gnu 14/14, aarch64-musl 16/16, aarch64-darwin 16/16, Windows 12/17 (5 blocked on unix fixes). 3/3 builders enmeshed.
 - **NanoWire SSH Tier 1 RETIRED** — builders communicate via Tower Atomic.
