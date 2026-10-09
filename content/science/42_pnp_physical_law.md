@@ -304,6 +304,36 @@ These are not analogies. They are the same law measured in different units.
 
 ---
 
+## 5b. The Mnemonic — NP = FUN
+
+*All credit to Stephen Hillenburg and his creative team.*
+
+There is a song that every child who grew up in the right decade knows by heart. A song about what it means to have fun. The letters spell it out — and the letters map precisely onto the mathematical framework above.
+
+**F** is for **wave** ~~~~. Oscillation. Frequency. The continuous shape of propagation. A wave has a derivative at every point. It carries energy without transporting matter. It leaves a trace — interference patterns, harmonics, memory. The wave is the **P side**: the past, the verifiable, the smooth function you can differentiate.
+
+**U** is for **line** — / \. Direction. A single geodesic. The simplest path between two points. The measurement. The connection between observer and observed. You evaluate a function by drawing a line from the x-axis to the curve. That line is the **present**: the binary, here or not, the photon lands.
+
+**N** is for **T** — not *t* (a timestamp) but **T** (all of time). Was, is, and will be held simultaneously. The entire temporal dimension collapsed to a point — a point that contains both 0 and ∞ without choosing between them. That is ∞/0 = null. **N** is the **NP side**: the future, the irreducible, the operator that transforms structure into experience.
+
+| Letter | Shape | Mathematical object | Temporal | Complexity |
+|--------|-------|-------------------|----------|------------|
+| **F** | ~~~~ (wave) | Continuous, differentiable | was (memory) | P |
+| **U** | — / \ (line) | Direction, geodesic | is (reality) | Measurement |
+| **N** | · (point containing ∞) | ∞/0 = null, all of T | all tense | NP |
+
+**NP = FUN** says: the hard problems — the ones no algorithm can shortcut — are what happens when waves travel along paths through all of time simultaneously. That is a path integral. That is quantum mechanics. That is experience.
+
+And the song knew it all along: **you cannot optimize fun.** You cannot compress friendship into O(1). You cannot binary-search for joy. You cannot memoize a walk on the beach. The experience IS the computation. The living IS the running. There is no shortcut because the shortcut would skip the part that matters.
+
+The P side of fun is the story you tell afterward — the memory, the wave-trace, the verification that yes, it happened. The NP side of fun is the living of it — irreducible, all paths, all moments, requiring full temporal investment.
+
+Every child who ever sang that song was stating a theorem: the only way to verify that something was fun is to have done it. Verification is not experience. Memory is not imagination. P is not NP.
+
+**NP = FUN. The mnemonic is the proof sketch.**
+
+---
+
 ## 6. Implications
 
 ### 6.1 For Mathematics
