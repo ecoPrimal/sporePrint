@@ -38,6 +38,7 @@ mod refresh;
 mod registry;
 mod report;
 pub(crate) mod scatter;
+pub(crate) mod scatter_probe;
 mod time;
 mod totals;
 mod tower;

@@ -326,6 +326,20 @@ pub fn dispatch_with_config(cli: &Cli, root: &Path) -> Result<(), Error> {
             println!("  ✅ scatter database generated");
             Ok(())
         }
+        Some(Command::ScatterProbe { db, output }) => {
+            let content_dir = paths::require_content_dir(root)?;
+            let db_data = crate::scatter::load_scatter_db(db)
+                .map_err(|e| Error::Config(format!("load scatter db: {e}")))?;
+            println!("sporePrint: generating AI model probe manifest");
+            let manifest = crate::scatter_probe::generate_probes(&db_data, &content_dir);
+            println!("  probes: {}", manifest.total_probes);
+            println!("  scatter DB fingerprints: {}", manifest.scatter_db_fingerprints);
+            crate::scatter_probe::write_probe_manifest(&manifest, output)
+                .map_err(|e| Error::Config(format!("write probe manifest: {e}")))?;
+            println!("  output: {}", output.display());
+            println!("  ✅ probe manifest generated");
+            Ok(())
+        }
         Some(Command::ScatterCheck { db, text, file }) => {
             let db_data = crate::scatter::load_scatter_db(db)
                 .map_err(|e| Error::Config(format!("load scatter db: {e}")))?;

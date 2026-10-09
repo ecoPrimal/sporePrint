@@ -230,6 +230,17 @@ pub enum Command {
         window: usize,
     },
 
+    /// Generate AI model probe manifest from scatter database
+    ScatterProbe {
+        /// Path to scatter database JSON
+        #[arg(long)]
+        db: std::path::PathBuf,
+
+        /// Output path for probe manifest JSON
+        #[arg(long, default_value = "scatter-probes.json")]
+        output: std::path::PathBuf,
+    },
+
     /// Check text against a scatter fingerprint database for matches
     ScatterCheck {
         /// Path to scatter database JSON
