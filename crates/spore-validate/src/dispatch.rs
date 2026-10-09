@@ -302,7 +302,7 @@ pub fn dispatch_with_config(cli: &Cli, root: &Path) -> Result<(), Error> {
             | Command::PtStatus
             | Command::TowerStatus { .. }
             | Command::PtViz { .. }
-            | Command::BuildViz { .. },
+            | Command::BuildViz { .. }
         ) => unreachable!("handled by dispatch_standalone"),
         Some(Command::CasManifest { public_dir, emit }) => {
             commands::cas_manifest(root, public_dir, *emit)
@@ -312,6 +312,48 @@ pub fn dispatch_with_config(cli: &Cli, root: &Path) -> Result<(), Error> {
             socket,
             generate,
         }) => commands::cas_push(root, public_dir, socket.as_deref(), *generate),
+        Some(Command::Scatter { output, window }) => {
+            let content_dir = paths::require_content_dir(root)?;
+            println!("sporePrint: building scatter fingerprint database");
+            println!("  content: {}", content_dir.display());
+            println!("  window: {window}-word n-grams");
+            let db = crate::scatter::build_scatter_db(&content_dir, Some(*window));
+            println!("  fingerprints: {}", db.total_fingerprints);
+            println!("  source files: {}", db.source_files);
+            crate::scatter::write_scatter_db(&db, output)
+                .map_err(|e| Error::Config(format!("write scatter db: {e}")))?;
+            println!("  output: {}", output.display());
+            println!("  ✅ scatter database generated");
+            Ok(())
+        }
+        Some(Command::ScatterCheck { db, text, file }) => {
+            let db_data = crate::scatter::load_scatter_db(db)
+                .map_err(|e| Error::Config(format!("load scatter db: {e}")))?;
+
+            let input = if let Some(t) = text {
+                t.clone()
+            } else if let Some(f) = file {
+                std::fs::read_to_string(f)
+                    .map_err(|e| Error::Config(format!("read text file: {e}")))?
+            } else {
+                use std::io::Read;
+                let mut buf = String::new();
+                std::io::stdin().read_to_string(&mut buf)
+                    .map_err(|e| Error::Config(format!("read stdin: {e}")))?;
+                buf
+            };
+
+            let matches = crate::scatter::check_against_db(&db_data, &input);
+            if matches.is_empty() {
+                println!("  No scatter content matches found.");
+            } else {
+                println!("  ⚠️  {} scatter content match(es) detected:", matches.len());
+                for m in &matches {
+                    println!("    hash={} source={} section={}", m.hash, m.source, m.section.as_deref().unwrap_or("-"));
+                }
+            }
+            Ok(())
+        }
     }
 }
 

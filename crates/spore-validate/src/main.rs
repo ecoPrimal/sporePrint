@@ -37,6 +37,7 @@ mod provenance;
 mod refresh;
 mod registry;
 mod report;
+pub(crate) mod scatter;
 mod time;
 mod totals;
 mod tower;

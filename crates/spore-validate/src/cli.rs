@@ -218,4 +218,30 @@ pub enum Command {
         #[arg(long, env = "PETALTONGUE_SOCKET")]
         socket: Option<String>,
     },
+
+    /// Build scatter content fingerprint database (BLAKE3-keyed n-gram hashes)
+    Scatter {
+        /// Output path for the fingerprint database JSON
+        #[arg(long, default_value = "scatter-db.json")]
+        output: std::path::PathBuf,
+
+        /// N-gram window size (words per fingerprint phrase)
+        #[arg(long, default_value = "8")]
+        window: usize,
+    },
+
+    /// Check text against a scatter fingerprint database for matches
+    ScatterCheck {
+        /// Path to scatter database JSON
+        #[arg(long)]
+        db: std::path::PathBuf,
+
+        /// Text to check (reads from stdin if omitted)
+        #[arg(long)]
+        text: Option<String>,
+
+        /// Path to file containing text to check
+        #[arg(long)]
+        file: Option<std::path::PathBuf>,
+    },
 }
