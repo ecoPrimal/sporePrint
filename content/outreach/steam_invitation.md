@@ -20,6 +20,12 @@ relation = "extends"
 label = "The anti-platform economics that make this possible"
 
 [[extra.companions]]
+url = "/outreach/hadr-invitation/"
+title = "Human-Augmented Digital Reality"
+relation = "extends"
+label = "The metric tensor framework — golden ratio on VR, underwater, and arbitrary display surfaces"
+
+[[extra.companions]]
 url = "/architecture/discovery-log/"
 title = "Discovery Log"
 relation = "evidence_for"
@@ -82,6 +88,20 @@ A thought worth exploring together: marine research infrastructure is structural
 {{ entity(name="songbird") }}'s federation protocol works underwater (acoustic transport, not just TCP). {{ entity(name="toadstool") }}'s GPU compute runs the physics of ocean circulation models. {{ entity(name="nestgate") }}'s content-addressed storage handles the petabytes of SONAR and spectral data that marine research generates.
 
 Gabe Newell has talked publicly about deep-sea exploration and underwater habitats. The infrastructure for sovereign marine research and the infrastructure for sovereign gaming aren't just similar — they're the same stack with different payloads. A Steam Deck running NUCLEUS in an underwater housing would be simultaneously a gaming device and a marine sensor node.
+
+---
+
+## Human-Augmented Digital Reality
+
+The display surface has a **shape**. A monitor is a rectangle. A VR headset is a sphere. An underwater helmet visor is a curved section. The golden ratio (φ ≈ 1.618) is the universal proportion for dividing any surface — but it projects differently depending on the surface's geometry:
+
+- **Rectangle** (monitor): column widths — 14.6% : 61.8% : 23.6%
+- **Sphere** (VR headset): **Fibonacci spirals** — golden angle 137.5°
+- **Curved visor** (underwater): geodesic golden cuts along the curvature
+
+Valve already does metric-aware rendering — SteamVR lens distortion correction is literally a metric tensor transformation. The step from metric-aware pixels to metric-aware information layout is the step from VR to HADR.
+
+The full mathematical framework — metric tensors, π–φ–5 entanglement, golden angle phyllotaxis, Fibonacci spheres, Gauss-Bonnet constraints — and a working implementation on flat displays: **[Human-Augmented Digital Reality — An Invitation](@/outreach/hadr_invitation.md)**.
 
 ---
 

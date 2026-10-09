@@ -14,6 +14,7 @@ Open invitations to the communities and companies whose work makes sovereign sci
 - **[Game Platforms](@/outreach/gaming_invitation.md)** — NUCLEUS federation, Plasmodium bonding, 791 ludoSpring tests — sovereign gaming infrastructure on the same substrate that runs science
 - **[Neuromorphic Hardware](@/outreach/neuromorphic_invitation.md)** — BrainChip AKD1000 integration, pure Rust driver, three-substrate pipeline — standing offer to NPU manufacturers
 - **[Valve / Steam](@/outreach/steam_invitation.md)** — The immortal platform: 132M potential gates, shared Vulkan/Linux values, sea biome exploration
+- **[Human-Augmented Digital Reality](@/outreach/hadr_invitation.md)** — The display surface has a shape. The golden ratio tells you how to divide it. From flat screens to VR headsets to underwater helmets — the metric tensor framework for HADR
 
 ---
 

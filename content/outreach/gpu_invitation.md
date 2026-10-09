@@ -68,6 +68,8 @@ Not investment or endorsement. **Access to hardware validation programs.**
 The validation suite is AGPL-3.0 and public. You can run it today on any
 hardware that exposes Vulkan drivers.
 
+The same Vulkan compute substrate also powers our **metric-aware display framework** — golden ratio proportions that adapt to any display surface geometry (flat, curved, spherical, volumetric). See [Human-Augmented Digital Reality](@/outreach/hadr_invitation.md).
+
 ---
 
 *{{ total_stat(stat="total_loc_display") }} Rust. {{ total_stat(stat="wgsl_lines_display") }} WGSL. {{ total_stat(stat="total_tests_display") }} tests. The proof of work is the work itself.*
