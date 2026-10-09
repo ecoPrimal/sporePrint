@@ -31,6 +31,12 @@ title = "The Whale Fall"
 relation = "extends"
 label = "Executable science is a whale fall decision — the tests survive the server"
 
+[[extra.companions]]
+url = "/philosophy/the-entrusted-earth/"
+title = "The Entrusted Earth"
+relation = "extends"
+label = "K-NOME as methodology becomes gAIa as trust — the same division of labor across all of time"
+
 [taxonomies]
 primals = []
 springs = []

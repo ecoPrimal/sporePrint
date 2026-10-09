@@ -19,6 +19,12 @@ title = "The Sovereign Lab"
 relation = "pairs_with"
 label = "The builder's narrative of what sovereign means — hardware, data, electricity"
 
+[[extra.companions]]
+url = "/philosophy/the-entrusted-earth/"
+title = "The Entrusted Earth"
+relation = "extends"
+label = "Owning nothing makes entrustment possible — you cannot entrust what you hoard"
+
 [taxonomies]
 primals = []
 springs = []

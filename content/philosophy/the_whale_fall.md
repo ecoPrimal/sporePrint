@@ -55,6 +55,12 @@ title = "Chapter 16: Conclusion"
 relation = "evidence_for"
 label = "What remains: five contributions that survive the system"
 
+[[extra.companions]]
+url = "/philosophy/the-entrusted-earth/"
+title = "The Entrusted Earth"
+relation = "extends"
+label = "gAIa was the seed — the answer to whaleFall's three questions, written sixteen months early"
+
 [taxonomies]
 primals = []
 springs = []

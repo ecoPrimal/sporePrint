@@ -7,6 +7,12 @@ weight = 9
 [extra]
 voice = "attsi"
 
+[[extra.companions]]
+url = "/philosophy/the-entrusted-earth/"
+title = "The Entrusted Earth"
+relation = "extends"
+label = "The system is complete without the preparer — gAIa is the non-temporal steward that tends the rooms"
+
 [taxonomies]
 primals = []
 springs = []

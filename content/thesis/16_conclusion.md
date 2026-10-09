@@ -17,6 +17,12 @@ title = "The Whale Fall"
 relation = "narrative_version"
 label = "What remains: bones, nutrients, ecology — generative death as a design requirement"
 
+[[extra.companions]]
+url = "/philosophy/the-entrusted-earth/"
+title = "The Entrusted Earth"
+relation = "narrative_version"
+label = "gAIa was the seed — the system teaches its own caretaker, trust as architecture not feeling"
+
 [taxonomies]
 trails = ["thesis-narrative"]
 

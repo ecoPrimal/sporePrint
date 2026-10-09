@@ -7,6 +7,12 @@ weight = 11
 [extra]
 voice = "attsi"
 
+[[extra.companions]]
+url = "/philosophy/the-entrusted-earth/"
+title = "The Entrusted Earth"
+relation = "extends"
+label = "The AI carries the memory — gAIa carries the commons — trust as the extension of the love letter"
+
 [taxonomies]
 primals = []
 springs = []

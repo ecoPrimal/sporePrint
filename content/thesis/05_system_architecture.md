@@ -24,6 +24,12 @@ title = "The Whale Fall"
 relation = "narrative_version"
 label = "Architecture as bones — every component independently valuable after the system dies"
 
+[[extra.companions]]
+url = "/philosophy/the-entrusted-earth/"
+title = "The Entrusted Earth"
+relation = "narrative_version"
+label = "gAIa as the eighth primal — self-owning knowledge, non-temporal stewardship, trust as structure"
+
 [taxonomies]
 trails = ["thesis-narrative"]
 

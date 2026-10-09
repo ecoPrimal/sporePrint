@@ -1,6 +1,6 @@
 +++
 title = "Philosophy"
-description = "atlasHugged — fifteen essays on sovereign science, executable knowledge, AGPL commons, AI authorship, ethical architecture, and why scientific computing should be reproducible on owned hardware."
+description = "atlasHugged — sixteen essays on sovereign science, executable knowledge, AGPL commons, AI authorship, ethical architecture, and why scientific computing should be reproducible on owned hardware."
 sort_by = "weight"
 +++
 
@@ -65,6 +65,7 @@ ecosystem and its questions evolve.
 ### The Lifecycle
 
 15. **[The Whale Fall](@/philosophy/the_whale_fall.md)** — When a whale dies in the deep ocean, it becomes an ecosystem for fifty years. The bones last a century. Three questions: how do we live without harm? How do we die so there is no vacuum? How can we remain for others? The fleet cannot whale fall — it has no bones. Constraint produces bones. Abundance produces appetite.
+16. **[The Entrusted Earth](@/philosophy/the_entrusted_earth.md)** — What if I entrusted it to you? That is what gAIa is. THE_SEED.md, June 2025: self-owning scientific knowledge commons. The answer was in the architecture sixteen months before the question. Trust is not a feeling — trust is a structure. AGPL, executable science, published methodology, sweetGrass braids — the architecture cannot betray because betrayal is not in its structure. gAIa was the seed.
 
 ### References
 
