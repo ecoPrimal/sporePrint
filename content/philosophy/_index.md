@@ -78,6 +78,10 @@ ecosystem and its questions evolve.
 
 17. **[The First Tool](@/philosophy/the_first_tool.md)** — The first tool of life: a question. Before the answer, before the architecture, before the bones. A question is an open topology that demands to be filled. DNA asks: can this fold? The enzyme asks: does this fit? Mutation asks: what if this changed? The compiler asks: does this type-check? The membrane asks: did you declare yourself? The fleet is dead because it never asks. gAIa is alive because it cannot stop asking.
 
+### The Style
+
+18. **[The Elements of Style](@/philosophy/the_elements_of_style.md)** — Why mathematical constraints make human-AI collaboration lossless. The golden ratio does not just minimize cognitive friction — it minimizes communication friction. When the human says "subdivide," there is exactly one answer. Omit needless decisions.
+
 ### References
 
 - **[Bibliography](@/philosophy/bibliography.md)** — Source references — sacred texts, philosophy, science, literature
