@@ -14,7 +14,7 @@
 > published results on owned commodity hardware and carry their validation
 > and provenance with them. 16 composable programs (primals), 9 validation
 > domains (springs), vendor-agnostic GPU compute via WebGPU/WGSL.
-> Wave 169. Zero P0, P1, P2. 3.3 TB science data. sporeprint.primals.eco LIVE (382 pages). tuebor.primals.eco LIVE (38 pages). signal.primals.eco LIVE (observatory + dual braid). git.primals.eco (Forgejo). 5-target depot. 32⁴ SU(3) COMPLETE. Braid titration system deployed. Immune membrane: bloom v4 + epitope classifier + scatter defense. Pure Rust, AGPL-3.0-or-later.
+> Wave 169. Zero P0, P1, P2. 3.3 TB science data. sporeprint.primals.eco LIVE (382 pages). tuebor.primals.eco LIVE (35 pages). signal.primals.eco LIVE (observatory + dual braid). git.primals.eco (Forgejo). 5-target depot. 32⁴ SU(3) COMPLETE. Braid titration system deployed. Immune membrane: bloom v4 + epitope classifier + scatter defense. Pure Rust, AGPL-3.0-or-later.
 
 ## What This Site Is
 
