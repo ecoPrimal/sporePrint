@@ -20,17 +20,24 @@ The answers live in a body of essays called **atlasHugged**.
 
 ## atlasHugged
 
+> ***self is prior, other is predicate, awareness is result, discovery is local***
+>
+> — ecoPrimal
+
 *Named not for the novel, but for what happens when you stop shrugging and
 start holding.*
 
 **Author**: attsi
 
-atlasHugged is the philosophical core of ecoPrimals — twelve essays that build
+atlasHugged is the philosophical core of ecoPrimals — seventeen essays that build
 on each other as a single argument. The stories (01–03) lay the foundation. The
 framework (04–08) develops the argument. The synthesis (09–12) integrates
 everything into a coherent position on sovereignty, knowledge, and the commons.
+The membrane (13) addresses defense. The channel (14) addresses information.
+The lifecycle (15–16) addresses death, trust, and stewardship. The origin (17)
+addresses the first tool.
 
-This is a living body of work. Future essays may extend the sequence as the
+This is a living body of work. Future essays extend the sequence as the
 ecosystem and its questions evolve.
 
 ### The Stories

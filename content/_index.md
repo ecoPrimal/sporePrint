@@ -3,6 +3,8 @@ title = "sporePrint"
 description = "Self-hosted GPU-accelerated scientific computing in Rust: DADA2 bioinformatics, lattice QCD, pharmacometrics on commodity hardware. No CUDA, no cloud. WebGPU/WGSL on NVIDIA, AMD, Intel."
 +++
 
+> ***self is prior, other is predicate, awareness is result, discovery is local***
+
 **ecoPrimals** is running. Three gates operate the full 13-primal [NUCLEUS](@/architecture/NUCLEUS_ARCHITECTURE.md) composition with [Provenance 7/7](@/architecture/NUCLEUS_ARCHITECTURE.md) validated on Linux and Windows. Self-hosted scientific computing in pure Rust — GPU-accelerated bioinformatics, lattice QCD, pharmacometrics, and more, on commodity hardware without CUDA or cloud dependencies.
 
 ---
