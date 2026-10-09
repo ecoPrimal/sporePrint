@@ -19,6 +19,12 @@ title = "I Don't Know Rust"
 relation = "pairs_with"
 label = "The constraint that made everything else possible — the builder's narrative"
 
+[[extra.companions]]
+url = "/philosophy/the-lossy-channel/"
+title = "The Lossy Channel"
+relation = "pairs_with"
+label = "K-NOME mentoring as semantic compression — meaning survives, surface changes, creativity lives in the gaps"
+
 [taxonomies]
 primals = []
 springs = []

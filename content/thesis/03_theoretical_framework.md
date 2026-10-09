@@ -18,6 +18,12 @@ title = "The Orthogonal Synthesis"
 relation = "narrative_version"
 label = "Smith, Paine, Rand, Marx — four descriptions of one structural requirement"
 
+[[extra.companions]]
+url = "/philosophy/the-lossy-channel/"
+title = "The Lossy Channel"
+relation = "narrative_version"
+label = "Constraint as channel capacity — lossiness creates the search space where creativity operates"
+
 [taxonomies]
 trails = ["thesis-narrative"]
 

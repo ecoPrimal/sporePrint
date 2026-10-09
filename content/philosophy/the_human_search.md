@@ -19,6 +19,12 @@ title = "Constrained Evolution — Formal"
 relation = "methodology"
 label = "The operational methodology that emerged from these philosophical constraints"
 
+[[extra.companions]]
+url = "/philosophy/the-lossy-channel/"
+title = "The Lossy Channel"
+relation = "pairs_with"
+label = "The information-theoretic foundation — lossy channels create the gaps where iteration becomes creative"
+
 [taxonomies]
 primals = []
 springs = []

@@ -16,6 +16,12 @@ url = "/architecture/primal-evolution/"
 title = "Primal Evolution"
 relation = "evidence_for"
 
+[[extra.companions]]
+url = "/philosophy/the-lossy-channel/"
+title = "The Lossy Channel"
+relation = "narrative_version"
+label = "Why the lossy K-NOME exchange between human and AI is creative, not deficient"
+
 [taxonomies]
 trails = ["thesis-narrative"]
 

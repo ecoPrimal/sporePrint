@@ -58,6 +58,10 @@ ecosystem and its questions evolve.
 
 13. **[The Non-Newtonian Membrane](@/philosophy/the_non_newtonian_membrane.md)** — The harder you push, the stronger the resistance — consent, reciprocity, and the physics of ethical architecture
 
+### The Channel
+
+14. **[The Lossy Channel](@/philosophy/the_lossy_channel.md)** — Shannon entropy decomposes communication into mathematics. Written tradition is lossless persistence. Oral tradition is semantic compression. Lossiness is not a failure — it is the engine of creativity. Filling NP gaps with *i*.
+
 ### References
 
 - **[Bibliography](@/philosophy/bibliography.md)** — Source references — sacred texts, philosophy, science, literature
