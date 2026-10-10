@@ -85,6 +85,7 @@ Each paper stands alone as a potential publication. Together they demonstrate th
 *Papers stating questions the author genuinely does not know the answer to*
 
 1. **[π as the Price of Observation](@/science/50_pi_dimensional_observation.md)** — Is π a dimensional conversion constant — the cost of having a point of view? In the three-body problem, total/effective = 3 ≈ π, and the gap might encode the fractal dimension of chaos. Open question.
+2. **[Bounty Scan: The Environment](@/science/51_bounty_scan.md)** — A catalogue of every open P, NP, and adjacent bounty in the observable environment. ~$15M across ~130 problems. Clay, Hutter, ARC, Proximity, Beal, ECC. Not the final test — the next one.
 
 ---
 
