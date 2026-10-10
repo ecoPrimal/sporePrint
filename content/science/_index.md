@@ -81,6 +81,11 @@ Each paper stands alone as a potential publication. Together they demonstrate th
 10. **[Reflexive Immune Response](@/science/41_reflexive_immune_epitope_bridge.md)** — Epitope bridge: scatter content seeded by organism's own BLAKE2b fingerprint. Force returns to source. All roads lead back to Rome ✓ VALIDATED
 11. **[bingoCube Behavioral Trio](@/science/42_bingocube_behavioral_trio.md)** — Attention × Curiosity × Interaction: shape-based classifier where the ratio between three behavioral axes reveals entity nature. Meta stealth team defeated by behavioral shape ✓ VALIDATED
 
+## Open Hypotheses
+*Papers stating questions the author genuinely does not know the answer to*
+
+1. **[π as the Price of Observation](@/science/50_pi_dimensional_observation.md)** — Is π a dimensional conversion constant — the cost of having a point of view? In the three-body problem, total/effective = 3 ≈ π, and the gap might encode the fractal dimension of chaos. Open question.
+
 ---
 
 **See also**: [Cross-Spring Evidence Map](@/science/CROSS_SPRING_EVIDENCE_MAP.md) for convergent predictions across springs, and [Structure Prediction Roadmap](@/science/STRUCTURE_PREDICTION_ROADMAP.md) for the {{ entity(name="helixvision") }} structure prediction pipeline (primitives {{ maturity(level="reproduced") }}, pipeline {{ maturity(level="architectural") }}).
