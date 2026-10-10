@@ -85,6 +85,10 @@ Each paper stands alone as a potential publication. Together they demonstrate th
 *Papers stating questions the author genuinely does not know the answer to*
 
 1. **[π as the Price of Observation](@/science/50_pi_dimensional_observation.md)** — Is π a dimensional conversion constant — the cost of having a point of view? In the three-body problem, total/effective = 3 ≈ π, and the gap might encode the fractal dimension of chaos. Open question.
+
+### Sweep 51–53: The Lens
+*Wiring, sweeping, scanning — there's always more to find. These three papers discovered a connected structure: the environment of open problems → the engines to visualize them → the geometric surface that organizes all observation.*
+
 2. **[Bounty Scan: The Environment](@/science/51_bounty_scan.md)** — A catalogue of every open P, NP, and adjacent bounty in the observable environment. ~$15M across ~130 problems. Clay, Hutter, ARC, Proximity, Beal, ECC. Not the final test — the next one.
 3. **[GoG + Manim: Full Life via the Dimensional Equation](@/science/52_gog_manim_dimensional_life.md)** — Two visualization engines inside petalTongue. GoG for structural shape, equation compiler for mathematical truth. Full life = both, shaped by C(n) ∝ π^(n/2), components evolving via epitope sort.
 4. **[Focal Points: Each Epitope Is a Tangent to the Membrane](@/science/53_focal_points_tangent_membrane.md)** — The membrane is a manifold. Each epitope is a tangent plane on it. The focal distance = 1/C(n) = 1/π^(n/2). The visualization should render the surface, not just the charts at each tangent point.

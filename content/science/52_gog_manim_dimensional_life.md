@@ -10,6 +10,8 @@ springs = ["ludospring", "groundspring", "hotspring"]
 [extra]
 paper_number = 52
 domain = "Visualization Architecture and Dimensional Cost"
+sweep = "51–53: The Lens"
+sweep_role = "wire"
 
 [[extra.companions]]
 url = "/science/50-pi-dimensional-observation/"

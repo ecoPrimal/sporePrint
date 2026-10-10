@@ -10,6 +10,8 @@ springs = ["wetspring", "hotspring", "groundspring"]
 [extra]
 paper_number = 51
 domain = "Environmental Reconnaissance"
+sweep = "51–53: The Lens"
+sweep_role = "scan"
 
 [[extra.companions]]
 url = "/science/42-pnp-physical-law/"
@@ -22,6 +24,18 @@ url = "/science/50-pi-dimensional-observation/"
 title = "baseCamp 50 — π as the Price of Observation"
 relation = "related"
 label = "The dimensional cost hypothesis — adjacent to these bounties"
+
+[[extra.companions]]
+url = "/science/52-gog-manim-dimensional-life/"
+title = "baseCamp 52 — GoG + Manim: Full Life"
+relation = "sweep"
+label = "Sweep 51–53: the engines to visualize what the scan found"
+
+[[extra.companions]]
+url = "/science/53-focal-points-tangent-membrane/"
+title = "baseCamp 53 — Focal Points"
+relation = "sweep"
+label = "Sweep 51–53: the surface that organizes all observation"
 
 [[extra.companions]]
 url = "/methodology/enzymatic-bounty/"

@@ -10,6 +10,8 @@ springs = ["groundspring", "hotspring"]
 [extra]
 paper_number = 53
 domain = "Differential Geometry of the Membrane"
+sweep = "51–53: The Lens"
+sweep_role = "sweep"
 
 [[extra.companions]]
 url = "/science/52-gog-manim-dimensional-life/"
@@ -22,6 +24,12 @@ url = "/science/50-pi-dimensional-observation/"
 title = "baseCamp 50 — π as the Price of Observation"
 relation = "extends"
 label = "π as dimensional cost governs curvature at each tangent point"
+
+[[extra.companions]]
+url = "/science/51-bounty-scan/"
+title = "baseCamp 51 — Bounty Scan"
+relation = "sweep"
+label = "Sweep 51–53: the environment this lens looks at"
 
 [[extra.companions]]
 url = "/architecture/signal-beacon-membrane/"
