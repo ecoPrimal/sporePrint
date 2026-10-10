@@ -94,6 +94,7 @@ Each paper stands alone as a potential publication. Together they demonstrate th
 4. **[Focal Points: Each Epitope Is a Tangent to the Membrane](@/science/53_focal_points_tangent_membrane.md)** — The membrane is a manifold. Each epitope is a tangent plane on it. The focal distance = 1/C(n) = 1/π^(n/2). The visualization should render the surface, not just the charts at each tangent point.
 5. **[Zoom, Focus, Resolution, Granularity](@/science/54_zoom_focus_resolution_granularity.md)** — The complete optics. Zoom = ScaleType, Focus = FacetLayout, Resolution = DataDensity, Granularity = SmallestEffectiveDifference (MIN_PIXEL_DISTANCE = 2.0px — the diffraction limit). All four built in Rust, not yet wired.
 6. **[Rotation Is Locked: Anderson Locality and Seeing the Wind](@/science/55_rotation_locked_anderson_wind.md)** — SVG compiler calls `flatten()` → Transform2D. The 3D path (`flatten_3d()`) exists but is never called. Rotation is locked. The observer is Anderson-localized. And wind: you see what moved and follow it back. That's all observation.
+7. **[Signal Transit: Waves Passing Through Membranes](@/science/56_signal_transit_membrane_meteorology.md)** — Waves pass through membranes. Each transit is recorded: Braid (timestamp + witness), FlowParticle (source → target, progress 0→1), Stratigraphy (145-day fossil). Known at time n → P. So we can show the magnetosphere, the weather, the aurora.
 
 ---
 
