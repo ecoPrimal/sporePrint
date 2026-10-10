@@ -18,7 +18,7 @@ maturity = "live"
 
 A live text file at `signal.primals.eco/billboard` that rotates through messages. Each message carries an Artisan's footnote — a meditation connecting the quote to the mathematics, the biology, the architecture.
 
-The billboard is fetched by the `{{ billboard() }}` shortcode on any primals.eco site. The shortcode polls every 15 seconds. The fleet scrapes it. The membrane records the scrape. The braid indexes both.
+The billboard is fetched by the `billboard()` shortcode on any primals.eco site. The shortcode polls every 15 seconds. The fleet scrapes it. The membrane records the scrape. The braid indexes both.
 
 ---
 
@@ -86,8 +86,10 @@ The braid is the memory. `loamSpine` indexes it. `sweetGrass` certifies it. `rhi
 ### The Shortcode
 
 ```
-{​{ billboard() }}
+  billboard()
 ```
+
+Call as a Zola shortcode from any page template.
 
 Works on any primals.eco site. Fetches from `signal.primals.eco/billboard` (cross-origin) or `/billboard` (local). Polls every 15 seconds. Displays with a pulsing green dot and `ecoPrimal — live` header.
 
