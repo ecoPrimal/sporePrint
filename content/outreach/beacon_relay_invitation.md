@@ -29,6 +29,12 @@ url = "/architecture/ecosystem-architecture/"
 title = "Ecosystem Architecture"
 relation = "architecture"
 label = "The full 5-layer eukaryotic model"
+
+[[extra.companions]]
+url = "/architecture/signal-beacon-membrane/"
+title = "Signal, Beacon, Membrane"
+relation = "pairs_with"
+label = "Beacon is sound — it sits inside the membrane, persistent and directional, for those already close enough to listen"
 +++
 
 **Questions? A human reads and responds to every message at [eco.primal@pm.me](mailto:eco.primal@pm.me).**

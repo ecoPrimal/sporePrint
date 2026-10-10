@@ -9,6 +9,12 @@ primals = ["cellmembrane", "skunkbat"]
 
 [extra]
 domain = "Methodology"
+
+[[extra.companions]]
+url = "/architecture/signal-beacon-membrane/"
+title = "Signal, Beacon, Membrane"
+relation = "pairs_with"
+label = "Signal is fire (attention, outside). Beacon is sound (interest, inside). The membrane surface is engagement."
 +++
 
 ## Abstract

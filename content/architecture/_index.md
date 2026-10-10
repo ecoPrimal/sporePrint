@@ -21,6 +21,7 @@ build-to-deploy for 35 binaries across 3 platforms.
 - **[Ecosystem Architecture](@/architecture/ECOSYSTEM_ARCHITECTURE.md)** — primals, springs, composition, Neural API
 - **[Generational Arc](@/architecture/GENERATIONAL_ARC.md)** — gen1→gen5: hardware to external science. gen5 thesis VALIDATED
 - **[K-Derm Architecture](@/architecture/KDERM_DIDERM_ARCHITECTURE.md)** — inner/outer membrane, bond types, K-Derm layer model
+- **[Signal, Beacon, Membrane](@/architecture/signal_beacon_membrane.md)** — fire (attention), sound (interest), engagement surface — the physics of membrane communication
 - **[Neural API](@/architecture/neural_api.md)** — adaptive multi-layer orchestration via biomeOS
 - **[Evidence Snapshot](@/architecture/EVIDENCE_SNAPSHOT.md)** — canonical numbers, methodology
 - **[Primal Catalog](@/architecture/PRIMAL_CATALOG.md)** — {{ total_stat(stat="total_primals") }} primals with metrics and tiers

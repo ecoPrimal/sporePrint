@@ -36,6 +36,12 @@ url = "/glossary/"
 title = "Glossary"
 relation = "reference"
 label = "Definitions for the terminology used across all layers"
+
+[[extra.companions]]
+url = "/architecture/signal-beacon-membrane/"
+title = "Signal, Beacon, Membrane"
+relation = "pairs_with"
+label = "Fire (attention), sound (interest), engagement surface — the physics of membrane communication"
 +++
 
 {{ maturity(level="live") }} Active on git.primals.eco since Wave 164. The membrane differentiates readers in real time.
