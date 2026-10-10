@@ -1,8 +1,13 @@
 +++
-title = "AAR: WateringHole Convergence Scan"
+title = "baseCamp 57 — AAR: WateringHole Convergence Scan"
+description = "Full codebase scan. 16 Rust primals in production, 6 fossilized Python scripts replaced, 5 active Python tools (correct language), 912 lines of hand-rolled JS = the convergence frontier. No Elixir. System is 95%+ Rust."
+weight = 57
 date = 2026-10-10
+
 [taxonomies]
-domains = ["signal-processing"]
+primals = ["skunkbat", "petaltongue", "sweetgrass"]
+springs = []
+
 [extra]
 status = "scan"
 baseCamp = 57
