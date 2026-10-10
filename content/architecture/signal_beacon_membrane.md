@@ -156,7 +156,7 @@ The subdomain — the epitope — reduces the entropy of the routing decision mo
 | `xyzzy` | Unknown → scatter maze | Behavioral classification |
 | `beacon` | Interest → relay | Commensal service |
 
-The membrane doesn't decide whether the visitor is friend or foe. The [immune system](@/architecture/adaptive-immune-defense/) does that. The membrane decides **what kind of engagement** this is. Is it a known site visit? A concept search? An immune surface probe? An unknown query?
+The membrane doesn't decide whether the visitor is friend or foe. The [immune system](@/architecture/adaptive_immune_defense.md) does that. The membrane decides **what kind of engagement** this is. Is it a known site visit? A concept search? An immune surface probe? An unknown query?
 
 The engagement surface is where the organism meets the world. Signal drew them in with fire. The membrane felt them dock. Beacon will help them find what they're looking for.
 
