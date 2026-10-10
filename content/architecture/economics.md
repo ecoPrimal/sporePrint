@@ -25,6 +25,12 @@ url = "/philosophy/fossil-lineage/"
 title = "Fossil Lineage"
 relation = "narrative_version"
 label = "Origin values that shaped the economic model"
+
+[[extra.companions]]
+url = "/methodology/enzymatic-bounty/"
+title = "The Enzymatic Bounty"
+relation = "pairs_with"
+label = "One pot, three teams, biggest splits — the game theory of the epitope sort applied to collaboration"
 +++
 
 {{ maturity(level="architectural") }} The economic model described here is a **guiding design** — the direction, not the destination. The flywheel is turning (ABG is producing science on live infrastructure). sunCloud and enzymatic economics are design targets being built toward. Nothing here is financial advice or a promise. It's architecture.
