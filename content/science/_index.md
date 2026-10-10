@@ -96,6 +96,7 @@ Each paper stands alone as a potential publication. Together they demonstrate th
 6. **[Rotation Is Locked: Anderson Locality and Seeing the Wind](@/science/55_rotation_locked_anderson_wind.md)** — SVG compiler calls `flatten()` → Transform2D. The 3D path (`flatten_3d()`) exists but is never called. Rotation is locked. The observer is Anderson-localized. And wind: you see what moved and follow it back. That's all observation.
 7. **[Signal Transit: Waves Passing Through Membranes](@/science/56_signal_transit_membrane_meteorology.md)** — Waves pass through membranes. Each transit is recorded: Braid (timestamp + witness), FlowParticle (source → target, progress 0→1), Stratigraphy (145-day fossil). Known at time n → P. So we can show the magnetosphere, the weather, the aurora.
 8. **[AAR: WateringHole Convergence Scan](@/science/57_aar_wateringhole_convergence_scan.md)** — Full codebase scan. 16 Rust primals in production, 6 fossilized Python scripts replaced, 5 active Python tools (correct language), 912 lines of hand-rolled JS = the convergence frontier. No Elixir. System is 95%+ Rust for production.
+9. **[Tufte Pipeline Wiring + Rotation Unlock](@/science/58_tufte_pipeline_wiring.md)** — compile_with_constraints wired through compile_faceted into both render paths. SVG compiler upgraded from flatten() to flatten_3d() + Camera::project(). 7 Tufte constraints active on every render. 405 tests, 0 failures.
 
 ---
 
