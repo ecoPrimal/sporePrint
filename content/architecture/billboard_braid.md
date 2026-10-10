@@ -85,11 +85,13 @@ The braid is the memory. `loamSpine` indexes it. `sweetGrass` certifies it. `rhi
 
 ### The Shortcode
 
-```html
-{{ billboard() }}
+```
+{​{ billboard() }}
 ```
 
 Works on any primals.eco site. Fetches from `signal.primals.eco/billboard` (cross-origin) or `/billboard` (local). Polls every 15 seconds. Displays with a pulsing green dot and `ecoPrimal — live` header.
+
+*Note: the shortcode is defined in `signal/site/templates/shortcodes/billboard.html`.*
 
 ---
 
