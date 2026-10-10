@@ -251,7 +251,29 @@ The signal is fire (light, electromagnetic, unbounded). The beacon is sound (mec
 
 ---
 
-## 8. Open Questions
+## 8. Corollary: π as the Base of the Angular Cost Function
+
+The hypothesis (§3.4) can be stated more tightly as a corollary.
+
+The solid angle in n dimensions — the total angular measure of observation from a point — is:
+
+$$\Omega_n = \frac{2\pi^{n/2}}{\Gamma(n/2)}$$
+
+The Γ(n/2) denominator is combinatorial packing — how many ways n angular dimensions can be arranged. The factor of 2 is antipodal symmetry. But the **angular cost itself** — the part that comes from observation being directional — is **π^(n/2)**. Always. In every dimension.
+
+π is not a constant that appears in the formula. **π is the base of the cost function.** Each pair of angular degrees of freedom contributes exactly one factor of π to the observation cost. The total cost of projecting from omnidirectional (everywhere) to directional (somewhere) scales as:
+
+$$C(n) \propto \pi^{n/2}$$
+
+**Corollary**: π is the unit price of one angular dimension of observation. The total price of having a point of view in a system with n angular degrees of freedom is π^(n/2), modulo combinatorial packing.
+
+This reframes the hypothesis from "is the effective dimension related to π?" to the sharper claim: **π is not a number that relates to dimensions. π is the cost function that angular dimensions are priced in.** The three-body ratio 18/6 = 3 ≈ π is not a coincidence — it reflects that the cost of the angular degrees of freedom removed by the SO(3) quotient is denominated in the same constant that prices all angular observation.
+
+Every appearance of π in physics is an invoice. The charge is always for angular projection.
+
+---
+
+## 9. Open Questions
 
 1. Is the Kaplan-Yorke dimension of the three-body chaotic attractor related to π for any universal class of initial conditions?
 
