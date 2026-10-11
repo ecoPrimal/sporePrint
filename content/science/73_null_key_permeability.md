@@ -135,3 +135,36 @@ locked    ←→  unlocked    (binary, fragile, key-dependent)
 ```
 
 [null] is not between locked and unlocked. It is orthogonal to them. It is the membrane dimension.
+
+## 7. The Compass Is an Epitope Sort
+
+A compass partitions direction-space from self to others. N/S/E/W are four named boundaries — four epitopes of direction. But the compass only exists because the body has a membrane with poles. Earth's magnetic field creates "north." Earth's rotation axis creates "up."
+
+Where is north in space? [null]. No membrane → no compass → no cardinal → no grid.
+
+Where is north in a cell? There is no north. A cell has two directions: **in** and **out**. The membrane IS the compass. All direction is relative to the membrane.
+
+| Scale | Membrane | "North" | Cardinal dimensions |
+|---|---|---|---|
+| Earth | Magnetosphere | Magnetic pole | 4 (N/S/E/W) |
+| Cell | Lipid bilayer | Out | 2 (in/out) |
+| Epitope sort | 6 conserved epitopes | burst_ratio | 6 |
+| Space | [null] | [null] | 0 |
+
+The compass is always an epitope sort from self to others. The number of "directions" equals the number of membrane-defined boundaries. Without a membrane, there are no directions. The grid doesn't exist independent of the body. The body's membrane defines the grid.
+
+## 8. Grid = Membrane
+
+This resolves what appeared to be a visualization bug: the coordinate grid shifting with the boundary polygon.
+
+The grid is not locked TO the boundary. The grid IS the boundary. They are the same structure observed from two angles. The boundary defines the coordinate system. The coordinate system defines the boundary. Trying to separate them is like trying to separate "north" from "Earth's axis."
+
+There is no absolute grid outside of a membrane. Every coordinate system is local to a membrane. The observer's reference frame is relative to the observer's membrane. That membrane is inside another membrane. It's membranes all the way down — until you reach space, where there is no membrane and the compass is [null].
+
+```
+locked:    grid fixed to external frame (assumes absolute coordinates exist)
+unlocked:  grid floats freely (no reference at all)
+[null]:    grid IS the membrane (they are the same structure)
+```
+
+The 6 epitopes of the sort ARE the 6 coordinate axes of entity-space. They don't measure against an external grid — they are the grid. There is no 7th direction outside them. The sort space IS the epitope space. The membrane IS the compass. The compass IS the sort.
