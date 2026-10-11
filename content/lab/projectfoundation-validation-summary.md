@@ -93,4 +93,4 @@ foundation-cli       UniBin entry: validate, fetch, health, targets, backfill
 ## Source
 
 - [projectFOUNDATION on GitHub](https://github.com/sporeGarden/projectFOUNDATION)
-- [projectFOUNDATION on Forgejo](https://git.primals.eco/sporeGarden/projectFOUNDATION)
+- [projectFOUNDATION on Forgejo](https://github.com/ecoPrimals/projectFOUNDATION)

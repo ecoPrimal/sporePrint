@@ -9,7 +9,7 @@ maturity = "live"
 
 **Identity**: ecoPrimal | **ORCID**: [0009-0004-2141-0321](https://orcid.org/0009-0004-2141-0321)
 **License**: AGPL-3.0-or-later | **Website**: [primals.eco](https://primals.eco)
-**Code**: [git.primals.eco](https://git.primals.eco) (sovereign) | [github.com/ecoPrimals](https://github.com/ecoPrimals) (mirror)
+**Code**: [github.com/ecoPrimals](https://github.com/ecoPrimals)
 **Wave**: 155n post-threshold | **Date**: Aug 1, 2026
 
 ---
@@ -202,7 +202,7 @@ Everything claimed in this document is verifiable:
 | Portability | Deploy NUCLEUS from public depot on any Linux machine with `~/.local/bin/` |
 | 175+ papers | Each spring contains `validate_*` binaries with published comparison |
 | Trust model | Launch NUCLEUS without WireGuard — BTSP enforces trust, network doesn't matter |
-| Source code | [git.primals.eco](https://git.primals.eco) (sovereign Forgejo) or [github.com/ecoPrimals](https://github.com/ecoPrimals) (mirror) |
+| Source code | [github.com/ecoPrimals](https://github.com/ecoPrimals) |
 
 ---
 
@@ -211,7 +211,7 @@ Everything claimed in this document is verifiable:
 **Project**: eco.primal@primal.eco
 **ORCID**: [0009-0004-2141-0321](https://orcid.org/0009-0004-2141-0321)
 **Website**: [primals.eco](https://primals.eco)
-**Code**: [git.primals.eco](https://git.primals.eco) | [github.com/ecoPrimals](https://github.com/ecoPrimals)
+**Code**: [github.com/ecoPrimals](https://github.com/ecoPrimals)
 **License**: AGPL-3.0-or-later
 
 *Built by a single individual. Designed for everyone.*

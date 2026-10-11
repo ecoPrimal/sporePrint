@@ -20,7 +20,7 @@ validated_on_hardware = true
 > for review and audit.
 > [Computation audit trail](/pseudospore/hotspring-qcd-sun-audit/) |
 > [pseudoSpore data](/pseudospore/hotspring-qcd-sun/) |
-> [LaTeX source](https://git.primals.eco/ecoPrimals/whitePaper/src/branch/main/subGen/lattice_qcd_consumer_gpu.tex)
+> [LaTeX source](https://github.com/ecoPrimals/whitePaper/blob/main/subGen/lattice_qcd_consumer_gpu.tex)
 
 **Target**: arXiv hep-lat (primary), cs.DC (cross-list)
 **ORCID**: [0009-0004-2141-0321](https://orcid.org/0009-0004-2141-0321)
@@ -379,7 +379,7 @@ All data, code, and provenance records are published as a downloadable
 pseudoSpore artifact:
 
 - **URL**: [primals.eco/pseudospore/hotspring-qcd-sun/](/pseudospore/hotspring-qcd-sun/)
-- **Source**: [git.primals.eco](https://git.primals.eco) (sovereign) / [github.com/ecoPrimals](https://github.com/ecoPrimals) (mirror)
+- **Source**: [github.com/ecoPrimals](https://github.com/ecoPrimals)
 - **License**: AGPL-3.0-or-later (code), CC-BY-SA-4.0 (text)
 - **Verification**: `./validate.sh` checks BLAKE3 hashes, CAS IDs, DAG chain,
   ledger entry, and Ed25519 signature with zero trust in the publisher

@@ -186,7 +186,7 @@ Payload: {
 }
 ```
 
-The tag is structured for gossip propagation via [swarmVine's](https://git.primals.eco/ecoPrimals/swarmVine) epidemic protocol. SwarmVine uses TTL-bounded, nonce-deduplicated gossip with `DEFAULT_TTL = 8` hops — sufficient for full mesh coverage.
+The tag is structured for gossip propagation via [swarmVine's](https://github.com/ecoPrimals/swarmVine) epidemic protocol. SwarmVine uses TTL-bounded, nonce-deduplicated gossip with `DEFAULT_TTL = 8` hops — sufficient for full mesh coverage.
 
 ### 3.2 Progressive Identity Through Independent Observation
 

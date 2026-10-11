@@ -70,7 +70,7 @@ guerillaGorilla treats **legal existence as infrastructure**, the same way {{ en
 
 - **213+ pages** across 18 sections (dynasty expansion — 35+ actors)
 - **BLAKE3 content manifest** — every document content-addressed
-- **Git-signed repository** at [git.primals.eco/publicRecord/detroit](https://git.primals.eco/publicRecord/detroit)
+- **Git-signed repository** at [git.primals.eco/publicRecord/detroit](https://github.com/ecoPrimals/detroit)
 - **Three surfaces**: live site + sovereign repo + GitHub mirror
 - **Epistemic grammar** — 7 levels from `record` (CAS-anchored) to `adjudicated` (court determination)
 
@@ -115,7 +115,7 @@ The evidence: four independent instantiations — gaming, science, medical, lega
 ## Verify
 
 - **Live site**: [detroit.primals.eco](https://detroit.primals.eco)
-- **Source repository**: [git.primals.eco/publicRecord/detroit](https://git.primals.eco/publicRecord/detroit)
+- **Source repository**: [git.primals.eco/publicRecord/detroit](https://github.com/ecoPrimals/detroit)
 - **GitHub mirror**: [github.com/defendDetroit](https://github.com/defendDetroit)
-- **Dispersal spec**: `wateringHole/specs/DISPERSAL_PATTERN.md` ([commit 0237293ca](https://git.primals.eco/ecoPrimals/wateringHole/commit/0237293ca))
-- **Catalogue registration**: `sporePrint config.toml` at [commit 7fd48dd4](https://git.primals.eco/ecoPrimals/sporePrint/commit/7fd48dd4) — 3 entities, `EntityKind::Methodology` variant
+- **Dispersal spec**: `wateringHole/specs/DISPERSAL_PATTERN.md` ([commit 0237293ca](https://github.com/ecoPrimals/wateringHole/commit/0237293ca))
+- **Catalogue registration**: `sporePrint config.toml` at [commit 7fd48dd4](https://github.com/ecoPrimals/sporePrint/commit/7fd48dd4) — 3 entities, `EntityKind::Methodology` variant

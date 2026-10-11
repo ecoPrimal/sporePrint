@@ -248,7 +248,7 @@ Named capabilities:
 
 Dispersal site: `guerillagorilla.primals.eco` (planned). {{ entity(name="detroit") }} is Case Study #1. Infrastructure: Forgejo, Zola, Caddy, golgiBody. Protected by First Amendment, Michigan UPEPA, fair report.
 
-See: [guerillaGorilla methodology page](@/outreach/guerilla_gorilla.md) | [dispersal pattern](https://git.primals.eco/ecoPrimals/wateringHole/src/branch/main/specs/DISPERSAL_PATTERN.md)
+See: [guerillaGorilla methodology page](@/outreach/guerilla_gorilla.md) | [dispersal pattern](https://github.com/ecoPrimals/wateringHole/blob/main/specs/DISPERSAL_PATTERN.md)
 
 ## Pending: Live Dashboard
 

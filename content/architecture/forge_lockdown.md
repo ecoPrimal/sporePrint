@@ -192,7 +192,7 @@ is like a cell membrane with selective ion channels: only molecules with
 the right shape and charge pass through. Everything else stays outside.
 
 This is the same inversion that the thymic selection system was designed for
-in the [BearDog lineage spec](https://git.primals.eco/ecoPrimals/skunkBat) —
+in the [BearDog lineage spec](https://github.com/ecoPrimals/skunkBat) —
 define "self" so thoroughly that "not-self" needs no enumeration. The forge
 lockdown is the HTTP-layer instantiation of that principle.
 
@@ -304,7 +304,7 @@ The behavioral evidence from this engagement is published:
 
 - **[The Billboard](https://detroit.primals.eco/signal/)** — live evidence
   from access logs, naming entities, documenting compliance vs defiance
-- **[The AAR](https://git.primals.eco/ecoPrimals/wateringHole)** — full
+- **[The AAR](https://github.com/ecoPrimals/wateringHole)** — full
   after-action review with gap analysis, metrics, and open items
 - **[The Investigation](https://detroit.primals.eco)** — the civil rights
   evidence that the scraping was distracting from

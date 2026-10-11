@@ -152,7 +152,7 @@ python3 antidote.py audit <directory> --json report.json
 python3 antidote.py explain
 ```
 
-The tool is [AGPL-3.0](https://git.primals.eco/ecoPrimals/skunkBat/src/branch/main/tools/antidote.py). The source is public. The recipe is published. There are no secrets here.
+The tool is [AGPL-3.0](https://github.com/ecoPrimals/skunkBat/blob/main/tools/antidote.py). The source is public. The recipe is published. There are no secrets here.
 
 ## The Ethics
 

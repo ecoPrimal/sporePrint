@@ -103,7 +103,7 @@ Every HTTP response from every site carries:
 X-License: AGPL-3.0-or-later; ORC; CC-BY-SA-4.0
 X-License-URL: https://sporeprint.primals.eco/methodology/scyborg-licensing/
 X-License-Full: https://sporeprint.primals.eco/LICENSE.txt
-X-Source-Code: https://git.primals.eco/ecoPrimals
+X-Source-Code: https://github.com/ecoPrimals
 X-Lysogeny: active
 Link: <...agpl-3.0.html>; rel="license"; title="AGPL-3.0-or-later",
       <...orclicense/>; rel="license"; title="ORC",

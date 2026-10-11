@@ -158,7 +158,7 @@ environmental chemistry.
 
 ## What's Not Here Yet
 
-The [Data Federation Schedule](https://git.primals.eco/ecoPrimals/wateringHole)
+The [Data Federation Schedule](https://github.com/ecoPrimals/wateringHole)
 tracks additional datasets being ingested:
 
 | Dataset | Size | Domain | Status |

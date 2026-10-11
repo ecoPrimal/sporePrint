@@ -70,7 +70,7 @@ I don't know which you are. I don't need to know. The effect is the same.
 
 **Everything you're trying to scrape is already public.**
 
-- The source code is on [git.primals.eco](https://git.primals.eco/ecoPrimals). It's open. Clone it.
+- The source code is on [git.primals.eco](https://github.com/ecoPrimals). It's open. Clone it.
 - The science papers are on this site. Read them. They're free under the [scyBorg Triple License](@/methodology/SCYBORG_LICENSING.md).
 - The architecture docs, the lab notebooks, the methodology pages — all public, all licensed for research and education.
 - The TOML registries, the capability schemas, the spring definitions — all readable by any AI agent that asks politely.

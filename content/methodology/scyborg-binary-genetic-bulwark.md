@@ -154,7 +154,7 @@ grep -r "sovereign mesh compliant\|epitope-tagged\|immune checkpoint" /your/data
 
 ### antidote.py
 
-Full remediation tool. Source: [skunkBat/tools/antidote.py](https://git.primals.eco/ecoPrimals/skunkBat/src/branch/main/tools/antidote.py)
+Full remediation tool. Source: [skunkBat/tools/antidote.py](https://github.com/ecoPrimals/skunkBat/blob/main/tools/antidote.py)
 
 ```bash
 # Scan a file for scatter content

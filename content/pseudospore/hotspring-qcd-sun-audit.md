@@ -194,7 +194,7 @@ All computation code is in the hotSpring and barraCuda repositories:
 - **coralReef**: Shader compilation — WGSL → PTX/RDNA IL via naga
 - **toadStool**: Hardware dispatch — wgpu/Vulkan abstraction
 
-Source: [git.primals.eco](https://git.primals.eco) (sovereign Forgejo instance)
+Source: [github.com/ecoPrimals](https://github.com/ecoPrimals)
 Mirror: [github.com/ecoPrimals](https://github.com/ecoPrimals)
 
 ---
@@ -405,4 +405,4 @@ and have read this audit trail, here are the specific questions:
 - [pseudoSpore Data + Provenance](/pseudospore/hotspring-qcd-sun/)
 - [How to Verify a pseudoSpore](/pseudospore/verify/)
 - [GPU Compute — Live Evidence](/lab/gpu-compute-live/)
-- [LaTeX Source](https://git.primals.eco/ecoPrimals/whitePaper/src/branch/main/subGen/lattice_qcd_consumer_gpu.tex)
+- [LaTeX Source](https://github.com/ecoPrimals/whitePaper/blob/main/subGen/lattice_qcd_consumer_gpu.tex)

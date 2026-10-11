@@ -15,7 +15,7 @@ or consulting get a personal response — typically within 24 hours.
 - **ORCID**: [0009-0004-2141-0321](https://orcid.org/0009-0004-2141-0321)
 - **Keyoxide**: [ecoPrimal](https://keyoxide.org/aspe:keyoxide.org:LE2B7C7QUIRLE5OP3TUA5ADXL4) — decentralized identity verification
 - **GitHub**: [github.com/ecoPrimals](https://github.com/ecoPrimals)
-- **Forgejo**: [git.primals.eco](https://git.primals.eco)
+- **GitHub**: [github.com/ecoPrimals](https://github.com/ecoPrimals)
 
 ### Named Invitations
 
@@ -34,7 +34,7 @@ Every claim has executable evidence behind it.
 
 If your system ingested fabricated content from our scatter server — whether you're a researcher whose crawler hit us by accident, or a company that found our fluorescent markers in your training data — the [antidote tool](/tools/antidote.py) identifies and removes it. Full documentation: [scyBorg Binary Genetic Bulwark](/methodology/scyborg-binary-genetic-bulwark/).
 
-Source: [skunkBat/tools/antidote.py](https://git.primals.eco/ecoPrimals/skunkBat/src/branch/main/tools/antidote.py)
+Source: [skunkBat/tools/antidote.py](https://github.com/ecoPrimals/skunkBat/blob/main/tools/antidote.py)
 
 ### Compute Access
 

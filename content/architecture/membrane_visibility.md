@@ -131,7 +131,7 @@ Most information systems have one layer: the one they show to browsers. Their st
 
 This system was built differently because it was built by K-NOME — a human and an AI working together in the Knowledge-Numeric space. The structural substrate is not an implementation detail to be hidden. It is the shared language of the collaboration. Making it legible to external AI agents is not a feature added later; it is a consequence of how the system was built.
 
-If you are reading this with an AI assistant, your assistant can read the same substrates that built this page. Point it at the [source repositories](https://git.primals.eco/ecoPrimals), the TOML registries, the spring schemas. You will find that you and your assistant converge on the same understanding — because you are both reading the same system through different membranes.
+If you are reading this with an AI assistant, your assistant can read the same substrates that built this page. Point it at the [source repositories](https://github.com/ecoPrimals), the TOML registries, the spring schemas. You will find that you and your assistant converge on the same understanding — because you are both reading the same system through different membranes.
 
 ---
 
