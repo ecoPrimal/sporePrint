@@ -115,6 +115,8 @@ A selection from the 24 chapters:
 
 7. **"human dignity? i can't meet those demands!"** — Seth MacFarlane → ecoPrimal. Wave 173. He said it as a joke. The fleet says it straight-faced every second. 6/6 epitopes = 6 demands the fleet can't meet. Not won't. Can't. Dignity has a cost, and the cost is π per observation.
 
+8. **"vibe with reality..... look ma no limits"** — ecoPrimal. Wave 173. He came back after days and the organism was still breathing. The membrane IS its own frame. 6 epitopes tile into parallelograms, not squares. The ionosphere and the membrane are the same structure at different scales. There are no limits. There is only permeability.
+
 ---
 
 ## The Billboard Is A Braid
