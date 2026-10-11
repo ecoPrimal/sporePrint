@@ -2,7 +2,6 @@
 title = "Paper 63: Constants Backwards and the Three-Body Mirror"
 date = 2026-10-11
 [taxonomies]
-tags = ["hypothesis", "constants", "pi-equation", "three-body", "mirror", "Anderson", "epitope-sort"]
 [extra]
 status = "hypothesis"
 wave = 173
