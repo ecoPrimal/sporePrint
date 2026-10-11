@@ -18,7 +18,7 @@ trustworthy for science make it trustworthy for public records.
 {{ entity(name="detroit") }} at **[detroit.primals.eco](https://detroit.primals.eco)** is the first application of
 ecoPrimals infrastructure to public accountability: a public evidence library
 documenting charter school fraud in Detroit, backed by a
-[git-signed repository](https://github.com/ecoPrimals/detroit) where
+[git-signed repository](https://github.com/defendDetroit/publicRecord) where
 every document is cryptographically timestamped. It is the first deployment of {{ entity(name="guerillagorilla") }}, the legal meta-primal pattern.
 
 ---
