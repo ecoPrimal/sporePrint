@@ -69,6 +69,10 @@ Tenaillon, O., Barrick, J. E., Ribeck, N., Deatherage, D. E., Blanchard, J. L., 
 
 Wiser, M. J., Ribeck, N., & Lenski, R. E. (2013). Long-term dynamics of adaptation in asexual populations. *Science*, 342(6164), 1364–1367.
 
+Margulis, L. (1998). *Symbiotic Planet: A New Look at Evolution*. Basic Books.
+
+Schrödinger, E. (1944). *What is Life? The Physical Aspect of the Living Cell*. Cambridge University Press.
+
 ## Evolutionary Computation
 
 Dolson, E. L., & Ofria, C. (2018). Ecological theory provides insights about evolutionary computation. *GECCO 2018 Companion*. https://doi.org/10.1145/3205651.3208237
@@ -182,6 +186,44 @@ Jitomirskaya, S., & Kachkovskiy, I. (2018). All couplings localization for quasi
 Kachkovskiy, I. (2016). On transport properties of isotropic quasiperiodic XY spin chains. *Communications in Mathematical Physics*, 345, 659–673.
 
 Kachkovskiy, I., & Safarov, Y. (2016). Distance to normal elements in C*-algebras of real rank zero. *Journal of the American Mathematical Society*, 29, 61–80.
+
+## Systems, Networks & Complexity
+
+Alexander, C. (1977). *A Pattern Language: Towns, Buildings, Construction*. Oxford University Press.
+
+Alexander, C. (2002–2005). *The Nature of Order: An Essay on the Art of Building and the Nature of the Universe* (4 vols.). Center for Environmental Structure.
+
+Barabási, A.-L. (2002). *Linked: The New Science of Networks*. Perseus.
+
+Barabási, A.-L. (2016). *Network Science*. Cambridge University Press.
+
+Bateson, G. (1972). *Steps to an Ecology of Mind: Collected Essays in Anthropology, Psychiatry, Evolution, and Epistemology*. Chandler.
+
+Gleick, J. (1987). *Chaos: Making a New Science*. Viking.
+
+Gleick, J. (2011). *The Information: A History, a Theory, a Flood*. Pantheon.
+
+Jacobs, J. (1961). *The Death and Life of Great American Cities*. Random House.
+
+Maturana, H. R., & Varela, F. J. (1980). *Autopoiesis and Cognition: The Realization of the Living*. D. Reidel.
+
+Maturana, H. R., & Varela, F. J. (1987). *The Tree of Knowledge: The Biological Roots of Human Understanding*. Shambhala.
+
+McLuhan, M. (1964). *Understanding Media: The Extensions of Man*. McGraw-Hill.
+
+Meadows, D. H. (2008). *Thinking in Systems: A Primer*. Chelsea Green Publishing.
+
+Ostrom, E. (1990). *Governing the Commons: The Evolution of Institutions for Collective Action*. Cambridge University Press.
+
+Prigogine, I., & Stengers, I. (1984). *Order Out of Chaos: Man's New Dialogue with Nature*. Bantam Books.
+
+Taleb, N. N. (2007). *The Black Swan: The Impact of the Highly Improbable*. Random House.
+
+Taleb, N. N. (2012). *Antifragile: Things That Gain from Disorder*. Random House.
+
+Watts, D. J. (1999). *Small Worlds: The Dynamics of Networks between Order and Randomness*. Princeton University Press.
+
+Wiener, N. (1948). *Cybernetics: Or Control and Communication in the Animal and the Machine*. MIT Press.
 
 ## Cognitive Science & Creativity
 
