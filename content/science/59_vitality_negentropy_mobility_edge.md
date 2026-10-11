@@ -1,7 +1,7 @@
 +++
-title = "baseCamp 53 — Vitality and Negentropy: Life at the Mobility Edge"
+title = "baseCamp 59 — Vitality and Negentropy: Life at the Mobility Edge"
 description = "The epitope system detects death perfectly but cannot recognize life. We introduce two reflected signals: vitality — the entropy-gated proximity to threshold boundaries where the Anderson localization length diverges — and negentropy — the defensive information that vulnerability probes provide to the organism. Uncertainty is a sign of life. Hostile probing is free penetration testing. The organism now sees three things where it used to see one."
-weight = 53
+weight = 59
 date = 2026-10-10
 
 [taxonomies]
@@ -9,7 +9,7 @@ primals = ["skunkbat", "cellmembrane", "barracuda"]
 springs = ["groundspring", "wetspring", "neuralspring"]
 
 [extra]
-paper_number = 53
+paper_number = 59
 status = "implemented"
 domain = "Anderson Localization × Immunology × Information Theory × Behavioral Ecology"
 
@@ -17,25 +17,25 @@ domain = "Anderson Localization × Immunology × Information Theory × Behaviora
 url = "/science/48-epitope-sort-compression/"
 title = "baseCamp 48 — Epitope Sort as Compression"
 relation = "extends"
-label = "Paper 48 defines the sort; Paper 53 reflects it at the mobility edge"
+label = "Paper 48 defines the sort; Paper 59 reflects it at the mobility edge"
 
 [[extra.companions]]
 url = "/science/43-selective-permeability-anderson/"
 title = "baseCamp 43 — Selective Permeability: The Orthogonal Anderson Dimension"
 relation = "extends"
-label = "Paper 43 defines the Anderson framework; Paper 53 finds the mobility edge in it"
+label = "Paper 43 defines the Anderson framework; Paper 59 finds the mobility edge in it"
 
 [[extra.companions]]
 url = "/science/46-inverse-anderson/"
 title = "baseCamp 46 — Inverse Anderson: Behavioral Observation as Disorder Measurement"
 relation = "extends"
-label = "Paper 46 inverts the model; Paper 53 measures life at the inversion boundary"
+label = "Paper 46 inverts the model; Paper 59 measures life at the inversion boundary"
 
 [[extra.companions]]
 url = "/science/41-reflexive-immune-epitope-bridge/"
 title = "baseCamp 41 — Reflexive Immune Epitope Bridge"
 relation = "feeds"
-label = "The epitope definitions whose thresholds Paper 53 reflects"
+label = "The epitope definitions whose thresholds Paper 59 reflects"
 
 [[extra.companions]]
 url = "/science/44-observation-asymmetry-fleet-blindness/"
@@ -237,8 +237,8 @@ The organism now classifies entities on three orthogonal axes:
 Each axis measures something the others cannot:
 
 - **fleet_confidence** answers: *is this a machine?* (epitope sort, Paper 48)
-- **vitality** answers: *is this alive?* (mobility edge, Paper 53)
-- **negentropy** answers: *does this help us?* (defensive information, Paper 53)
+- **vitality** answers: *is this alive?* (mobility edge, Paper 59)
+- **negentropy** answers: *does this help us?* (defensive information, Paper 59)
 
 The combination produces a richer taxonomy than binary classification:
 
