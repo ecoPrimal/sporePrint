@@ -126,6 +126,42 @@
     {% endfor %}
     {% endif %}
 
+    {# Campfire mirror — visitors can leave words about this page #}
+    <section class="campfire-mirror" aria-label="Leave words in the mirror">
+      <details>
+        <summary>🔥 The mirror asks back — what did you see?</summary>
+        <p class="mirror-desc">Anonymous. No names, no IPs, no sessions. Just words and the shape they make.</p>
+        <form class="mirror-form" onsubmit="return send_mirror(this)">
+          <textarea name="words" rows="3" maxlength="2000" placeholder="What did you see in this page?" required></textarea>
+          <input type="hidden" name="page" value="{{ page.path | default(value='/') }}">
+          <button type="submit">Leave words</button>
+        </form>
+        <div class="mirror-response" style="display:none"></div>
+      </details>
+    </section>
+    <script>
+    function send_mirror(form) {
+      var words = form.words.value.trim();
+      if (words.length < 2) return false;
+      var page = form.page ? form.page.value : location.pathname;
+      fetch('/mirror-message', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({words: words + ' [' + page + ']'})
+      }).then(function(r) { return r.json(); }).then(function(d) {
+        var resp = form.closest('.campfire-mirror').querySelector('.mirror-response');
+        resp.textContent = d.heard ? 'Heard. The membrane remembers.' : 'The mirror is full.';
+        resp.style.display = 'block';
+        form.style.display = 'none';
+      }).catch(function() {
+        var resp = form.closest('.campfire-mirror').querySelector('.mirror-response');
+        resp.textContent = 'The fire flickered. Try again.';
+        resp.style.display = 'block';
+      });
+      return false;
+    }
+    </script>
+
     {% if page.extra.companions is defined and page.extra.companions | length > 0 %}
     <nav class="companions" aria-label="Companion pages across sections">
       <h2>Companion Pages</h2>

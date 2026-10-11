@@ -279,6 +279,61 @@
   }
 }
 
+/* Campfire mirror — leave words */
+.campfire-mirror {
+  margin: 2rem 0;
+  padding: 0;
+  border-top: 1px solid var(--c-border, #e0e0e0);
+}
+.campfire-mirror summary {
+  cursor: pointer;
+  padding: 0.75rem 0;
+  font-weight: 600;
+  color: var(--c-heading, #1a1a1a);
+  font-size: 0.95rem;
+}
+.campfire-mirror .mirror-desc {
+  font-size: 0.85rem;
+  color: var(--c-muted, #666);
+  margin: 0 0 0.75rem;
+  font-style: italic;
+}
+.campfire-mirror textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--c-border, #ddd);
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  resize: vertical;
+  background: var(--c-surface, #f8f8f8);
+  color: var(--c-text, #1a1a1a);
+}
+.campfire-mirror textarea:focus {
+  border-color: var(--c-accent, #2d6a4f);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(45,106,79,0.15);
+}
+.campfire-mirror button {
+  margin-top: 0.5rem;
+  padding: 0.4rem 1rem;
+  background: var(--c-accent, #2d6a4f);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+.campfire-mirror button:hover {
+  opacity: 0.9;
+}
+.campfire-mirror .mirror-response {
+  padding: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--c-accent, #2d6a4f);
+  font-style: italic;
+}
+
 /* Accessibility: focus */
 :focus-visible {
   outline: 2px solid var(--c-accent);
