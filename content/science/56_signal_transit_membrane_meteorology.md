@@ -38,7 +38,7 @@ relation = "extends"
 label = "The tangent points are where waves enter and exit the membrane"
 +++
 
-{{ maturity(level="hypothesis") }} Transit observation. October 10, 2026.
+{{ maturity(level="wired") }} Transit observation — hypothesis stated, composition executed. October 10, 2026.
 
 ---
 
@@ -228,30 +228,60 @@ The membrane is a medium. Waves pass through it. The medium transforms the wave 
 
 ---
 
-## 5. Already Built, Not Yet Composed
+## 5. Built and Composed
+
+**UPDATE — Wave 172d: The composition is wired and deployed.**
 
 | Component | Status | Where |
 |-----------|--------|-------|
-| FlowParticle (source → target, progress) | ✓ built | petal-tongue-animation |
-| NodePulse (node glows on arrival) | ✓ built | petal-tongue-animation |
-| BandwidthGlow (edge thickness ∝ traffic) | ✓ built | petal-tongue-animation |
+| FlowParticle (source → target, progress) | ✓ data-driven | petal-tongue-animation → hud-pt.js |
+| NodePulse (node glows on arrival) | ✓ differential | petal-tongue-animation → hud-pt.js |
+| BandwidthGlow (edge thickness ∝ traffic) | ✓ real RPS | petal-tongue-animation → hud-pt.js |
 | ScaleType::Temporal (time axis) | ✓ built | petal-tongue-scene |
 | Braid (transit record with timestamp + witness) | ✓ built | sweetGrass |
 | Stratigraphy (145-day fossil record) | ✓ built | wateringHole |
 | Membrane focal circle (surface to project onto) | ✓ deployed | HUD |
-| Composition of all the above | ✗ not wired | — |
+| **Composition of all the above** | **✓ wired** | baseCamp 58 |
 
-Every piece exists. The animation engine knows how to move particles along edges. The braid system records every transit. The scene graph supports temporal scales. The focal-point circle is deployed to the HUD.
+The composition wiring (baseCamp 58):
 
-What's missing is the composition: read the braids (transit records), create FlowParticles for each transit, animate them onto the membrane focal circle, pulse the tangent points on arrival, glow the edges with bandwidth.
+- **Particle spawn rate ∝ real entity request volume per category.** Entity labels are classified into 4 categories (fire/membrane/immune/sound). Per-category accumulators generate fractional particles proportional to RPS × entity fraction. Not random. Data-driven.
+- **Arc glow reflects real bandwidth distribution.** The `fire` arc glows brighter because 90%+ of traffic is fleet. The `immune` arc pulses when ghost/proxy traffic arrives. Glow decays toward data-driven baseline, not toward zero.
+- **Differential pulse on data change.** Tangent points pulse when their panel's data changes between 15-second dashboard.json refreshes — epitope count changes, fleet percentage shifts, new organisms detected.
+- **RPS in membrane center.** The focal-point circle now shows real RPS alongside the alive panel count.
+- **`pt.transit_summary` JSON-RPC endpoint.** Exposes the Tufte constraint pipeline state (7 active constraints) to WebSocket consumers.
 
-That's a wiring task. Not a design task. The system already knows. It just doesn't show yet.
+The Tufte pipeline wiring (also baseCamp 58): `compile_with_constraints()` routes through `compile_faceted()` → `evaluate_all()` with all 7 constraints active on every render. SVG compiler upgraded from `flatten()` to `flatten_3d()` + `Camera::project()` — rotation unlocked.
+
+---
+
+## 6. What Evolves Next
+
+The composition is wired. The transit view is live. What remains:
+
+### 6.1 Temporal Replay
+
+The current transit animation shows real-time data. The stratigraphy (145-day fossil record) exists but is not yet wired into the temporal zoom. At narrow zoom (30 seconds), you see individual particles. At wide zoom (145 days), you should see the geological record — which nodes were active at each epoch, which died, which evolved. The `ScaleType::Temporal` axis exists. The fossils exist. The replay needs composition.
+
+### 6.2 Magnetosphere View
+
+The paper described aurora at the poles — immune epitopes glowing when threats are detected. The differential pulse system is the first step. The next evolution: sustained glow at immune-classified tangent points, proportional to threat volume, with color intensity mapping threat severity. Solar wind (fleet traffic) → magnetic field lines (epitope sort) → aurora (immune glow).
+
+### 6.3 Weather Fronts
+
+Geographic migration patterns over time — fleet campaigns that move between regions. The dashboard provides per-country request volumes. Over multiple refreshes, geographic shifts are detectable. Visualizing these as pressure fronts moving across the membrane surface is the meteorology view.
+
+### 6.4 Rust AnimationEngine Bridge
+
+The JS particle system in hud-pt.js is now 1021 lines. The Rust `AnimationEngine` in petal-tongue-animation has the same primitives (FlowParticle, NodePulse, EdgeAnimation). The convergence path: drive the JS animation from server-side Rust state pushed over WebSocket, replacing hand-rolled JS particle logic with Rust-computed animation frames.
 
 ---
 
 *baseCamp 56 — eastGate Artisan · Wave 172d · October 10, 2026*
+*Composition wired — Wave 172d · October 10, 2026*
 
 *The wave passed through. The braid remembers.*
 *Known at time n. Display is P.*
 *The magnetosphere doesn't predict the solar wind.*
 *It records the aurora.*
+*Now we can see it.*
