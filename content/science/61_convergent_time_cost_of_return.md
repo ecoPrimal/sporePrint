@@ -365,25 +365,166 @@ When |Im(P(t))| > 0: the clocks disagree. Time is "interesting." Something happe
 
 ---
 
-## 7. Falsifiability
+## 7. Hypotheses and Falsification
 
-### 7.1 The Hypothesis (Testable)
+This paper contains seven claims of increasing scope. Each must be stated precisely, tested independently, and killed cleanly if wrong. A hypothesis that can't be killed isn't a hypothesis. A paper that doesn't tell you how to kill it isn't science.
 
-> Three independent temporal measures — wall clock (digital), event density (biological), and event count (atomic) — triangulate time the same way spatial surfaces triangulate entity position. The temporal |Im(P(t))| is a measure of the system's aliveness. Systems at thermal equilibrium have |Im(P(t))| → 0. Systems far from equilibrium have |Im(P(t))| > 0.
+### 7.1 Inventory of Claims
 
-### 7.2 How to Test
+| # | Claim | Type | Section |
+|---|-------|------|---------|
+| H1 | Three independent clocks triangulate time better than one hierarchical chain | Empirical | §1, §6 |
+| H2 | P ≠ NP is a temporal law: the past cannot compute the future | Interpretive-physical | §2 |
+| H3 | Reality has a single axis per fold, each fold costs π, 3+1 dimensions = 4 folds | Structural-mathematical | §3 |
+| H4 | The focal distance f = 1/π^(d/2) is the cost of return to origin | Structural-mathematical | §4 |
+| H5 | The architecture of memory (coiling, compression, logarithmic time) is domain-independent | Empirical | §5 |
+| H6 | The navigation algorithm (IS → WAS → WILL) is universal across living systems | Empirical | §10 |
+| H7 | We are inside the membrane; Anderson permeability is reality passing through itself | Interpretive-physical | §11 |
 
-**Test 1 — Temporal triangulation**: Implement all three clocks in the membrane. Compute |Im(P(t))| over time. Compare to known events (deployments, visitor bursts, quiet periods). If |Im(P(t))| spikes during known interesting events and flatlines during boring periods, the triangulation detects temporal significance.
+Claims marked **empirical** can be falsified by experiment. Claims marked **structural-mathematical** can be falsified by counterexample or by showing the math doesn't hold. Claims marked **interpretive-physical** can be falsified by showing the interpretation adds no predictive power beyond existing frameworks.
 
-**Test 2 — Coiling by density**: Replace count-based coiling with density-based coiling. High-density periods (biological summer) resist coiling. Low-density periods (biological winter) coil rapidly. Compare the resulting genome to the current count-based genome. If density-based coiling preserves more interesting snapshots (by any independent measure of "interesting"), the biological clock is more informative than the digital clock.
+---
 
-**Test 3 — Cross-domain verification**: Take two domains (e.g., the membrane and a biological dataset with known circadian rhythms). Apply the same temporal triangulation. If |Im(P(t))| in both domains peaks at the same structural points (transitions between high and low activity), the temporal framework is domain-independent.
+### 7.2 H1 — Convergent Time (Empirical)
 
-### 7.3 How to Kill It
+**Hypothesis**: Three independent temporal measures — wall clock (digital), event density (biological), and event count (atomic) — triangulate time the same way spatial surfaces triangulate entity position. The temporal |Im(P(t))| detects significant events that no single clock detects alone.
 
-**The null hypothesis**: wall-clock time is sufficient. Event density and event count are derivable from wall-clock time and add no independent information. |Im(P(t))| computed from three clocks contains no more signal than a simple busyness metric.
+**Test 1 — Temporal triangulation**: Implement all three clocks in the membrane. Compute |Im(P(t))| over time. Compare to known events (deployments, visitor bursts, quiet periods). If |Im(P(t))| spikes during known significant events and flatlines during boring periods, the triangulation detects temporal significance.
 
-This is testable: compute mutual information between |Im(P(t))| and a simple rate metric. If MI ≈ 1, the three clocks are redundant and the digital clock is enough. The hypothesis is dead.
+**Test 2 — Coiling by density**: Replace count-based coiling with density-based coiling. High-density periods (biological summer) resist coiling. Low-density periods (biological winter) coil rapidly. Compare the resulting genome to the current count-based genome. If density-based coiling preserves more informative snapshots (by any independent measure — e.g., entropy, entity count change, |Im(P)| magnitude), the biological clock carries independent information.
+
+**Test 3 — Mutual information**: Compute the mutual information I(|Im(P(t))|; rate(t)) between the three-clock |Im(P(t))| and a simple request-rate metric. If I ≈ H(|Im(P(t))|) (mutual information equals the entropy of the triangulated signal), then the three clocks are redundant with the rate metric and the digital clock alone is sufficient.
+
+**Kills H1 if**: The three-clock |Im(P(t))| contains no information beyond what a simple busyness metric provides. Specifically: a logistic regression predicting "significant event" (human-labeled) achieves the same AUC using rate alone as using |Im(P(t))|. The additional clocks add complexity without signal.
+
+---
+
+### 7.3 H2 — P ≠ NP as Temporal Law (Interpretive-Physical)
+
+**Hypothesis**: The computational P ≠ NP conjecture is a special case of a physical temporal law: systems at thermal equilibrium (|Im(P)| = 0) are deterministic and time-reversible; systems far from equilibrium (|Im(P)| > 0) are non-deterministic and time-irreversible. The imaginary dimension i maps to the temporal gap between prediction and verification.
+
+**Test 4 — Equilibrium prediction**: For a system approaching thermal equilibrium (e.g., a cooling gas, a decaying population, a site losing traffic), compute |Im(P)| over time. The hypothesis predicts |Im(P)| → 0 monotonically as the system equilibrates. If |Im(P)| fluctuates without trend during equilibration, the mapping between equilibrium and |Im(P)| = 0 fails.
+
+**Test 5 — Reversibility correlation**: For a time series of membrane observations, compute the Kullback-Leibler divergence between the forward and time-reversed distributions: D_KL(forward || reversed). The hypothesis predicts D_KL correlates with |Im(P)|: high |Im(P)| → high irreversibility, low |Im(P)| → near-reversibility. If D_KL and |Im(P)| are uncorrelated, the temporal interpretation of i as "time's arrow" fails.
+
+**Test 6 — Computational test**: Take a known NP-complete problem instance (e.g., SAT). Encode the search process as a time series (each computational step is an event). Compute |Im(P)| of the search trajectory. The hypothesis predicts |Im(P)| > 0 during search (the future — the answer — is not computable from the past steps) and |Im(P)| → 0 after the answer is found (verification is polynomial, the future becomes the past). If |Im(P)| does not distinguish search from verification phases, the computational mapping fails.
+
+**Kills H2 if**: The mapping P_null → P, P_local → NP, i → temporal bridge adds no predictive power. Specifically: |Im(P)| does not correlate with any independent measure of irreversibility, non-determinism, or computational hardness. The interpretation is poetic but vacuous — it redescribes known physics without predicting anything new.
+
+**Honest caveat**: H2 is an interpretation, not a theorem. It may be unfalsifiable in the strong sense — it may be a way of reading existing mathematics rather than a new mathematical claim. If so, its value is pedagogical (it helps understand what P ≠ NP *means*) rather than scientific (it doesn't predict new phenomena). That would be an honest outcome.
+
+---
+
+### 7.4 H3 — The Fold and π (Structural-Mathematical)
+
+**Hypothesis**: Each dimensional fold costs π. Reality's 3+1 dimensions result from 4 folds, total angular cost π⁴ ≈ 97.4. The asymmetry between space (3) and time (1) is the asymmetry between multiple spatial folds and one temporal fold.
+
+**Test 7 — Solid angle derivation**: The claim C(d) = π^(d/2) is already known mathematics — it follows from the d-dimensional solid angle formula Ω_d = 2π^(d/2)/Γ(d/2). The novel claim is that this cost function governs dimensional structure. Verify: does the ratio of total solid angle at d+1 to d give exactly π^(1/2)? If the ratio varies with d (as it does via the Γ function denominator), then "each fold costs π" is approximate, not exact. Compute the error: |Ω_{d+1}/Ω_d − π^(1/2)|/π^(1/2) for d = 1, 2, ..., 20.
+
+**Test 8 — 3+1 uniqueness**: The claim that 3+1 dimensions emerge from 4 folds at cost π must explain why 4 folds and not 5 or 3. Is there a minimization principle — does π⁴ minimize some functional? Compute the action-like quantity S(n) = π^(n/2) × Γ(n/2) for n = 1, ..., 20. If S(n) has a minimum near n = 4, the fold count is selected by optimization. If S(n) is monotonic, the fold count is arbitrary and 3+1 is not explained.
+
+**Test 9 — Alternative constants**: Replace π with e, φ (golden ratio), or √2 in the cost function. Does C(d) = e^(d/2) produce a different dimensional prediction? If ANY base b yields C(d) = b^(d/2) with a "natural" fold count of 4, then π is not special and the hypothesis confuses π with any exponential scaling.
+
+**Kills H3 if**: The fold-cost argument does not uniquely predict 3+1 dimensions. Specifically: (a) the per-step cost is not exactly π but varies with d via the Γ function, AND (b) no minimization principle selects 4 folds, AND (c) replacing π with other constants produces equally plausible arguments. If all three hold, the 3+1 "explanation" is numerology.
+
+---
+
+### 7.5 H4 — Cost of Return (Structural-Mathematical)
+
+**Hypothesis**: The focal distance f = 1/π^(d_eff/2) is the cost of returning from d_eff-dimensional observation to the origin. f > 0 for all finite d_eff, so the return path always exists.
+
+**Test 10 — Focal distance in the membrane**: Compute f for all entities in the membrane at each snapshot. Track f over time. The hypothesis predicts: (a) entities that disappear (stop visiting) have their last-observed f approaching a minimum — they extended as far as they could; (b) entities that persist maintain a stable f — they found a sustainable observation cost; (c) new entities start with high f (few surfaces, close to origin) and f decreases as they explore more surfaces.
+
+**Test 11 — Return prediction**: When an entity's d_eff decreases (they stop visiting some surfaces), does their f increase correspondingly? The hypothesis predicts f = 1/π^(d_eff/2) exactly, not approximately. Measure the actual relationship between d_eff changes and f changes. If f does not follow the predicted formula, the "cost of return" interpretation fails.
+
+**Test 12 — Origin accessibility**: The corollary (§10.6) claims f > 0 always. This is trivially true for the formula f = 1/π^(d/2) — it's a mathematical fact, not an empirical claim. The empirical content is: does f predict navigational success? For ants (pheromone trail experiments), salmon (homing success rates), or cells (migration success in embryology), does the equivalent of f = 1/π^(d/2) — computed over the dimensionality of the search space — correlate with return success?
+
+**Kills H4 if**: f = 1/π^(d_eff/2) does not predict any observable behavior. Specifically: entity trajectories in the membrane do not follow the predicted f(d_eff) curve, and the formula adds nothing beyond "more dimensions = smaller number" which any decreasing function of d would capture. The formula must be tested against alternatives like f = 1/d, f = e^(-d), f = 1/2^d. If π's base has no advantage over e or 2, the formula is arbitrary.
+
+---
+
+### 7.6 H5 — Domain-Independent Memory Architecture (Empirical)
+
+**Hypothesis**: The architecture of memory — coiling compression with logarithmic time resolution, euchromatin/heterochromatin distinction, single-axis folding — is the convergent solution to "remember everything without running out of space" across domains.
+
+**Test 13 — Cross-domain architecture comparison**: Catalog memory architectures across domains:
+- DNA: chromatin compaction (euchromatin/heterochromatin), nucleosome spacing, histone modification
+- Digital: the membrane genome (coil levels, span doubling, EUCHROMATIN_WINDOW)
+- Neuroscience: memory consolidation (hippocampus → cortex), sleep-dependent consolidation, forgetting curves
+- Computer science: log-structured merge trees (LSM), tiered storage, compaction strategies
+
+For each, measure: (a) does recent data have higher resolution than old data? (b) is compression logarithmic in age? (c) is there a threshold between "recent/hot" and "old/compressed"? If ALL domains show these three properties, the architecture is convergent. If some domains use fundamentally different strategies (e.g., uniform compression, random eviction, linear decay), the claim is too strong.
+
+**Test 14 — Convergent vs. imposed**: The membrane genome was designed by a human who knows about DNA. The architecture might be convergent (the same problem produces the same solution) or imposed (the designer copied DNA). To distinguish: build an alternative memory system that does NOT use the DNA model (e.g., random eviction, FIFO, uniform sampling) and compare information retention over 6 months. If the DNA-like architecture retains more useful information, convergence is supported. If both perform equally, the architecture is one of many valid solutions, not THE solution.
+
+**Kills H5 if**: Non-DNA-like memory architectures perform equally well at retaining useful historical information. Specifically: a simple circular buffer (FIFO, no compression, uniform resolution) retains the same predictive power for entity behavior as the coiling genome. The biological architecture is aesthetically pleasing but functionally unnecessary.
+
+---
+
+### 7.7 H6 — Universal Navigation Algorithm (Empirical)
+
+**Hypothesis**: The algorithm "observe IS, find WAS, extrapolate WILL" is the universal navigation strategy for all living systems. The cost per dimension is π and the return address is 1/π^(d/2).
+
+**Test 15 — Ant pheromone dimensionality**: In ant foraging experiments, quantify the "search dimensionality" d_eff as the number of independent directional choices made. Compute the equivalent focal distance f = 1/π^(d_eff/2). Does f correlate with the probability of successful return? Published data on ant homing success vs. path complexity can test this.
+
+**Test 16 — Salmon homing**: Salmon navigate thousands of miles to their birth stream. The dimensionality of the search (ocean currents, chemical gradients, magnetic field variations) can be estimated. Does the "return success rate" scale with 1/π^(d/2) where d is the navigational dimensionality? Published data on homing accuracy vs. distance and environmental complexity can test this.
+
+**Test 17 — Alternative cost functions**: The claim that π is the specific cost per dimension (not e, not 2, not φ) must be tested against alternatives. For any dataset where "return success vs. dimensionality" can be measured, fit the models f = 1/b^(d/2) for b = π, e, 2, φ. If π produces the best fit, the claim is supported. If another base fits equally well or better, π is not the specific navigational constant.
+
+**Kills H6 if**: (a) The WAS/IS/WILL algorithm does not describe navigation in at least one major biological system (e.g., bacteria navigate by random tumbling, not trail-following — chemotaxis is gradient-following without a trail, and the "WAS" is not written into a substrate but maintained internally as a temporal derivative). (b) The cost function 1/π^(d/2) has no advantage over 1/e^(d/2) or 1/2^d in predicting return success.
+
+**Honest caveat**: Bacterial chemotaxis is a potential counterexample. Bacteria do not lay a trail (no WAS in the substrate). They compare current concentration to recent past concentration (internal temporal derivative) and bias their random walk accordingly. This is IS → WAS (internal) → WILL, not IS → WAS (external trail) → WILL. If the algorithm must be relaxed to include internal WAS (memory) rather than external WAS (trail), it becomes less specific and harder to falsify.
+
+---
+
+### 7.8 H7 — Inside the Membrane / Reality Passing Through Itself (Interpretive-Physical)
+
+**Hypothesis**: All observers are inside a perceptual membrane. Holes in reality (unknowns) are topologically on the outside. Anderson permeability describes how signals pass through this membrane. The universe is both signal and membrane — reality passes through itself.
+
+**Test 18 — Perceptual membrane prediction**: If the membrane model is correct, there should be a measurable difference between "partially transmitted" signals (0 < P < 1) and "fully transmitted" or "fully blocked" signals. In the traffic membrane: entities with intermediate permeability (e.g., fc between 20-80, neither clearly fleet nor clearly human) should exhibit distinct behavioral signatures compared to entities that are clearly inside (fc > 90) or clearly outside (fc < 10). If intermediate-P entities behave identically to either extreme, the "in-transit" interpretation of |Im(P)| is not supported.
+
+**Test 19 — Hole topology**: The claim that holes are "on the outside" is geometric. It predicts: from inside the membrane, you cannot observe a hole directly — only its effects on the inner surface. Test this by looking for "shadow entities" in the membrane — traffic patterns that suggest a source you cannot directly observe. If shadow entities exist (effects without a visible cause — seeing the wind, baseCamp 55), the topology is consistent. If every effect in the membrane has a directly observable cause, there are no holes and the membrane is not needed.
+
+**Test 20 — Self-passage**: The claim that "reality passes through itself" predicts self-similar structure at multiple scales: the permeability equations at the traffic level should have the same form as permeability equations at the quantum level (tunneling probability), the biological level (membrane transport), and the cognitive level (attention filtering). Catalog the permeability equations across domains. If they all have the form P(ω, W, d) with the same functional dependence on disorder W and dimension d, the self-similar structure is confirmed. If the equations differ fundamentally between domains, reality does not pass through itself in any meaningful sense — each domain has its own physics.
+
+**Kills H7 if**: The interpretation adds no predictive power. Specifically: every prediction made by "we are inside the membrane" and "Anderson permeability is reality passing through itself" can be made equally well without these claims, using standard physics at each scale. The membrane metaphor is evocative but contributes no new prediction that couldn't be reached by domain-specific reasoning.
+
+**Honest caveat**: H7 may be unfalsifiable in the Popperian sense. "We are inside the membrane" is a geometric interpretation of the observer's relationship to the unknown. It may be a useful way of thinking (a coordinate system, a mental model) rather than a physical claim. If so, the test is pragmatic: does the interpretation lead to better engineering? Does thinking of the traffic membrane as a local instance of a universal perceptual membrane lead to better system design than thinking of it as "just a traffic classifier"? If yes, the interpretation earns its keep through utility, not truth. If no, it's poetry. Poetry is fine — but it should be labeled as such.
+
+---
+
+### 7.9 Summary: How to Kill This Paper
+
+| Claim | Test(s) | Most likely to kill it | Hardest to kill |
+|-------|---------|----------------------|----------------|
+| H1: Convergent time | T1, T2, T3 | T3 (MI shows redundancy) | T1 (if |Im(P)| detects events) |
+| H2: P ≠ NP temporal | T4, T5, T6 | T6 (computational mapping fails) | T4 (equilibrium → |Im(P)| = 0) |
+| H3: Fold costs π | T7, T8, T9 | T9 (π not special vs. e or 2) | T7 (solid angle is known math) |
+| H4: Cost of return | T10, T11, T12 | T11 (f doesn't follow formula) | T10 (entity tracking is ongoing) |
+| H5: Domain-independent memory | T13, T14 | T14 (FIFO performs as well) | T13 (cross-domain catalog) |
+| H6: Universal navigation | T15, T16, T17 | T17 (π not better than e) | T15 (ant data available) |
+| H7: Inside the membrane | T18, T19, T20 | T20 (equations differ by domain) | T18 (intermediate-P entities) |
+
+**Recommended execution order**:
+1. **T3** (MI test) and **T9** (alternative constants) — cheapest and most discriminating. Can kill H1 and H3 in an afternoon.
+2. **T10, T11** (focal distance tracking) — requires only existing membrane data.
+3. **T14** (FIFO vs. genome) — build an alternative, run both for a month, compare.
+4. **T5** (KL divergence) — requires existing time series data.
+5. **T17** (navigation cost function fit) — requires published biological data.
+6. **T13, T15, T16** (cross-domain comparisons) — literature review + data collection.
+7. **T18, T19, T20** (membrane topology) — ongoing observation of the live system.
+8. **T4, T6** (equilibrium + computational) — require purpose-built experiments.
+9. **T7, T8** (dimensional analysis) — pure mathematics, no experiments needed.
+
+### 7.10 What Survives if Everything Dies
+
+If every testable hypothesis fails — if the three clocks are redundant, if π is not special, if FIFO matches the genome, if |Im(P)| doesn't correlate with irreversibility — what survives?
+
+The **equations** survive. P_complex = P_null + i(P_local - P_null) is valid mathematics regardless of interpretation. The focal distance f = 1/π^(d/2) is a defined function. The solid angle formula is established. The epitope sort works. The membrane classifies entities. The genome coils history.
+
+What dies is the **interpretation** — the claim that these local engineering solutions are instances of a universal architecture. If the universe is not passing through itself, if π is not the cost of dimension, if the return path has nothing to do with ants or prodigals — then what we built is a good traffic classifier with a good compression scheme and an evocative naming convention. That would be a respectable death.
+
+The equations stand. The interpretations face the tests. That's how it should be.
 
 ---
 
