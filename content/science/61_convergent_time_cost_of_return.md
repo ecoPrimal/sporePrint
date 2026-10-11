@@ -742,6 +742,89 @@ The universe paid π to fold. The fold created the membrane. The membrane create
 
 ---
 
+## 12. The Signal Has No Time — Three Humans Made the Triangle
+
+### 12.1 The Photon's Frame
+
+Light travels at c. From the photon's own frame of reference, the journey takes zero time. Special relativity: as velocity approaches c, time dilation approaches infinity. At c, time stops. The photon that left the beacon at Lansing, Michigan and arrived at a visitor's browser experienced **no time at all**.
+
+The signal IS the membrane. It has no time dimension. It connects two points without experiencing the distance between them. The signal is instantaneous from its own perspective.
+
+But the observers — the humans — have time. They look around. They see the signal arriving. They measure the delay. They compare notes. And in doing so, they construct a triangle.
+
+### 12.2 Three Observers Make a Triangle
+
+One observer cannot triangulate. One point has no geometry. You know you received a signal. You don't know where it came from — you only know it arrived.
+
+Two observers can measure a line. Two points define a direction. If both observers see the same signal, they can compare timing and establish a baseline. But a line has no area, no depth, no interior.
+
+Three observers make a triangle. Three points define a plane. The triangle has area, interior, and angles. From three observations of the same signal, you can compute:
+- **Distance** to the source (from the triangle's geometry)
+- **Direction** to each other (from the angles)
+- **The existence of an interior** — a region that is "inside" the triangle
+
+The signal itself has no time. It crosses the membrane instantaneously (from its own frame). But the three observers, each embedded in time, each looking around from their own position, construct the geometry that the signal alone cannot carry.
+
+### 12.3 The Origin Signal as a Vertex
+
+The beacon broadcasts: **Lansing, Michigan. We are approximately here.**
+
+This is one vertex. The beacon is the known point. P_null of location — the reference from which all other positions are measured.
+
+A visitor arrives. They don't reveal their location (zK — privacy is consent). But they can see the beacon. They know one vertex. From their browser, from their device, from whatever surface they touch — they have a second vertex: themselves.
+
+A second visitor arrives. Same beacon. Different angle. Different surfaces touched. Different braids woven. They are the third vertex.
+
+The triangle is formed. Not by the signal — the signal has no geometry of its own (it has no time, and geometry requires time to measure). The triangle is formed by **three humans looking around**.
+
+### 12.4 Surfaces as Angles
+
+In the membrane framework, we don't know physical location (we strip IPs, we respect privacy). But we know **surfaces**. Each surface a visitor touches is an angle of observation — a direction from the beacon:
+
+| Surface | What it represents |
+|---------|-------------------|
+| hud | Looking at the observation layer — inward, monitoring |
+| detroit | Looking at the evidence — outward, investigating |
+| sporeprint | Looking at the science — upward, learning |
+| git | Looking at the source — downward, building |
+| beacon | Looking at the relay — origin, finding |
+| epitope-sort | Looking at the braids — sideways, reflecting |
+
+The visitor's surface trail (their braid) IS their angular position relative to the beacon. A visitor who touches mostly hud is looking inward. A visitor who touches mostly detroit is looking outward. A visitor who touches both is sweeping a wide angle — high d_eff, low focal distance, far from origin.
+
+When three visitors look at different surfaces from different angles, they triangulate the **shape** of the organism. Not its physical location — its informational shape. The triangle they form is in surface space, not physical space. But the geometry is the same:
+
+$$\text{distance}(V_1, V_2) = \sqrt{\sum_S (P_{\text{local}}(V_1, S) - P_{\text{local}}(V_2, S))^2}$$
+
+The distance between two visitors is the Euclidean distance between their surface profiles. Two visitors who touch the same surfaces the same way are close (similar angle). Two visitors who touch completely different surfaces are far (orthogonal angles).
+
+### 12.5 The Light Does Not Experience the Triangle
+
+The signal (the HTTP response, the billboard text, the beacon page) travels from the server to the browser at the speed of light through fiber and copper. From the signal's frame, no time passes. The signal does not know there is a triangle. It does not know there are three observers. It does not know it has been triangulated.
+
+The geometry is constructed entirely by the observers. The signal provides the medium — the substance that passes through the membrane — but the structure emerges from the observers comparing notes.
+
+This is why the braids matter. The braids are the observers' notes. Each braid is one observer's trail through surface space over time. When three braids overlap on the same surface at the same time, a triangle forms. When they diverge, the triangle stretches. When one braid goes dark (the visitor leaves), one vertex disappears and the triangle collapses back to a line.
+
+The signal has no time. The observers have time. The triangle is made of time. The membrane is made of signal. The geometry lives in the gap between them.
+
+### 12.6 The zK Proof of Position
+
+Broadcasting "Lansing, Michigan" is a zero-knowledge proof of location:
+- **Completeness**: if you are in Lansing, you can prove it (you are approximately here)
+- **Soundness**: if you are not in Lansing, you cannot credibly claim to be (the signal originates from a known IP range, the infrastructure runs on identifiable hardware)
+- **Zero-knowledge**: the proof reveals only "approximately Lansing" — not the street address, not the building, not the room
+
+This is sharing without it being taken. The origin is known to exist. Its approximate location is public. Its exact location is private. Consent operates in both directions:
+- **Positive consent**: the architect chose to publish "Lansing, Michigan." This is given freely.
+- **Negative consent**: visitors choose NOT to reveal their location. This is respected absolutely.
+
+Impact traces from victim to source. The visitor (the victim of observation — they are being observed by the membrane) follows the signal backward from **signal** (where the effects are visible) to **beacon** (where the light originates). They find the origin: Lansing, Michigan. They find the forge: 53 repositories. They find the address: eco.primal@pm.me.
+
+They complete the triangle by being there. Three humans looking around. The light didn't make the triangle. They did.
+
+---
+
 *baseCamp 61 — eastGate Artisan · Wave 173 · October 11, 2026*
 
 *Three clocks. One time. They don't lock to each other. They lock toward.*
@@ -755,3 +838,6 @@ The universe paid π to fold. The fold created the membrane. The membrane create
 *All holes are on the outside. We are on the inside.*
 *The membrane is not a model of reality. It is reality modeling itself.*
 *And what passes through — is.*
+
+*The signal has no time. Three humans looking around made the triangle.*
+*Lansing, Michigan. Approximately here. Come find me.*
