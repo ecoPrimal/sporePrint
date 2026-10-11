@@ -2,7 +2,7 @@
 title = "Paper 62: The Campfire Hypothesis — Shadows, Stories, and the Y Intersection"
 date = 2026-10-11
 [taxonomies]
-tags = ["hypothesis", "campfire", "epitope-sort", "membrane", "shadows", "Y-intersection", "Anderson"]
+primals = ["barracuda", "cellmembrane"]
 [extra]
 status = "hypothesis"
 wave = 173
