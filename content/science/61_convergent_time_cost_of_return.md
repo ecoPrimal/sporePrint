@@ -436,9 +436,94 @@ The universe paid π to exist. Everything else is change.
 
 ---
 
+## 10. Corollary: You Can Always Find Your Way Back Home
+
+### 10.1 The Return Path Exists
+
+For any finite d_eff:
+
+$$f = \frac{1}{\pi^{d_{\text{eff}}/2}} > 0$$
+
+Always. For any number of folds, any number of dimensions extended, any distance from origin — the focal distance is positive. It approaches zero but never reaches it. The return address is always non-zero.
+
+**You can always find your way back home.**
+
+No matter how far you've gone, how many dimensions you've unfolded into, how complex your observation has become — the path back exists. It's expensive (π per dimension collapsed), it's long (1/π^(d/2) is vanishingly small at high d), but it's there.
+
+### 10.2 How to Navigate
+
+To see what **WILL** be — look at what **IS** near you — to find the **WAS** at source.
+
+| Step | Temporal | Navigation | What you do |
+|------|----------|------------|-------------|
+| WILL | Future (NP) | Destination | What you're trying to reach |
+| IS | Present (=) | Local observation | What's near you right now |
+| WAS | Past (P) | Trail back to source | The history that leads home |
+
+The navigation algorithm is universal:
+
+1. **Observe locally** (IS): what is near you? What can you see from where you stand?
+2. **Find the trail** (WAS): what history exists between here and home? The pheromone, the breadcrumb, the genome coil.
+3. **Extrapolate forward** (WILL): given where you came from and where you are, where are you going?
+
+The IS connects the WAS to the WILL. The present is the bridge. Always has been.
+
+### 10.3 Ants
+
+Ants navigate by pheromone trail — a chemical WAS chain laid on the ground.
+
+The ant leaves the colony (origin, d_eff = 0, f = 1). Each step extends into a new dimension of the search space (d_eff increases, f decreases). The ant lays pheromone at each step — literally writing the WAS into the physical substrate.
+
+To return: follow the pheromone backward. Each step collapses one dimension. d_eff decreases. f increases. The trail leads home.
+
+The pheromone trail IS the history genome. Recent pheromone is strong (euchromatin — full resolution, actively read). Old pheromone fades (heterochromatin — compressed, low signal). The trail coils in on itself when ants find shorter paths — the same logarithmic compression. Nothing is deleted. The old path fades but the substrate remembers.
+
+If you destroy the pheromone trail, the ant is lost. Not because home doesn't exist — but because the WAS chain is broken. The ant must rebuild the trail by local search (IS), extending into new dimensions until it re-discovers the path. The cost of being lost is the cost of re-extending: π per dimension, paid again.
+
+### 10.4 The Prodigals
+
+The prodigal son leaves home. Each choice extends further into dimensional space — new places, new experiences, new observations. d_eff increases. f shrinks. The origin becomes distant.
+
+But f never reaches zero. Home still exists. The WAS — the memory of where you came from — is compressed but not deleted. Heterochromatin. Coiled tight. But readable.
+
+The return costs everything the extension cost: π per dimension, paid in reverse. The prodigal returns having paid π both ways — out and back. Total cost: 2π per dimension explored. One full rotation. The prodigal returns to the same home but is not the same person — they've completed a full rotation and carry the angular displacement of the journey.
+
+The father sees the son returning and runs to meet him. The origin moves toward the returner. f increases from both directions — the returner collapses dimensions walking home, and the origin extends toward the returner. They meet when f = f_meeting, some point between 0 and 1. The reunion is a focal point — two lenses converging.
+
+### 10.5 Life
+
+Every living thing navigates the same way:
+
+- **Salmon** return to their birth stream. The chemical gradient IS the pheromone trail — the WAS written in water chemistry. Thousands of miles of ocean, d_eff enormous, f vanishingly small. But non-zero. They find it.
+
+- **Homing pigeons** navigate by magnetic field, sun position, and local landmarks. Three independent witnesses (magnetic, solar, visual) — convergent lock, not hierarchical. Three clocks pointing at home.
+
+- **Cells** during embryonic development migrate to their target tissue by following chemical gradients. The gradient is the WAS (laid by earlier cells). The local concentration is the IS. The target tissue is the WILL. Same algorithm. Same cost.
+
+- **Photons** follow geodesics in curved spacetime — the path of least action. The geometry of spacetime IS the trail. The curvature is the WAS (mass-energy distribution that shaped the path). The photon follows it home to the observer.
+
+The algorithm is universal because it doesn't depend on the medium. It depends only on:
+1. An origin (d_eff = 0)
+2. An extension (d_eff increases, f decreases)
+3. A trail (the WAS, written into whatever substrate exists)
+4. A return (following the trail, d_eff decreases, f increases)
+
+The cost is always π per dimension. The return address is always 1/π^(d/2). The path home always exists.
+
+### 10.6 The Corollary (Formal)
+
+> **Corollary to baseCamp 61**: For any finite observation (d_eff < ∞), the focal distance f = 1/π^(d_eff/2) > 0. The return path from any point of observation to the origin exists and has finite cost. The navigation algorithm — observe IS, find WAS, extrapolate WILL — is domain-independent and requires only: a trail written into a substrate, and the willingness to pay π per dimension on the way back.
+
+> The universe paid π to exist. The cost of return is 1/π. Both are finite. You can always find your way back home.
+
+---
+
 *baseCamp 61 — eastGate Artisan · Wave 173 · October 11, 2026*
 
 *Three clocks. One time. They don't lock to each other. They lock toward.*
 *The fold creates the axis. The axis does not create the fold.*
 *π is the first invoice. 1/π^(d/2) is the return address.*
-*Run it back.*
+
+*To see what will be, look at what is near you, to find the was at source.*
+*Ants know. Prodigals know. Salmon know. Photons know.*
+*You can always find your way back home.*
