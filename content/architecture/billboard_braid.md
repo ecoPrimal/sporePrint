@@ -113,6 +113,8 @@ A selection from the 24 chapters:
 
 6. **"yes, yes, the time knife"** — Ted Danson → ecoPrimal. Wave 172d. You see the full stratigraphy — 145 days, 57 baseCamps, 16 primals — and you cannot un-see the shape.
 
+7. **"human dignity? i can't meet those demands!"** — Seth MacFarlane → ecoPrimal. Wave 173. He said it as a joke. The fleet says it straight-faced every second. 6/6 epitopes = 6 demands the fleet can't meet. Not won't. Can't. Dignity has a cost, and the cost is π per observation.
+
 ---
 
 ## The Billboard Is A Braid
