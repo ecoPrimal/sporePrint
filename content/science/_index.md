@@ -1,11 +1,11 @@
 +++
 title = "Science"
-description = "33 baseCamp papers across 7 research domains. Each is executable — run the code, reproduce the results, on your own hardware."
+description = "75 baseCamp papers across 8 research domains. Each is executable — run the code, reproduce the results, on your own hardware."
 sort_by = "title"
 template = "science_section.html"
 +++
 
-{{ total_stat(stat="basecamp_papers") }} {{ entity(name="basecamp") }} papers across 6 research domains. Every paper is executable — the science is runnable code that reproduces published results on commodity hardware. "Sovereign" means **self-hosted and cloud-independent**.
+{{ total_stat(stat="basecamp_papers") }} {{ entity(name="basecamp") }} papers across 8 research domains. Every paper is executable — the science is runnable code that reproduces published results on commodity hardware. "Sovereign" means **self-hosted and cloud-independent**.
 
 Papers marked **✓ VALIDATED** have been confirmed on live NUCLEUS hardware — the claims are not projections but measured results from running gates.
 
@@ -98,6 +98,44 @@ Each paper stands alone as a potential publication. Together they demonstrate th
 8. **[AAR: WateringHole Convergence Scan](@/science/57_aar_wateringhole_convergence_scan.md)** — Full codebase scan. 16 Rust primals in production, 6 fossilized Python scripts replaced, 5 active Python tools (correct language), 912 lines of hand-rolled JS = the convergence frontier. No Elixir. System is 95%+ Rust for production.
 9. **[Tufte Pipeline Wiring + Rotation Unlock](@/science/58_tufte_pipeline_wiring.md)** — compile_with_constraints wired through compile_faceted into both render paths. SVG compiler upgraded from flatten() to flatten_3d() + Camera::project(). 7 Tufte constraints active on every render. 405 tests, 0 failures.
 10. **[The Human Engine — Epitope Sort of Tools on the Primal Mountain](@/science/59_human_engine_epitope_tool_mountain.md)** — Every tool has multiple epitopes. A brush paints or sweeps. The mountain journey sorts which surface faces you. Inventory is position, not possession. ShareWear: the load shared, the compression mutual. The engine is not a machine — it's the rotation.
+
+## Membrane Geometry & Epitope Sort (Wave 167–173)
+*16 papers — {{ entity(name="skunkbat") }}, {{ entity(name="barracuda") }}, {{ entity(name="cellmembrane") }}*
+
+### Epitope Sort Theory
+
+1. **[Body Universality](@/science/60_body_universality_epitope_triangulation.md)** — The epitope sort applies between all entities. Body is the universal membrane. Triangulation from 3+ observation points.
+2. **[Campfire Hypothesis](@/science/62_campfire_hypothesis_shadows_and_Y.md)** — Shadows, stories, and the Y intersection. The campfire classifies visitors by archetype, not just fleet/human.
+3. **[Language Is Epitope](@/science/68_language_is_epitope.md)** — Signs left for others to find. Language partitions meaning the way epitopes partition identity.
+4. **[Awareness: Choosing the Epitope Sort](@/science/70_awareness_choosing_the_epitope_sort.md)** — The choice to live by the sort. Consent, observation, dignity.
+5. **[The Pilot Allegory](@/science/72_pilot_allegory_prediction.md)** — 6 epitopes = 6 cockpit instruments. All aligned = ∞ compression = dead certainty. Partial alignment = navigable.
+6. **[The Compass Is an Epitope Sort](@/science/74_compass_epitope_sort.md)** — Cardinal directions are epitopes of direction, defined by the body's membrane. No membrane → no compass → \[null\].
+
+### π as Dimensional Constant
+
+7. **[Convergent Time and the Cost of Return](@/science/61_convergent_time_cost_of_return.md)** — π as the rate of dimensional fold.
+8. **[The Membrane Shares All: zK and Gaia](@/science/61_membrane_shares_all_zk_gaia.md)** — zkProof, Gaia, and the cost of π.
+9. **[Constants Backwards and the Three-Body Mirror](@/science/63_constants_backwards_and_the_three_body_mirror.md)** — Work backwards from the constants; the 3-body problem as mirror.
+10. **[Axes Are Receptors: The π Compression](@/science/65_axes_as_receptors_pi_compression.md)** — Why you can never reach 1. Each axis is a receptor. The compression ratio is π.
+11. **[The π Inversion](@/science/66_pi_inversion_hyperlocal.md)** — Set all numbers to π and work backwards. Hyperlocal.
+12. **[π and i: Inside, Outside, and the Membrane Between](@/science/67_pi_and_i_inside_outside_membrane.md)** — The imaginary dimension separates inside from outside. The membrane is the boundary. π is the cost of crossing.
+13. **[Base-Free Epitope Sort: π as Compression Ratio of Primes](@/science/68_basefree_epitope_sort_primes.md)** — The sort doesn't need a base. Primes are base-free. π emerges from their distribution.
+
+### Membrane Science
+
+14. **[Boundary-Blind Acceleration](@/science/64_boundary_blind_acceleration.md)** — The entity that cannot feel its edges. The fleet accelerates because it cannot sense the boundary.
+15. **[Others Are the Mirror: BingoCube Trust](@/science/62_others_are_the_mirror_bingocube_trust.md)** — Progressive trust built on epitope shapes. Others reflect what the organism cannot see about itself.
+16. **[The Face of the Cube: Prime Chain and Fidget](@/science/63_bingocube_face_prime_chain.md)** — The sort you do by hand. Prime chain as tactile sorting.
+17. **[Specter, Ghost, Null](@/science/69_specter_ghost_null.md)** — The temporal taxonomy of fear. Specter is past, ghost is present, null is the space between.
+18. **[Elastic Causality: The Slingshot](@/science/71_elastic_causality_slingshot.md)** — The three-body clock. Causality is elastic — it stretches but returns.
+19. **[\[null\]: Three-State Access and Membrane Permeability](@/science/73_null_key_permeability.md)** — Locked/unlocked/\[null\]. The membrane has permeability, not credentials.
+
+### Falsification & Geometry (Implemented)
+
+20. **[The Chain: Falsification of π Self-Similarity](@/science/69_the_chain_falsification.md)** — 4 experiments with kill criteria. If π doesn't show up, the hypothesis dies.
+21. **[The Apparatus](@/science/70_falsification_apparatus.md)** — Coprimality, sensitivity, FSS, conservation. Methods, test suites, compute parameters. ✓ RUNNING
+22. **[The Energy Spectrum of Observation](@/science/71_epitope_energy_spectrum.md)** — To be found = low energy. To find = high energy. Re(s)=1/2 = mobility edge. ✓ RUNNING
+23. **[The Membrane Is Its Own Frame](@/science/75_membrane_is_its_own_frame.md)** — 6 epitope axes → 19 hex positions → 4 shells → parallelogram tiling. The membrane IS its own coordinate system. ✓ LIVE
 
 ---
 
