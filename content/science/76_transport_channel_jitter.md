@@ -2,8 +2,6 @@
 title = "Paper 76: The Cell Tower Is a Membrane"
 date = 2026-10-11
 description = "Transport channel jitter correction for mobile entities — the cell tower distorts timing signals the same way any membrane distorts the wave passing through it."
-[taxonomies]
-tags = ["membrane", "transport", "jitter", "mobile", "epitope-sort", "anderson"]
 [extra]
 paper_number = 76
 wave = 173
