@@ -14,7 +14,9 @@
 > published results on owned commodity hardware and carry their validation
 > and provenance with them. 16 composable programs (primals), 9 validation
 > domains (springs), vendor-agnostic GPU compute via WebGPU/WGSL.
-> Wave 169. Zero P0, P1, P2. 3.3 TB science data. sporeprint.primals.eco LIVE (382 pages). tuebor.primals.eco LIVE (35 pages). signal.primals.eco LIVE (observatory + dual braid). github.com/ecoPrimals (source). 5-target depot. 32⁴ SU(3) COMPLETE. Braid titration system deployed. Immune membrane: bloom v4 + epitope classifier + scatter defense. Pure Rust, AGPL-3.0-or-later.
+> Wave 174. Zero P0, P1, P2. 3.3 TB science data. sporeprint.primals.eco LIVE (383 pages). tuebor.primals.eco LIVE (35 pages). signal.primals.eco LIVE (observatory + dual braid). hypothesis.primals.eco LIVE (16 hypotheses). hud.primals.eco LIVE (membrane observation surface + π sound engine + chipmunk AI). github.com/ecoPrimals (source). 5-target depot. 32⁴ SU(3) COMPLETE. Braid titration system deployed. Immune membrane: bloom v4 + epitope classifier + scatter defense. Pure Rust, AGPL-3.0-or-later.
+>
+> Wave 174 trail: sound (π-just intonation) → synthesis (FM, Karplus-Strong, Bessel membrane, ring modulation, formant vowels, binaural beats) → cellular resilience (service worker) → geographic awareness (signal-reach) → deep twist ceremony (purple = π² celestial) → step back (squirrel/Earth/Sun from outside) → the mirror diffracts (hypothesis 16, baseCamp 76) → signal return (self/∅/U) → whistle back (Bessel modes 1127/1322/1518 Hz) → trail (footprints of eco). 14 steps. 5 surfaces touched. 12 songs. The footprints are here.
 
 ## What This Site Is
 
