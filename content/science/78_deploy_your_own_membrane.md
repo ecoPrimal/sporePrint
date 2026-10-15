@@ -242,6 +242,212 @@ YOUR DOMAIN
                               nothing is ever deleted
 ```
 
-The organism is 77 papers, ~30,000 lines of Rust, 8 live sites, and one membrane that floats free on a $6/month VPS.
+## A Piece of Mine
 
-Now it can be two.
+Everything above describes the outer membrane — a VPS floating in the cloud, sorting traffic for your public sites. But a membrane can also protect a home. Here's how mine does.
+
+### The Boundary Node
+
+One Linux box. Three network interfaces. It sits between the internet and every device in my house.
+
+```text
+INTERNET
+    │
+    ├── AT&T Router (WiFi uplink)
+    │        │
+    │   ┌────┴──────────────── sporeGate ───────────────────────┐
+    │   │                                                        │
+    │   │  wlp3s0 (WiFi) ─── WAN1: internet via AT&T            │
+    │   │  enp1s0 (2.5GbE) ── WAN2: empty, waiting for          │
+    │   │                      Mint Mobile / second ISP          │
+    │   │  eno1 (2.5GbE) ──── LAN: 192.168.4.0/22               │
+    │   │                                                        │
+    │   │  SERVICES:                                             │
+    │   │    dnsmasq ── DNS + DHCP for every device              │
+    │   │    stubby ─── DNS-over-TLS (Cloudflare + Quad9)        │
+    │   │    blocklist ─ 81,838 ad/tracker/malware domains       │
+    │   │    nftables ── default DROP on input + forward          │
+    │   │    beardog ── cryptographic identity                    │
+    │   │    songbird ─ mesh (dark forest mode)                   │
+    │   │    NAT masquerade on WAN                                │
+    │   └───────────────────────┬────────────────────────────────┘
+    │                           │
+    │                    eno1 (192.168.4.3)
+    │                           │
+    ╠═══════════════════════════╪════════════════════════════
+    ║           192.168.4.0/22  │  HOME LAN
+    ║                           │
+    ║    WiFi APs ──── phones, tablets, laptops
+    ║    10GbE switch ─ compute gates (eastgate, northgate)
+    ║    Managed switch ─ IoT, printer, Xbox
+    ╚═══════════════════════════════════════════════════════
+```
+
+### DNS Sovereignty
+
+Every device on the LAN gets its DNS from sporeGate. No exceptions. The chain:
+
+```text
+Any device on LAN
+  → dnsmasq (192.168.4.3:53)
+     ├── Local zones: primals.local, primal.eco
+     ├── Blocklist: 81,838 domains silently dropped
+     └── Everything else → stubby (127.0.0.1:5353)
+                              └── DNS-over-TLS to Cloudflare + Quad9
+```
+
+Your phone, your kid's tablet, the printer, the Xbox — all of them get ad-blocking, tracker-blocking, and encrypted DNS. No per-device configuration. No browser extension. The membrane does it for everyone who's inside it.
+
+To build your own sovereign DNS:
+
+```bash
+# Install
+apt install dnsmasq stubby
+
+# /etc/dnsmasq.conf — the essentials
+interface=eno1          # your LAN interface
+bind-dynamic
+listen-address=127.0.0.1
+dhcp-range=192.168.4.100,192.168.4.249,255.255.252.0,12h
+dhcp-option=option:router,192.168.4.1
+dhcp-option=option:dns-server,192.168.4.3
+server=127.0.0.1#5353   # stubby DoT
+server=1.1.1.1           # cleartext fallback
+no-resolv
+dhcp-authoritative
+cache-size=1000
+
+# Blocklist — download and convert
+curl -sS https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts \
+  | grep ^0.0.0.0 | awk '{print "address=/"$2"/"}' \
+  > /opt/sovereign-dns/blocklist.conf
+# Add to dnsmasq.conf:
+# conf-file=/opt/sovereign-dns/blocklist.conf
+```
+
+### The Firewall
+
+Default DROP. Nothing gets in unless explicitly allowed. Nothing gets forwarded from WAN to LAN.
+
+```bash
+#!/usr/sbin/nft -f
+# /etc/nftables.conf — personal membrane
+
+table inet membrane {
+    set bogons_v4 {
+        type ipv4_addr
+        flags interval
+        elements = {
+            0.0.0.0/8, 10.0.0.0/8, 100.64.0.0/10,
+            169.254.0.0/16, 172.16.0.0/12, 192.168.0.0/16,
+            198.18.0.0/15, 240.0.0.0-255.255.255.255
+        }
+    }
+
+    chain input {
+        type filter hook input priority filter; policy drop;
+        ct state established,related accept
+        ct state invalid drop
+        iif "lo" accept
+        meta l4proto { icmp, ipv6-icmp } limit rate 10/second accept
+
+        # Block spoofed sources from WAN
+        iifname "enp1s0" ip saddr @bogons_v4 drop
+
+        # LAN is trusted
+        iifname "eno1" accept
+
+        # Rate-limited services from WAN
+        tcp dport 22 ct state new limit rate 3/minute accept
+    }
+
+    chain forward {
+        type filter hook forward priority filter; policy drop;
+        ct state established,related accept
+        ct state invalid drop
+
+        # NO WAN-initiated traffic to LAN — ever
+        iifname "enp1s0" oifname "eno1" ct state new drop
+
+        # LAN to WAN — yes
+        iifname "eno1" oifname "enp1s0" accept
+
+        # LAN to LAN — yes
+        iifname "eno1" oifname "eno1" accept
+    }
+
+    chain output {
+        type filter hook output priority filter; policy accept;
+    }
+}
+
+# NAT for LAN → WAN
+table ip membrane-nat {
+    chain postrouting {
+        type nat hook postrouting priority srcnat; policy accept;
+        oifname "enp1s0" masquerade
+    }
+}
+```
+
+### Internet Redundancy
+
+The boundary node has two WAN-capable NICs. One is connected (WiFi to AT&T). The second 2.5GbE port waits for a second path — a Mint Mobile hotspot, a neighbor's connection, a point-to-point bridge to the house across the street.
+
+```bash
+# When you plug in a second WAN (e.g., USB-tethered phone or second router):
+# The kernel picks the lowest metric route. Set metrics to prioritize:
+ip route add default via 192.168.2.1 dev enp1s0 metric 100  # primary WAN
+ip route add default via 192.168.1.254 dev wlp3s0 metric 600  # backup WiFi
+
+# If primary dies, traffic falls to backup automatically.
+# No configuration change. No restart. The membrane heals.
+```
+
+For the house across the street — a pair of directional WiFi antennas (Ubiquiti NanoStation, ~$60 each) creates a point-to-point bridge. Same subnet. Same membrane. Two buildings, one organism.
+
+### What This Gives You
+
+Every device in your house — every phone, every laptop, every tablet, every game console, every IoT thing — gets:
+
+- **Ad blocking** across all apps, not just browsers (DNS-level)
+- **Tracker blocking** — 81,838 domains can't phone home
+- **Encrypted DNS** — your ISP can't see your queries
+- **Firewall** — nothing from the internet can initiate a connection inward
+- **DHCP** — devices auto-configure, no manual IP setup
+- **Local DNS** — name your devices, resolve them by name
+
+You didn't install anything on any device. The membrane protects everything inside it by being the boundary. That's what membranes do.
+
+### The Full Stack
+
+```text
+CLOUD (outer membrane — $6/month VPS)
+    │
+    │  Caddy + skunky-ingest + songbird + petaltongue
+    │  Sorts visitors, tells stories, serves sites
+    │  Floats free — no dependency on home network
+    │
+    ╌╌╌╌╌╌╌╌╌╌╌╌ public internet ╌╌╌╌╌╌╌╌╌╌╌╌
+    │
+HOME (peptidoglycan — boundary node)
+    │
+    │  sporeGate: DNS sovereignty + firewall + NAT
+    │  Protects every device on the LAN
+    │  Second WAN port ready for redundancy
+    │
+    ╌╌╌╌╌╌╌╌╌╌╌╌ home LAN ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+    │
+    │  Compute gates, phones, tablets, IoT
+    │  All DNS through sporeGate
+    │  All internet through sporeGate NAT
+    │  Nobody sees them from outside
+```
+
+The outer membrane and the home membrane are **independent**. The VPS can die and your home is still protected. Your home can lose power and your sites stay up. They breathe together when both are alive — songbird syncs state — but neither depends on the other.
+
+That's the whole thing. Cloud and home. Two pieces. One organism.
+
+The organism is 78 papers, ~30,000 lines of Rust, 8 live sites, one membrane floating free on a VPS, and one boundary node protecting a home.
+
+Now it can be yours too.
