@@ -191,19 +191,29 @@ Your membrane starts empty. The sourdough culture is blank. Then:
 
 You didn't configure any of this. It grew.
 
-## The Commensal Promise
+## The Deal
 
-This architecture is given freely. Not because it's charity — because that's how membranes work. A healthy membrane is permeable. Knowledge that hoards is knowledge that dies.
+This goes downward.
 
-If you deploy your own membrane:
+The organism doesn't sell upward to people with power. It gives downward to people who need to care for something. A student with a portfolio. A journalist with sources to protect. A family with a network. A community with a website. Anyone who has visitors and wants to know them without surveilling them.
 
-- You owe nothing
-- You share nothing you don't choose to
-- Your visitors' privacy is absolute (zK-SNARK by architecture)
-- Your culture is yours — the sourdough starter you grew
+Taking this gives you **little power**. You cannot weaponize it. The sort is zero-knowledge — you never learn who your visitors are, only how they move. You cannot sell their data because you never had it. You cannot target them because you never identified them. The architecture makes exploitation structurally impossible, not just policy-forbidden.
+
+What it gives you instead is **unlimited caretaking, for free**. You can see what touches your membrane. You can tell the difference between a human reading your work and a bot scraping it. You can watch the stories the campfire tells about your visitors and understand the shape of your audience without ever piercing their privacy. You can grow a culture — a sourdough starter of behavioral knowledge — that gets wiser every day and costs nothing to feed.
+
+The deal:
+
+- It leaves with sovereign consent — freely given, no strings
+- You owe nothing back
+- Your visitors owe you nothing
+- Their privacy is absolute (zK by architecture, not promise)
+- Your culture is yours — what you grew, not what was given
 - Federation is voluntary — you choose what to share with the mesh
+- The code is AGPL-3.0 — if you improve it, those improvements stay free too
 
-The organism gives you a piece of itself. What you grow from it is yours. That's how spores work.
+This is how spores work. The organism gives you a piece of itself. You don't become the organism. You become your own. What grows from the spore is shaped by your soil, your visitors, your care.
+
+The power stays small. The caretaking stays unlimited. That's the deal.
 
 ## Architecture Reference
 
