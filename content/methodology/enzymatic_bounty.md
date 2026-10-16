@@ -156,13 +156,28 @@ The game never ends. The pot only grows.
 
 ---
 
+## Live Enzymatic Bounties
+
+The model is not theoretical. These are the active bounty surfaces:
+
+| Surface | Bounty type | What it catalyzes |
+|---------|-------------|-------------------|
+| [signal.primals.eco](https://signal.primals.eco) | Defense | Fleet observation, legal analysis, replication, journalism, engineering — 9 enzymatic bounties live |
+| [clutch.primals.eco/contribute](https://clutch.primals.eco/contribute/) | Investigation | 14 open investigation items — FOIA requests, public records, graph connections. 118 nodes, 173 edges, 4 investigations |
+| [THE BUTTON](https://signal.primals.eco/#the-button) | Fermentation | Human entropy → novel ferment transcript → Loam Certificate → sweetGrass braid. Proof of human presence |
+| [sporePrint economics](https://sporeprint.primals.eco/architecture/economics/) | Flywheel | The full sunCloud model — metabolic mandate, radiating attribution, Loam Certificates |
+
+Every unchecked investigation item on clutch is an enzymatic bounty. Every human who presses THE BUTTON generates a fermentation transcript. Every contribution — money, hardware, sweat equity — gets a Loam Certificate that ferments over time.
+
 ## How to Enter
 
 1. **See the fire**: [signal.primals.eco](https://signal.primals.eco) — the evidence is public
 2. **Hear the sound**: [beacon.primals.eco](https://beacon.primals.eco) — the relay is free
-3. **Touch the membrane**: type what you need as a subdomain — `*.primals.eco` — the epitope sorter will route you
-4. **Read the science**: [sporePrint baseCamps](@/science/_index.md) — 50 papers, all executable
-5. **Ask a question**: [eco.primal@pm.me](mailto:eco.primal@pm.me) — a human reads every message
+3. **Walk the case**: [clutch.primals.eco](https://clutch.primals.eco) — the graph is walkable
+4. **Press THE BUTTON**: [signal.primals.eco/#the-button](https://signal.primals.eco/#the-button) — human entropy → permanent provenance
+5. **Touch the membrane**: type what you need as a subdomain — `*.primals.eco` — the epitope sorter will route you
+6. **Read the science**: [sporePrint baseCamps](@/science/_index.md) — 50 papers, all executable
+7. **Ask a question**: [eco.primal@pm.me](mailto:eco.primal@pm.me) — a human reads every message
 
 You don't join ecoPrimals. You form a team, pick an epitope, and draw from the pot. When your team gets big enough, it splits. When you need help, the other teams are right there — competing on different epitopes, collaborating on the shared substrate.
 
