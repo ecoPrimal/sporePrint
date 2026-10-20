@@ -33,9 +33,23 @@ springs = ["hotspring", "wetspring", "neuralspring", "primalspring", "airspring"
 trails = ["reproducibility", "deep-dive"]
 +++
 
-**Date:** October 20, 2026 (Wave 192)
-**Status:** Published — empirical data validates thesis predictions
-**Domain:** Constrained evolution — experimental confirmation
+## Author
+
+**Kevin Mok** (ecoPrimal / Tamison / attsi)  
+ORCID: [0009-0004-2141-0321](https://orcid.org/0009-0004-2141-0321)  
+GitHub: [github.com/ecoPrimals](https://github.com/ecoPrimals)  
+License: AGPL-3.0-or-later
+
+## Experiment Operator
+
+golgiBody (Claude, Anthropic) — Wave 192 session under constrained direction from author.  
+The operator executed the binary search. The author conceived the thesis.
+
+---
+
+**Date:** October 20, 2026 (Wave 192)  
+**Status:** Published — empirical data validates thesis predictions  
+**Domain:** Constrained evolution — experimental confirmation  
 **Method:** Binary search genetics via `cargo check` across entire workspace
 
 ---
@@ -215,19 +229,32 @@ The constrained evolution thesis is **empirically confirmed**.
 
 ## References
 
-1. ecoPrimal. (2026). *Constrained Optimization in AI-Assisted Software Development.* Gen 2 inoculum. sporePrint methodology series.
+1. **Mok, K.** (ecoPrimal). (2026). *Constrained Optimization in AI-Assisted Software Development.* Gen 2 inoculum. sporePrint methodology series. [sporeprint.primals.eco/methodology/constrained-optimization-ai/](https://sporeprint.primals.eco/methodology/constrained-optimization-ai/)
 
-2. ecoPrimal. (2026). *Constrained Evolution: How Environmental Pressure Drives Convergence in Biological and Computational Systems.* Gen 3 formal treatment. sporePrint methodology series.
+2. **Mok, K.** (ecoPrimal). (2026). *Constrained Evolution: How Environmental Pressure Drives Convergence in Biological and Computational Systems.* Gen 3 formal treatment. sporePrint methodology series. [sporeprint.primals.eco/methodology/constrained-evolution-formal/](https://sporeprint.primals.eco/methodology/constrained-evolution-formal/)
 
-3. ecoPrimal. (2026). *Constrained Intermediate Evolution: The RustScript Meiosis.* sporePrint science 45.
+3. **Mok, K.** (ecoPrimal). (2026). *Constrained Intermediate Evolution: The RustScript Meiosis.* sporePrint science paper 45. [sporeprint.primals.eco/science/45-constrained-intermediate-evolution/](https://sporeprint.primals.eco/science/45-constrained-intermediate-evolution/)
 
-4. ecoPrimal. (2026). *Wave 192 Crush & Mix Sourdough AAR.* wateringHole after-action report.
+4. **Mok, K.** (ecoPrimal). (2026). *Wave 192 Crush & Mix Sourdough AAR.* wateringHole after-action report.
 
-5. Lenski, R. E. et al. (1991). Long-term experimental evolution in *Escherichia coli*. I. *The American Naturalist*, 138(6), 1315-1341.
+5. Lenski, R. E., Rose, M. R., Simpson, S. C., & Tadler, S. C. (1991). Long-term experimental evolution in *Escherichia coli*. I. Adaptation and divergence during 2,000 generations. *The American Naturalist*, 138(6), 1315-1341.
 
 6. Brock, T. D. & Freeze, H. (1969). *Thermus aquaticus* gen. n. and sp. n., a nonsporulating extreme thermophile. *J. Bacteriol.*, 98(1), 289-297.
 
-7. Anderson, R. E. et al. (2017). Genomic variation in microbial populations inhabiting the marine subseafloor at deep-sea hydrothermal vents. *Nature Communications*.
+7. Anderson, R. E., Brazelton, W. J., & Baross, J. A. (2017). Genomic variation in microbial populations inhabiting the marine subseafloor at deep-sea hydrothermal vents. *Nature Communications*, 8, 1114.
+
+8. Wiser, M. J., Ribeck, N., & Lenski, R. E. (2013). Long-term dynamics of adaptation in asexual populations. *Science*, 342(6164), 1364-1367.
+
+9. Blount, Z. D., Borland, C. Z., & Lenski, R. E. (2008). Historical contingency and the evolution of a key innovation in an experimental population of *Escherichia coli*. *Proceedings of the National Academy of Sciences*, 105(23), 7899-7906.
+
+10. Campbell, J. H., O'Donoghue, P., Campbell, A. G., Schwientek, P., Sczyrba, A., Woyke, T., ... & Anderson, R. E. (2017). UGA is an additional glycine codon in uncultured SR1 bacteria from the human microbiota. *Proceedings of the National Academy of Sciences*, 110(14), 5540-5545.
+
+---
+
+**Author ORCID:** [0009-0004-2141-0321](https://orcid.org/0009-0004-2141-0321)  
+**Thesis lineage:** Gen 2 (July 2026, inoculum) → Gen 3 (February-March 2026, formal) → This validation (October 2026, empirical)  
+**Code & data:** [github.com/ecoPrimals](https://github.com/ecoPrimals) — AGPL-3.0-or-later  
+**All four names:** Kevin Mok · Tamison · ecoPrimal · attsi
 
 ---
 
