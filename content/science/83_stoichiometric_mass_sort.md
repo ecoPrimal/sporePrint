@@ -13,8 +13,8 @@ orcid = "0009-0004-2141-0321"
 primal_deps = ["sourDough", "sweetGrass", "loamSpine", "squirrel"]
 validated_on = "eastgate sovereign compute (i9-14900K, 96GB DDR5)"
 validation_date = 2026-10-20
-pages_sorted = 1185
-sites_applied = ["detroit", "publicRecord", "tuebor"]
+pages_sorted = 1386
+sites_applied = ["detroit", "publicRecord", "tuebor", "sporePrint"]
 tests = 14
 total_ecosystem_tests = 644
 +++
@@ -156,14 +156,15 @@ All 644 sourDough tests pass. The mass validator integrates with the existing 14
 
 ## 5. Results
 
-Applied to three Zola sites on 2026-10-20:
+Applied to four sites on 2026-10-20 (pass 3):
 
-| Site | Pages | Max Mass | Mean H (bits) | Top Page |
-|------|-------|----------|---------------|----------|
-| detroit | 443 | 1,775.8 | 7.092 | `the-enterprise` (H=8.903, 4,025 words, 70 links, 42 citations) |
-| publicRecord | 429 | — | — | (shared analysis content) |
-| tuebor | 313 | — | — | (YAML frontmatter variant) |
-| **Total** | **1,185** | | | |
+| Site | Pages | Max Mass | Total Mass | Mean H (bits) | Top Page |
+|------|-------|----------|-----------|---------------|----------|
+| detroit | 468 | 1,775.8 | 58,674 | 7.128 | `the-enterprise` (H=8.903, 4,025 words, 70 links, 42 citations) |
+| publicRecord | 429 | 1,775.8 | 54,097 | 7.074 | `the-enterprise` (mirrored content) |
+| tuebor | 55 | 220.6 | 6,015 | 7.351 | `how-to-point-back` (H=7.744, 830 words, 21 links, 7 citations) |
+| sporePrint | 434 | 499.0 | 46,828 | 7.772 | `44_declaration_protocol` (H=8.086, 1,280 words) |
+| **Total** | **1,386** | | **165,614** | **~7.33** | |
 
 ### 5.1 Top 10 by Mass (detroit)
 
@@ -189,6 +190,20 @@ Applied to three Zola sites on 2026-10-20:
 3. **The formula is self-stabilizing**: Running the mass sort a second time (after weights changed from pass 1) produced the same ordering. This is because mass depends on content, not on the weight field — changing `weight = N` doesn't change the page body, so the mass is invariant under re-sorting.
 
 4. **Blake3 hashes provide change detection**: If a page's content changes, its hash changes. A CI pipeline can detect which pages need re-weighing by comparing stored hashes to current ones — no need to re-sort the entire site.
+
+### 5.3 Iteration: Pass 3 Findings
+
+Running the validator again after pass 2 revealed five iterations:
+
+1. **detroit grew** from 443 → 468 pages (+25 since pass 2). New content was automatically measured and weighted without manual intervention.
+
+2. **tuebor needed flat-file mode**: The original validator only scanned `WEIGHT_SORTED_SECTIONS` directories. tuebor uses flat markdown (no Zola sections). Added fallback: if no sections match, recursively scan the entire content directory.
+
+3. **sporePrint measures itself**: 434 pages including this paper. The dough weighs itself — paper 83 has mass 226.7 (weight 91, H=8.564 bits).
+
+4. **Blake3 change detection confirmed**: Pass 2 wrote weight fields into frontmatter, changing file content. Pass 3 detected all hash changes. This proves the Blake3 identity model works for incremental re-weighing.
+
+5. **Science is denser than investigation**: sporePrint's mean entropy (H=7.772 bits) is the highest across all four sites. Science papers use more diverse vocabulary than investigative analysis pages (detroit H=7.128, publicRecord H=7.074). The dough that documents dough is the densest dough.
 
 ---
 
