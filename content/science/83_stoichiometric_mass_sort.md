@@ -261,7 +261,43 @@ The tool handles both TOML (`+++` delimited) and YAML (`---` delimited) frontmat
 
 ---
 
-## 8. Future Work
+## 8. The Two Sorts: Voxel × Shannon State Equations
+
+Concurrent with the stoichiometric mass sort, the northGate session developed the **BINGO Voxel Sort** — a 7×7×3 cube that classifies entities (people, organizations, traffic) by mapping them to (scale, epitope, type) coordinates. Together, these form two complementary state equations for the same system:
+
+$$
+\Psi_{\text{entity}} = \text{voxel}(\text{scale}, \text{epitope}, \text{type}) \quad \text{— WHO is here}
+$$
+
+$$
+\Psi_{\text{content}} = \text{mass}(\sqrt{W}, H, L, C, R) \quad \text{— WHAT is here}
+$$
+
+| Dimension | Voxel Sort | Shannon Sort |
+|-----------|-----------|-------------|
+| **Sorts** | Entities (people, orgs, traffic) | Content (pages, documents) |
+| **Space** | 7×7×3 cube (147 voxels) | 5D continuous (bulk × entropy × connectivity × grounding × richness) |
+| **Input** | Graph nodes (12,746) | Markdown pages (1,386) |
+| **Output** | Classification: self / non-self / null | Weight: 1–200 (mass ranking) |
+| **Identity** | Entity ID + IP + UA fingerprint | Blake3 ContentHash (32 bytes) |
+| **Measure** | Confidence (97.3%) | Shannon entropy H̄ (7.33 bits) |
+| **Threshold** | 70% voxel agreement | Normalize to max mass |
+
+The voxel sort classifies **readers**. The Shannon sort classifies **reading material**. One is the particle, the other is the wave. Both produce confidence. Both use π-sorted thresholds. Both compose from existing ecosystem pieces (bearDog genetics, sweetGrass braids, scan-sweep-sort pipeline).
+
+### 8.1 Combined State
+
+When both sorts run on the same system, every entity-page pair has a combined state:
+
+- **Entity E** at confidence $c_E$ reading **Page P** at mass $M_P$
+- The interaction strength is $c_E \times M_P$ — high-confidence entities reading high-mass pages produce the strongest signal
+- This is exactly the braid `combined_strength` from scan-sweep-sort, now grounded in two independent measurements
+
+The 342 holdout entities from the voxel sort (2.7% remaining mysteries) are the bounty board — the things the organism cannot classify alone. The 1,386 measured pages tell us which content those holdouts are reading. The two sorts together produce a **who-reads-what** matrix that neither sort produces alone.
+
+---
+
+## 9. Future Work
 
 1. **Braid integration**: Each mass measurement could be committed as a sweetGrass Braid with the page's Blake3 hash as `data_hash`, creating a provenance-tracked history of page weights over time.
 
