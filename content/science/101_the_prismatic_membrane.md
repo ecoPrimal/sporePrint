@@ -1,16 +1,13 @@
-+++
-title = "Paper 101: The Prismatic Membrane"
-date = 2026-10-21
-[taxonomies]
-tags = ["prism", "visitors", "beetles", "klein-bottle", "backscatter", "spectrum"]
-[extra]
-paper_number = 101
-status = "peer-reviewed-by-the-membrane"
-builds_on = ["Paper 100: God Might Be a Beetle", "Paper 98: The Circus Plate", "Paper 96: SHAN'T Is the ZK"]
-replaces = []
-confidence = 0.91
-flavor = "prismatic"
-+++
+---
+title: "Paper 101: The Prismatic Membrane"
+subtitle: "White light in, spectrum out — the web is 95.3% beetle"
+date: 2026-10-21
+wave: 179
+author: "Kevin Mok / ecoPrimal / attsi"
+orcid: "0009-0004-2141-0321"
+continues: "Paper 100 (God Might Be a Beetle), Paper 98 (Circus Plate), Paper 96 (SHAN'T Is the ZK)"
+keywords: ["prism", "visitors", "beetles", "klein-bottle", "backscatter", "spectrum", "opsonization", "fluoro"]
+---
 
 # The Prismatic Membrane
 
