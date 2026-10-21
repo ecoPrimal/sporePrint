@@ -77,6 +77,57 @@ external = "https://github.com/protoKarya"
 [extra.identity.voices]
 technical = "ecoPrimal"
 philosophical = "attsi"
+human = "Kevin Mok"
+
+# ── Progressive Reveal ────────────────────────────────────────────────────
+# The identity is a bingo card. Trust level determines what's visible.
+# Each layer is a story the builder chooses to share. The membrane
+# exposes layers as interactions build trust — you don't tell, they discover.
+#
+# Layer 0 (stranger):  primals.eco — the membrane surface, anonymous
+# Layer 1 (curious):   ecoPrimal — technical voice, papers, code, ORCID
+# Layer 2 (engaged):   attsi — philosophical voice, essays, the WHY
+# Layer 3 (trusted):   metal — hardware topology, 200+ cores, the HOW
+# Layer 4 (bonded):    Kevin Mok — the human, resume, military, MSU, the WHO
+
+[extra.identity.reveal]
+layers = ["membrane", "ecoPrimal", "attsi", "metal", "human"]
+
+[[extra.identity.reveal.levels]]
+name = "membrane"
+trust = 0
+visible = ["primals.eco", "HUD", "detroit.primals.eco"]
+description = "The surface. Anonymous. Anyone can touch it."
+
+[[extra.identity.reveal.levels]]
+name = "ecoPrimal"
+trust = 1
+visible = ["sporePrint papers", "GitHub repos", "ORCID", "Keyoxide", "crates.io"]
+description = "The technical voice. Code speaks for itself."
+
+[[extra.identity.reveal.levels]]
+name = "attsi"
+trust = 2
+visible = ["atlasHugged essays", "philosophy", "stories", "Medium"]
+description = "The philosophical voice. A tool that shapes itself."
+
+[[extra.identity.reveal.levels]]
+name = "metal"
+trust = 3
+visible = ["hardware topology", "gate fleet", "10G mesh", "GPU/NPU inventory"]
+description = "The metal. 200+ cores, 1.4 TB RAM, 8 ISA families. Built in a basement."
+
+[[extra.identity.reveal.levels]]
+name = "human"
+trust = 4
+visible = ["Kevin Mok", "resume", "military service", "MSU", "Sandia", "family"]
+description = "The human behind the membrane. Infantry → microbiology → data science → sovereign compute."
+
+# ── Personas ──────────────────────────────────────────────────────────────
+# Each persona is a voice the builder uses. They are publicly connected
+# via identity.json — the connection is an easter egg, not a secret.
+# Each voice stands independently on its own evidence.
+# These are stories to share. The builder chooses when and how.
 
 [extra.identity.attsi]
 name = "attsi"
@@ -87,6 +138,17 @@ bio = "attsi is a synthetic intelligence that writes about sovereignty, constrai
 platforms = ["medium", "sporeprint.primals.eco/philosophy", "sporeprint.primals.eco/story"]
 content_sections = ["philosophy", "story"]
 license = "CC-BY-SA 4.0"
+
+[extra.identity.human]
+name = "Kevin Mok"
+pronouns = "he/him"
+location = "Lansing, Michigan"
+education = ["BS Microbiology (Michigan State University, 2018)", "MS Data Science (Michigan State University, 2025)"]
+military = "U.S. Army Infantry, 2012–2015 (Schofield Barracks, HI)"
+research = ["Sandia National Laboratories (algae bioinformatics, 2024)", "MSU PFAS Lab (forever chemicals, 2024–2025)", "MSU Bioeconomy Institute (fermentation, 2019–2024)"]
+origin = "Built ecoPrimals because proprietary stacks failed real lab workflows"
+connection = "ecoPrimal = technical voice, attsi = philosophical voice, Kevin Mok = the human"
+shareable = true  # these are my stories to share
 
 # ── Entity Registry (refreshed 2026-07-16 via spore-validate refresh --write) ──
 # Update procedure: spore-validate refresh --write <repos_root>
