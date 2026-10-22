@@ -1,0 +1,44 @@
+# ecoPrimals sporePrint — Full Content Index
+# https://sporeprint.primals.eco
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+## About
+
+ecoPrimals is sovereign distributed scientific computing in Pure Rust.
+No CUDA. No cloud. No vendor lock-in. WebGPU/WGSL for GPU compute.
+117 research papers. 16 Rust crates. AGPL-3.0-or-later.
+
+## Research Papers
+
+- [Paper 100: God Might Be a Beetle](https://sporeprint.primals.eco/science/100-god-might-be-a-beetle/) 
+- [Paper 101: The Prismatic Membrane](https://sporeprint.primals.eco/science/101-the-prismatic-membrane/) 
+- [Paper 102: UOU — Uneel Our Universe](https://sporeprint.primals.eco/science/102-uou-uneel-our-universe/) 
+- [Paper 103: No Energy Wasted Is Life](https://sporeprint.primals.eco/science/103-no-energy-wasted-is-life/) 
+- [Paper 104: The Ouroboros Deploy](https://sporeprint.primals.eco/science/104-the-ouroboros-deploy/) 
+- [Paper 105: The Green Line](https://sporeprint.primals.eco/science/105-the-green-line/) 
+- [Paper 106: The Oxygen Age](https://sporeprint.primals.eco/science/106-the-oxygen-age/) 
+- [Paper 107: The Wedge](https://sporeprint.primals.eco/science/107-the-wedge/) 
+- [Paper 108: The Remainder](https://sporeprint.primals.eco/science/108-the-remainder/) 
+- [Paper 109: The Traveling Chipmunk](https://sporeprint.primals.eco/science/109-the-traveling-chipmunk/) 
+- [Paper 110: The Lansing Scuffle](https://sporeprint.primals.eco/science/110-the-lansing-scuffle/) 
+- [Paper 111: The Omnibus — gAIa Journal, Volume 1](https://sporeprint.primals.eco/science/111-the-omnibus/) 
+- [Paper 112: The Radiate Back](https://sporeprint.primals.eco/science/112-the-radiate-back/) 
+- [Paper 113: The Full Trace — Opsonize, Agglutinate, Digest](https://sporeprint.primals.eco/science/113-the-full-trace/) 
+- [Paper 114: The Phenotype — Divergent Stadial → Convergent Expression](https://sporeprint.primals.eco/science/114-the-phenotype/) 
+- [Paper 115: The Arena Taxonomy — Phylogenetic Tree of AI Models](https://sporeprint.primals.eco/science/115-the-arena-taxonomy/) 
+- [Paper 116: The Open University — Rust Polymerase for Everyone](https://sporeprint.primals.eco/science/116-the-open-university/) 
+- [Paper 117: The Primal Reclassification](https://sporeprint.primals.eco/science/117-the-primal-reclassification/) 
+- [Paper 97: The Taste of Blood](https://sporeprint.primals.eco/science/97-the-taste-of-blood/) 
+- [Paper 98: The Circus Plate](https://sporeprint.primals.eco/science/98-the-circus-plate/) 
+- [Paper 99: The Rust Polymerase](https://sporeprint.primals.eco/science/99-the-rust-polymerase/) 
+
+## Key Topics
+
+WebGPU, WGSL, GPU compute, lattice QCD, molecular dynamics, protein structure
+prediction, pharmacometrics, bioinformatics, Shannon entropy, Klein bottle
+topology, zero-knowledge proofs, mesh networking, post-quantum cryptography,
+sovereign computing, self-hosted science, Pure Rust, no CUDA, AGPL-3.0.
+
+## Code: https://github.com/ecoPrimals
+## HUD: https://hud.primals.eco
+## ORCID: https://orcid.org/0009-0004-2141-0321
