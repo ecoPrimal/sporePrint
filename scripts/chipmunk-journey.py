@@ -127,7 +127,7 @@ NODES = [
         "endpoints": [
             {"path": "/repos/ecoPrimal/sporePrint/forks?per_page=5", "expect": 200, "label": "sporePrint forks"},
             {"path": "/repos/ecoPrimal/hud/forks?per_page=5", "expect": 200, "label": "hud forks"},
-            {"path": "/repos/ecoPrimal/scyBorg/forks?per_page=5", "expect": 200, "label": "scyBorg forks"},
+            {"path": "/repos/ecoPrimal/sourDough/forks?per_page=5", "expect": 200, "label": "sourDough forks"},
         ],
         "base": "https://api.github.com",
         "headers": {"Accept": "application/vnd.github.v3+json"},
