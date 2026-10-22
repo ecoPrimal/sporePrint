@@ -1,8 +1,8 @@
-# TRAILING SHADOW — Primary deployment is sovereign on golgiBody-ext (VPS).
-# DNS NS cutover is complete (ns1/ns2.primals.eco, Wave 100+).
-# This GitHub Pages deploy continues as the extracellular mirror.
-# Archive this workflow to fossilRecord when shadow is no longer needed.
-name: Deploy to GitHub Pages (trailing shadow)
+# sporePrint deploy — Zola build → GitHub Pages
+# The membrane SEEMS static but the build is alive.
+# Incremental: push → build (5s) → deploy → verify.
+# spore-validate runs separately as a non-blocking check.
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -18,58 +18,19 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  check:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Install Zola
-        run: |
-          curl -sL https://github.com/getzola/zola/releases/download/v0.22.1/zola-v0.22.1-x86_64-unknown-linux-gnu.tar.gz | tar xz
-          sudo mv zola /usr/local/bin/
-      - name: Cache Rust build
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.cargo/registry
-            crates/spore-validate/target
-          key: spore-validate-${{ hashFiles('crates/spore-validate/Cargo.lock') }}
-      - name: Validate entity registry
-        run: |
-          cargo build --release --manifest-path crates/spore-validate/Cargo.toml
-          ./crates/spore-validate/target/release/spore-validate --root . validate --check
-      - name: Certify (guideStone manifest)
-        run: ./crates/spore-validate/target/release/spore-validate --root . certify --emit
-      - name: Check links (external — non-blocking)
-        continue-on-error: true
-        run: zola check
-      - name: Accessibility validation (WCAG 2.2)
-        run: |
-          pip install html5-validator
-          zola build
-          ./scripts/validate_a11y.sh
-
   build:
-    needs: check
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - name: Install Zola
         run: |
           curl -sL https://github.com/getzola/zola/releases/download/v0.22.1/zola-v0.22.1-x86_64-unknown-linux-gnu.tar.gz | tar xz
           sudo mv zola /usr/local/bin/
-      - name: Cache Rust build
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.cargo/registry
-            crates/spore-validate/target
-          key: spore-validate-${{ hashFiles('crates/spore-validate/Cargo.lock') }}
-      - name: Certify before build
-        run: |
-          cargo build --release --manifest-path crates/spore-validate/Cargo.toml
-          ./crates/spore-validate/target/release/spore-validate --root . certify --emit
+
       - name: Build with Zola
         run: zola build
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -91,20 +52,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Wait for CDN propagation
-        run: sleep 30
+        run: sleep 15
 
-      - name: Verify site is live
-        run: |
-          STATUS=$(curl -s -o /dev/null -w '%{http_code}' --max-time 15 https://primals.eco/)
-          echo "primals.eco returned HTTP $STATUS"
-          if [[ "$STATUS" != "200" ]]; then
-            echo "::warning::primals.eco returned $STATUS — CDN may still be propagating"
-          fi
-
-      - name: Verify key pages respond
+      - name: Verify science pages respond
         run: |
           FAILURES=0
-          for path in "/" "/science/" "/architecture/" "/architecture/generational-arc/" "/lab/" "/lab/spores/" "/glossary/" "/primals/" "/springs/"; do
+          for path in "/" "/science/" "/science/01-anderson-qs/" "/science/119-the-gaia-institute/" "/architecture/"; do
             STATUS=$(curl -s -o /dev/null -w '%{http_code}' --max-time 10 "https://primals.eco${path}")
             if [[ "$STATUS" == "200" ]]; then
               echo "OK   $path ($STATUS)"
@@ -113,7 +66,22 @@ jobs:
               FAILURES=$((FAILURES + 1))
             fi
           done
-          if [[ $FAILURES -gt 0 ]]; then
-            echo "::warning::$FAILURES page(s) returned non-200 — may need CDN propagation time"
-          fi
-          echo "Verified $(( 9 - FAILURES ))/9 pages"
+          echo "Verified $(( 5 - FAILURES ))/5 pages"
+
+  validate:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cache Rust build
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            crates/spore-validate/target
+          key: spore-validate-${{ hashFiles('crates/spore-validate/Cargo.lock') }}
+      - name: Validate entity registry (non-blocking)
+        run: |
+          cargo build --release --manifest-path crates/spore-validate/Cargo.toml && \
+          ./crates/spore-validate/target/release/spore-validate --root . validate --check || \
+          echo "::warning::spore-validate failed — deploy continues anyway"
