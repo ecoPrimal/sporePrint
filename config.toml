@@ -22,6 +22,22 @@ feed = false
 name = "trails"
 feed = false
 
+[[taxonomies]]
+name = "categories"
+feed = false
+
+[[taxonomies]]
+name = "tags"
+feed = false
+
+[[taxonomies]]
+name = "papers"
+feed = false
+
+[[taxonomies]]
+name = "topics"
+feed = false
+
 [link_checker]
 skip_prefixes = [
     "https://www.gnu.org/",
